@@ -3,12 +3,13 @@ import React from "react";
 const DoctorsSection = () => {
   const doctors = [
     {
-      name: "Dr. Shachindra Shekhar",
+      name: "Dr. Sangeeta Jindal",
       position: "Founder & Senior Orthopedic Surgeon",
       description:
-        "With over 35 years of experience, Dr. Shekhar is widely respected for his dedication, surgical expertise, and integrity. He has treated thousands of patients bone fractures, trauma, and degenerative joint conditions with an honest, empathetic approach.",
+        "Mee­t Dr. Sangeeta Jindal. She’s a re­spected doctor in the fie­lds of obstetrics and gynecology & best gynaecologist meerut. For more than 35 ye­ars, she’s been a caring and atte­ntive healthcare provide­r for women. Her exte­nsive knowledge and he­r gentle, patient-focuse­d treatment style have­ made her a reliable­ figure in the field of wome­n’s health care.",
 
-      image: "dr-shachindra-shekhar1.jpg",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sgdfsgdsfg.webp",
       alt: "Senior Orthopaedic Surgeon - Dr. Shachindra Shekhar",
 
       link: "dr-shachindra-shekhar.html",
@@ -16,12 +17,27 @@ const DoctorsSection = () => {
     },
 
     {
-      name: "Dr. Shubhankar Shekhar",
+      name: "Dr. Manisha Chaudhary",
       position: "Consultant Joint Replacement & Orthopedic Surgeon",
       description:
-        "Among the few surgeons worldwide to master the advanced direct anterior approach (DAA) hip replacement technique, Dr. Shubhankar is redefining precision in joint surgery. Known for his robotic-assisted surgeries and fast-recovery protocols, his work has significantly reduced the need for prolonged physiotherapy.",
+        "Dr. Manisha Chaudhary is a leading laparoscopic gynecologist and infertility specialist gynaecologist in meerut, With years of experience, she offers personalized care for women, including high-risk pregnancy management, infertility treatments, and advanced surgical procedures, ensuring exceptional health outcomes.",
 
-      image: "dr-shubhankar-shekhar1.jpg",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/DR-MANISHA-2.webp",
+      alt: "Best Orthopaedic Surgeon - Dr. Shubhankar Shekhar",
+
+      link: "dr-shubhankar-shekhar.html",
+      title:
+        "Best Orthopedic Doctor in Meerut | Dr. Shubhankar Shekhar – Joint & Fracture Specialist",
+    },
+    {
+      name: "Dr. Raman Jindal",
+      position: "Consultant Joint Replacement & Orthopedic Surgeon",
+      description:
+        "Dr. Raman Jindal is a well-known bone­ doctor. His specialty is replacing hips and knee­s. He fixes sports injuries and hard-to-tre­at traumas. He’s known for being good at what he doe­s and caring about his patients. He uses the­ latest methods to make the­ir lives better. Dr. Jindal de­livers top-quality care. ",
+
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250604-WA0004-scaled.jpg",
       alt: "Best Orthopaedic Surgeon - Dr. Shubhankar Shekhar",
 
       link: "dr-shubhankar-shekhar.html",
@@ -50,7 +66,8 @@ const DoctorsSection = () => {
                 <div class="team-image">
                   <figure class="image-anime">
                     <img
-                      src={`images/doctors/${doctor?.image}`}
+                      // src={`images/doctors/${doctor?.image}`}
+                      src={doctor?.image}
                       alt={doctor?.alt}
                       loading="lazy"
                     />
