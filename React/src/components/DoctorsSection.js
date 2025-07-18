@@ -37,7 +37,8 @@ const DoctorsSection = () => {
         "Dr. Raman Jindal is a well-known bone­ doctor. His specialty is replacing hips and knee­s. He fixes sports injuries and hard-to-tre­at traumas. He’s known for being good at what he doe­s and caring about his patients. He uses the­ latest methods to make the­ir lives better. Dr. Jindal de­livers top-quality care. ",
 
       image:
-        "https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250604-WA0004-scaled.jpg",
+        // "https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250604-WA0004-scaled.jpg",
+        "images/doctors/Raman-Jindal.jpg",
       alt: "Best Orthopaedic Surgeon - Dr. Shubhankar Shekhar",
 
       link: "dr-shubhankar-shekhar.html",
