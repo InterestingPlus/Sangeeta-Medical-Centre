@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -69,13 +70,13 @@ const Navbar = () => {
                 <ul className="navbar-nav mr-auto" id="menu">
                   {navigations.map((navigation, index) => (
                     <li className="nav-item submenu" key={index}>
-                      <a
+                      <NavLink
+                        to={navigation.url}
                         className="nav-link"
-                        href={navigation.url}
                         title={`About ${navigation.name}`}
                       >
                         {navigation.name}
-                      </a>
+                      </NavLink>
 
                       {navigation.subLinks && (
                         <ul className="sub-menu">

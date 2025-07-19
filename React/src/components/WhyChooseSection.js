@@ -2,45 +2,67 @@ import React from "react";
 
 const WhyChooseSection = () => {
   return (
-    <div class="our-quality bg-radius-section">
-      <div class="quality-treatment">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <div class="quality-treatment-content">
-                <div class="section-title">
-                  <h2 class="text-anime-style-3" data-cursor="-opaque">
+    <div className="our-quality bg-radius-section">
+      <div className="quality-treatment">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-8">
+              <div className="quality-treatment-content">
+                <div className="section-title">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
                     Why Choose Us
                   </h2>
-                  <p class="wow fadeInUp" data-wow-delay="0.25s">
-                    We understand that injuries and acute pain can happen
-                    unexpectedly. Our emergency orthopedic services are designed
-                    to provide prompt and effective care to help you manage.
+                  <p className="wow fadeInUp" data-wow-delay="0.25s">
+                    Discover what makes Sangeeta Medical Centre a trusted name
+                    in gynecology and orthopedics.
                   </p>
                 </div>
 
                 <div
-                  class="quality-treatment-body wow fadeInUp"
+                  className="quality-treatment-body wow fadeInUp"
                   data-wow-delay="0.5s"
                 >
                   <ul>
-                    <li>We understand your injuries</li>
-                    <li>We empathise and treat your complaints</li>
-                    <li>We give the best results</li>
+                    <li>
+                      <strong>Expert Care</strong>: Specialized gynecological
+                      and orthopedic services.
+                    </li>
+                    <li>
+                      <strong>Personalized Approach</strong>: Tailored treatment
+                      plans with compassion.
+                    </li>
+                    <li>
+                      <strong>Advanced Technology</strong>: Utilization of the
+                      latest medical techniques.
+                    </li>
+                    <li>
+                      <strong>Comprehensive Services</strong>: A full range of
+                      women's health care.
+                    </li>
+                    <li>
+                      <strong>Patient‑Centric Environment</strong>: Comfortable
+                      and supportive atmosphere.
+                    </li>
+                    <li>
+                      <strong>Proven Track Record</strong>: Over 35+ years of
+                      excellence in healthcare.
+                    </li>
                   </ul>
                 </div>
 
                 <div
-                  class="quality-treatment-footer wow fadeInUp"
+                  className="quality-treatment-footer wow fadeInUp"
                   data-wow-delay="0.75s"
                 >
-                  <a href="contact.html#Appointment" class="btn-default">
-                    <span>make an appointment</span>
+                  <a href="#appointment" className="btn-default">
+                    <span>Make an Appointment</span>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6"></div>
+            <div className="col-lg-6">
+              {/* Image or illustration if needed */}
+            </div>
           </div>
         </div>
       </div>

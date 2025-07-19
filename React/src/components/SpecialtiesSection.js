@@ -3,8 +3,9 @@ import React from "react";
 const SpecialtiesSection = () => {
   const specialties = [
     {
-      name: "Hip",
-      image: "hip.jpg",
+      name: "Arthoscopy",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
       alt: "Hip Treatment & Surgery",
       icon: "hip.png",
 
@@ -12,8 +13,9 @@ const SpecialtiesSection = () => {
       title: "Hip Treatment & Surgery Meerut",
     },
     {
-      name: "Knee",
-      image: "knee.jpg",
+      name: "Fracture Management",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-4.webp",
       alt: "Advanced Knee Care Treatment/Surgery",
       icon: "knee.png",
 
@@ -21,8 +23,9 @@ const SpecialtiesSection = () => {
       title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
-      name: "Shoulder",
-      image: "shoulder.jpg",
+      name: "Knee Replacement",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
       alt: "Shoulder treatment and surgery",
       icon: "shoulder.png",
 
@@ -30,8 +33,9 @@ const SpecialtiesSection = () => {
       title: "Shoulder treatment and surgery Meerut",
     },
     {
-      name: "Hand & Microvascular",
-      image: "hand-microvascular.jpg",
+      name: "Hip Joint Replacement",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
       alt: "Hand & Microvascular treatment/surgery",
       icon: "hand.png",
 
@@ -39,8 +43,9 @@ const SpecialtiesSection = () => {
       title: "Hand & Microvascular treatment Meerut",
     },
     {
-      name: "Spine",
-      image: "spine.jpg",
+      name: "Complex Trauma Surgery",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/cccccc.webp",
       alt: "Spine Treatment & Surgery",
       icon: "spine.png",
 
@@ -48,8 +53,9 @@ const SpecialtiesSection = () => {
       title: "Spine Treatment Meerut",
     },
     {
-      name: "Foot And Ankle",
-      image: "foot-ankle.jpg",
+      name: "Sports Injury Treatment",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sports.webp",
       alt: "Foot & Ankle Treatment/Surgery",
       icon: "foot.png",
 
@@ -57,8 +63,9 @@ const SpecialtiesSection = () => {
       title: "Foot & Ankle Treatment Meerut",
     },
     {
-      name: "Arthroscopy",
-      image: "arthroscopy.jpg",
+      name: "Infertility Treatment",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-5-1.webp",
       alt: "Arthroscopy and Keyhole Surgery",
       icon: "arthoscopy.png",
 
@@ -66,8 +73,9 @@ const SpecialtiesSection = () => {
       title: "Arthroscopy Meerut",
     },
     {
-      name: "Rheumatology",
-      image: "rheumatology.jpg",
+      name: "High-Risk Pregnancy Management",
+      image:
+        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
       alt: "Rheumatology Treatment",
       icon: "rheumatology.png",
 
@@ -104,18 +112,19 @@ const SpecialtiesSection = () => {
                   <div class="service-item-image">
                     <figure>
                       <img
-                        src={`images/specialties/${specialty?.image}`}
+                        // src={`images/specialties/${specialty?.image}`}
+                        src={specialty?.image}
                         alt={specialty?.alt}
                         loading="lazy"
                       />
                     </figure>
                   </div>
-                  <div class="icon-box">
+                  {/* <div class="icon-box">
                     <img
                       src={`images/icons/${specialty?.icon}`}
                       alt={specialty?.alt}
                     />
-                  </div>
+                  </div> */}
                   <div class="service-body">
                     <div class="service-content">
                       <h3>{specialty?.name}</h3>

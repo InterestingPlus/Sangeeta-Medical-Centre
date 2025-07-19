@@ -53,7 +53,7 @@ function App() {
       {/* Testimonials Section End */}
 
       {/* Infra Section Start */}
-      <InfraSection />
+      {/* <InfraSection /> */}
       {/* Infra Section End */}
 
       {/* Footer Start */}

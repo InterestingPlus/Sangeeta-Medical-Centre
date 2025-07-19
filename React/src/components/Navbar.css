@@ -1,3 +1,28 @@
-.navbar {
-  background: #000;
+/* Navbar.css */
+
+.main-header .header-sticky .navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-header .header-sticky .navbar-nav .nav-item .nav-link {
+  /* color: #fff; */
+  color: #720e18;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  font-weight: 500; /* Optional: Adjust font-weight if needed */
+}
+
+.main-header .header-sticky .navbar-nav .nav-item .nav-link:hover,
+.main-header .header-sticky .navbar-nav .nav-item .nav-link:focus {
+  color: #f7941d; /* Light grey for hover/focus state */
+}
+
+/* Styles for sub-menus if you have them */
+.main-header .header-sticky .navbar-nav .sub-menu {
+  background-color: #fff; /* White background for sub-menus */
+  border: 1px solid #eee; /* Light border for sub-menus */
+}
+
+.main-header .header-sticky .navbar-nav .sub-menu .nav-item .nav-link {
+  color: #333; /* Darker grey for sub-menu links */
 }
