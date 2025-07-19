@@ -5,12 +5,21 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Services from "./pages/Services";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" Component={App} />
+        <Route path="/" element={<App />}>
+          <Route index element={<Home />} />
+          <Route path="/services" element={<Services />} />
+        </Route>
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -24,11 +24,11 @@ const Navbar = () => {
     // },
     {
       name: "Home",
-      url: "#",
+      url: "/",
     },
     {
       name: "Services",
-      url: "#",
+      url: "/services",
     },
 
     {

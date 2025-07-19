@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SpecialtiesSection = () => {
   const specialties = [
@@ -144,13 +145,13 @@ const SpecialtiesSection = () => {
 
             <div class="col-lg-12">
               <div class="more-service-btn wow fadeInUp" data-wow-delay="1.5s">
-                <a
-                  href="specialties.html"
+                <Link
+                  to="/services"
                   title="Best orthopedic treatments in Meerut"
                 >
                   Find Out More About Our Specialties
                   <img src="images/svg-icons/arrow-long-white.svg" alt="" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
