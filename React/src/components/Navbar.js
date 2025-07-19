@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -30,22 +30,21 @@ const Navbar = () => {
       name: "Services",
       url: "/services",
     },
-
     {
       name: "Blog",
-      url: "#",
+      url: "/blog",
     },
     {
       name: "Gallary",
-      url: "#",
+      url: "/gallary",
     },
     {
       name: "About",
-      url: "#",
+      url: "/about",
     },
     {
       name: "Contact",
-      url: "#",
+      url: "/contact",
     },
   ];
 
@@ -54,16 +53,13 @@ const Navbar = () => {
       <div className="header-sticky">
         <nav className="navbar navbar-expand-lg">
           <div className="container">
-            <a
-              className="navbar-brand"
-              href="https://www.mrityunjayhospital.com"
-            >
+            <Link className="navbar-brand" to="/">
               <img
                 src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
                 alt="Mrityunjay Orthopaedic Hospital Logo"
                 style={{ width: "200px" }}
               />
-            </a>
+            </Link>
 
             <div className="collapse navbar-collapse main-menu">
               <div className="nav-menu-wrapper">
@@ -82,21 +78,21 @@ const Navbar = () => {
                         <ul className="sub-menu">
                           {navigation.subLinks.map((sublink, subIndex) => (
                             <li className="nav-item" key={subIndex}>
-                              <a className="nav-link" href={sublink.url}>
+                              <NavLink className="nav-link" to={sublink.url}>
                                 {sublink.name}
-                              </a>
+                              </NavLink>
 
                               {Array.isArray(sublink.subLink) && (
                                 <ul className="sub-menu">
                                   {sublink.subLink.map(
                                     (sublink2, innerIndex) => (
                                       <li className="nav-item" key={innerIndex}>
-                                        <a
+                                        <NavLink
                                           className="nav-link"
-                                          href={sublink2.url}
+                                          to={sublink2.url}
                                         >
                                           {sublink2.name}
-                                        </a>
+                                        </NavLink>
                                       </li>
                                     )
                                   )}

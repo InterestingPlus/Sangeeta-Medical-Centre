@@ -8,7 +8,7 @@ const ProceduresSection = () => {
           <div class="col-lg-6">
             <div class="section-title">
               <h2 class="text-anime-style-3" data-cursor="-opaque">
-                Procedures @ Mrityunjay Hospital
+                Procedures @SangeetaMedicalCentre
               </h2>
             </div>
           </div>
