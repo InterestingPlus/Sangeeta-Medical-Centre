@@ -7,6 +7,7 @@ import ProceduresSection from "../components/ProceduresSection";
 import WhyChooseSection from "../components/WhyChooseSection";
 import DoctorsSection from "../components/DoctorsSection";
 import TestimonialSection from "../components/TestimonialSection";
+import InfraSection from "../components/InfraSection";
 
 const home = () => {
   return (
@@ -44,7 +45,7 @@ const home = () => {
       {/* Testimonials Section End */}
 
       {/* Infra Section Start */}
-      {/* <InfraSection /> */}
+      <InfraSection />
       {/* Infra Section End */}
     </>
   );

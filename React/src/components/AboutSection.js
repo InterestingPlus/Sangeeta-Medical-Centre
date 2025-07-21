@@ -307,10 +307,46 @@ const About = () => {
 
           <div class="col-lg-6">
             <div class="about-us-images">
+              <div class="about-image img-box-1">
+                <figure class="image-anime">
+                  <img
+                    src="images/about/about-us-img-1.jpg"
+                    alt="About Ortho 1"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+              <div class="about-image img-box-2">
+                <figure class="image-anime">
+                  <img
+                    src="images/about/about-us-img-2.jpg"
+                    alt="About Ortho 2"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+              <div class="about-image img-box-3">
+                <figure class="image-anime">
+                  <img
+                    src="images/about/about-us-img-3.jpg"
+                    alt="About Ortho 3"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+              <div class="about-image img-box-4">
+                <figure class="image-anime">
+                  <img
+                    src="images/about/about-us-img-4.jpg"
+                    alt="About Ortho 4"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
               <div class="about-circle-logo">
                 <img
-                  src="https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/mmm-2048x863.png"
-                  alt="Sangeeta Medical Centre"
+                  src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
+                  alt="Mrityunjay Hospital Logo"
                   loading="lazy"
                 />
               </div>

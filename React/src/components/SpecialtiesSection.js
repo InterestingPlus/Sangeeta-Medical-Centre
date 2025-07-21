@@ -9,39 +9,51 @@ const SpecialtiesSection = () => {
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
       alt: "Arthoscopy",
 
-      //   icon: "hip.png",
-      //   link: "hip-department.html",
-      //   title: "Hip Treatment & Surgery Meerut",
+      icon: "hip.png",
+      link: "hip-department.html",
+      title: "Hip Treatment & Surgery Meerut",
     },
     {
       name: "Fracture Management",
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-4.webp",
       alt: "Fracture Management",
+
+      icon: "knee.png",
+      link: "",
+      title: "",
     },
     {
       name: "Knee Replacement",
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
       alt: "Knee Replacement",
+
+      icon: "shoulder.png",
     },
     {
       name: "Hip Joint Replacement",
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
       alt: "Hip Joint Replacement",
+
+      icon: "hand.png",
     },
     {
       name: "Complex Trauma Surgery",
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/cccccc.webp",
       alt: "Complex Trauma Surgery",
+
+      icon: "spine.png",
     },
     {
       name: "Sports Injury Treatment",
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sports.webp",
       alt: "Sports Injury Treatment",
+
+      icon: "foot.png",
     },
 
     {
@@ -49,12 +61,16 @@ const SpecialtiesSection = () => {
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-5-1.webp",
       alt: "Infertility Treatment",
+
+      icon: "arthoscopy.png",
     },
     {
       name: "High-Risk Pregnancy Management",
       image:
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
       alt: "High-Risk Pregnancy Management",
+
+      icon: "rheumatology.png",
     },
   ];
 
@@ -93,12 +109,12 @@ const SpecialtiesSection = () => {
                       />
                     </figure>
                   </div>
-                  {/* <div class="icon-box">
+                  <div class="icon-box">
                     <img
                       src={`images/icons/${specialty?.icon}`}
                       alt={specialty?.alt}
                     />
-                  </div> */}
+                  </div>
                   <div class="service-body">
                     <div class="service-content">
                       <h3>{specialty?.name}</h3>

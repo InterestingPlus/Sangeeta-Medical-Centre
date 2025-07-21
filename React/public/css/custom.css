@@ -1191,8 +1191,8 @@ header.main-header .header-sticky.active {
   top: 50%;
   box-shadow: 0 0 30px 0 #0000004d;
   border-radius: 50%;
-  width: 500px;
-  height: 500px;
+  width: 210px;
+  height: 210px;
   display: flex;
   justify-content: center;
   transition: 0.6s ease-in-out;
@@ -1205,7 +1205,7 @@ header.main-header .header-sticky.active {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background-color: var(--primary-color); */
+  background-color: var(--primary-color);
   top: 0;
   left: 0;
   transform: scale(0);
@@ -1223,7 +1223,7 @@ header.main-header .header-sticky.active {
 }
 
 .about-us-images .about-circle-logo img {
-  max-width: 500px;
+  max-width: 150px;
   transition: 0.4s ease-in-out;
 }
 
@@ -1231,8 +1231,7 @@ header.main-header .header-sticky.active {
 .booking-process-item:nth-last-of-type(2n) .icon-box img,
 .service-catagery-list ul li:hover a::after,
 .service-item:hover .icon-box img {
-  /* filter: brightness(0) invert(1); */
-  transform: scale(1.1);
+  filter: brightness(0) invert(1);
 }
 
 .our-services {
@@ -4449,11 +4448,11 @@ footer.main-footer {
     margin: 0 auto;
   }
   .about-circle-logo {
-    width: 500px;
-    height: 500px;
+    width: 180px;
+    height: 180px;
   }
   .about-us-images .about-circle-logo img {
-    max-width: 500px;
+    max-width: 70px;
   }
   .our-services::before {
     top: -155px;
@@ -4989,11 +4988,11 @@ footer.main-footer {
     font-size: 18px;
   }
   .about-circle-logo {
-    width: 500px;
-    height: 500px;
+    width: 140px;
+    height: 140px;
   }
   .about-us-images .about-circle-logo img {
-    max-width: 500px;
+    max-width: 100px;
   }
   .service-item .icon-box {
     width: 60px;

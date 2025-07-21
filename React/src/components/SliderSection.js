@@ -44,14 +44,14 @@ const SliderSection = () => {
                           title="Best orthopedic treatments in Meerut"
                           class="btn-default"
                         >
-                          <span>More About Us</span>
+                          <span>explore services</span>
                         </a>
-                        {/* <a
+                        <a
                           href="contact.html#Appointment"
                           class="btn-default btn-highlighted"
                         >
                           <span>book appointment</span>
-                        </a> */}
+                        </a>
                       </div>
                     </div>
                   </div>
