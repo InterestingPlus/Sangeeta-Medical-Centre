@@ -186,7 +186,7 @@
 // export default AboutSection;
 
 import React from "react";
-import "./AboutSection.scss";
+// import "./AboutSection.scss";
 
 const About = () => {
   const features = [
@@ -209,46 +209,116 @@ const About = () => {
   ];
 
   return (
-    <section className="about-section">
-      <div className="about-container">
-        {/* Left Content */}
-        <div className="about-text">
-          <p className="highlight">Trusted OB-GYN Care in Meerut</p>
-          <h2 className="heading">About Sangeeta Medical Centre</h2>
-          <p className="paragraph">
-            With over 35 years of excellence, Sangeeta Medical Centre, led by
-            Dr. Manisha Chaudhary, has been a beacon of women's health in
-            Meerut. Known for compassionate and personalized care, we provide
-            complete OB-GYN solutions—from consultations and birthing support to
-            advanced treatments and surgical procedures.
-          </p>
-          <p className="paragraph">
-            Our mission is to ensure every woman receives expert, empathetic,
-            and effective care, backed by modern medical technologies and
-            heartfelt dedication.
-          </p>
-
-          <div className="features">
-            {features.map((item, index) => (
-              <div className="feature-item" key={index}>
-                <img src={item.icon} alt={item.title} />
-                <h4>{item.title}</h4>
+    <div class="about-us bg-radius-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-content">
+              <div class="section-title">
+                <h1
+                  style={{
+                    fontSize: "16px",
+                    color: "#f7941d",
+                    marginBottom: "10px",
+                  }}
+                >
+                  Trusted OB-GYN Care in Meerut
+                </h1>
+                <h2 class="text-anime-style-3" data-cursor="-opaque">
+                  About Sangeeta Medical Centre
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.25s">
+                  With over 35 years of excellence, Sangeeta Medical Centre, led
+                  by Dr. Manisha Chaudhary, has been a beacon of women's health
+                  in Meerut. Known for compassionate and personalized care, we
+                  provide complete OB-GYN solutions—from consultations and
+                  birthing support to advanced treatments and surgical
+                  procedures.
+                  <br />
+                  <br />
+                  Our mission is to ensure every woman receives expert,
+                  empathetic, and effective care, backed by modern medical
+                  technologies and heartfelt dedication.
+                </p>
               </div>
-            ))}
-          </div>
-        </div>
 
-        {/* Right Image */}
-        <div className="about-image">
-          <div className="image-wrapper">
-            <img
-              src="https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/mmm-2048x863.png"
-              alt="Sangeeta Medical Centre"
-            />
+              <div class="about-content-body">
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <div class="about-content-list">
+                      {features.map((item, index) => (
+                        <div
+                          class="about-list-item wow fadeInUp"
+                          data-wow-delay="0.5s"
+                          key={index}
+                        >
+                          <div class="icon-box">
+                            <img src={item?.icon} alt="Advanced Orthopaedics" />
+                          </div>
+                          <div class="about-list-content">
+                            <p>{item?.title}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div
+                      class="about-trusted-customer wow fadeInUp"
+                      data-wow-delay="0.5s"
+                    >
+                      <div class="trusted-customer-image">
+                        <img
+                          src="images/about/about-trusted-customer-img.png"
+                          alt="Happy customers"
+                        />
+                      </div>
+                      <div class="trusted-customer-rating">
+                        <ul>
+                          <li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="trusted-customer-content">
+                        <p>
+                          trusted by <span class="counter">4</span>k+ customers
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="about-content-footer wow fadeInUp"
+                data-wow-delay="1.25s"
+              >
+                <a href="about.html#Legacy" class="btn-default">
+                  <span>view more about</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="about-us-images">
+              <div class="about-circle-logo">
+                <img
+                  src="https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/mmm-2048x863.png"
+                  alt="Sangeeta Medical Centre"
+                  loading="lazy"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
