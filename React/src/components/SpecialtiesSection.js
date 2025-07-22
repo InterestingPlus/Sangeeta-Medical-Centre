@@ -9,9 +9,9 @@ const SpecialtiesSection = () => {
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
       alt: "Arthoscopy",
 
-      icon: "hip.png",
-      link: "hip-department.html",
-      title: "Hip Treatment & Surgery Meerut",
+      icon: "arthoscopy.png",
+      link: "arthroscopy.html",
+      title: "Arthroscopy Meerut",
     },
     {
       name: "Fracture Management",
@@ -20,8 +20,8 @@ const SpecialtiesSection = () => {
       alt: "Fracture Management",
 
       icon: "knee.png",
-      link: "",
-      title: "",
+      link: "knee-department.html",
+      title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
       name: "Knee Replacement",
@@ -29,7 +29,9 @@ const SpecialtiesSection = () => {
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
       alt: "Knee Replacement",
 
-      icon: "shoulder.png",
+      icon: "knee.png",
+      link: "knee-department.html",
+      title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
       name: "Hip Joint Replacement",
@@ -37,7 +39,9 @@ const SpecialtiesSection = () => {
         "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
       alt: "Hip Joint Replacement",
 
-      icon: "hand.png",
+      icon: "hip.png",
+      link: "hip-department.html",
+      title: "Hip Treatment & Surgery Meerut",
     },
     {
       name: "Complex Trauma Surgery",

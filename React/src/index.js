@@ -7,9 +7,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-import Services from "./pages/Services";
+import Specialties from "./pages/Specialties";
 import About from "./pages/About";
 import Doctor from "./pages/Doctor";
+import Contact from "./pages/Contact";
+import Procedures from "./pages/Procedures";
+import InfraEquipment from "./pages/InfraEquipment";
+import SMCInstitute from "./pages/SMCInstitute";
+import Patients from "./pages/Patients";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,8 +24,13 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/doctor" element={<Doctor />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/specialties" element={<Specialties />} />
+          <Route path="/procedures" element={<Procedures />} />
+          <Route path="/infra-equipment" element={<InfraEquipment />} />
+          <Route path="/SMC-institute" element={<SMCInstitute />} />
+          <Route path="/patients" element={<Patients />} />
         </Route>
 
         <Route path="*" element={<NotFound />} />

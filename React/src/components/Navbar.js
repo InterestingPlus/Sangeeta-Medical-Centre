@@ -5,177 +5,177 @@ const Navbar = () => {
   const navigations = [
     {
       name: "About",
-      url: "about.html",
+      url: "about",
       subLinks: [
         {
           name: "Legacy & Milestones",
-          url: "about.html#Legacy",
+          url: "about#Legacy",
         },
         {
           name: "Ethical Practice",
-          url: "about.html#Ethical",
+          url: "about#Ethical",
         },
         {
           name: "Our Doctors",
-          url: "about.html#Doctors",
+          url: "about#Doctors",
           subLink: [
             {
               name: "Dr. Shachindra Shekhar",
-              url: "dr-shachindra-shekhar.html",
+              url: "dr-shachindra-shekhar",
             },
             {
               name: "Dr. Shubhankar Shekhar",
-              url: "dr-shubhankar-shekhar.html",
+              url: "dr-shubhankar-shekhar",
             },
           ],
         },
         {
           name: "Vision & Mission",
-          url: "about.html#Vision",
+          url: "about#Vision",
         },
         {
           name: "Award & Recognition",
-          url: "about.html#Award",
+          url: "about#Award",
         },
         {
           name: "Work with us",
-          url: "about.html#Work",
+          url: "about#Work",
         },
         {
           name: "The Brand",
-          url: "about.html#Brand",
+          url: "about#Brand",
         },
         {
           name: "Privacy Policy",
-          url: "about.html#Privacy",
+          url: "about#Privacy",
         },
       ],
     },
     {
       name: "Specialties",
-      url: "specialties.html",
+      url: "specialties",
       subLinks: [
         {
           name: "Shoulder Department",
-          url: "shoulder-department.html",
+          url: "shoulder-department",
           subLink: [
             {
               name: "Shoulder Instability",
-              url: "shoulder-department.html#Instability",
+              url: "shoulder-department#Instability",
             },
             {
               name: "Rotator cuff tear",
-              url: "shoulder-department.html#Rotator",
+              url: "shoulder-department#Rotator",
             },
             {
               name: "Frozen shoulder",
-              url: "shoulder-department.html#Frozen",
+              url: "shoulder-department#Frozen",
             },
           ],
         },
         {
           name: "Hand & Microvascular Department",
-          url: "hand-microvascular-department.html",
+          url: "hand-microvascular-department",
           subLink: [
             {
               name: "Elbow instability",
-              url: "hand-microvascular-department.html#Elbow",
+              url: "hand-microvascular-department#Elbow",
             },
             {
               name: "Inflammatory pathologies",
-              url: "hand-microvascular-department.html#Inflammatory",
+              url: "hand-microvascular-department#Inflammatory",
             },
           ],
         },
         {
           name: "Hip Department",
-          url: "hip-department.html",
+          url: "hip-department",
           subLink: [
             {
               name: "Hip trauma",
-              url: "hip-department.html#Trauma",
+              url: "hip-department#Trauma",
             },
             {
               name: "Labral injuries",
-              url: "hip-department.html#Injuries",
+              url: "hip-department#Injuries",
             },
             {
               name: "Hip Replacement",
-              url: "hip-department.html#Replacement",
+              url: "hip-department#Replacement",
             },
             {
               name: "DAA Hip Replacement",
-              url: "hip-department.html#DAA",
+              url: "hip-department#DAA",
             },
           ],
         },
         {
           name: "Knee Department",
-          url: "knee-department.html",
+          url: "knee-department",
           subLink: [
             {
               name: "Knee instability/pain",
-              url: "knee-department.html#Instability",
+              url: "knee-department#Instability",
             },
             {
               name: "Knee Replacement (Partial/Total)",
-              url: "knee-department.html#Replacement",
+              url: "knee-department#Replacement",
             },
           ],
         },
         {
           name: "Spine Department",
-          url: "spine-department.html",
+          url: "spine-department",
           subLink: [
             {
               name: "Degenerative spine/Disc disease",
-              url: "spine-department.html#Degenerative",
+              url: "spine-department#Degenerative",
             },
           ],
         },
         {
           name: "Foot And Ankle Department",
-          url: "foot-ankle-department.html",
+          url: "foot-ankle-department",
           subLink: [
             {
               name: "Ankle arthroscopy",
-              url: "foot-ankle-department.html#Arthroscopy",
+              url: "foot-ankle-department#Arthroscopy",
             },
             {
               name: "Foot and heel pain",
-              url: "foot-ankle-department.html#Heel",
+              url: "foot-ankle-department#Heel",
             },
             {
               name: "Foot and ankle fractures",
-              url: "foot-ankle-department.html#Fractures",
+              url: "foot-ankle-department#Fractures",
             },
           ],
         },
         {
           name: "Arthroscopy",
-          url: "arthroscopy.html",
+          url: "arthroscopy",
           subLink: [
             {
               name: "Sports injuries",
-              url: "arthroscopy.html#Injuries",
+              url: "arthroscopy#Injuries",
             },
           ],
         },
         {
           name: "Rheumatology",
-          url: "rheumatology.html",
+          url: "rheumatology",
           subLink: [
             {
               name: "Arthritis",
-              url: "rheumatology.html#Arthritis",
+              url: "rheumatology#Arthritis",
             },
             {
               name: "Osteoarthritis",
-              url: "rheumatology.html#Osteoarthritis",
+              url: "rheumatology#Osteoarthritis",
             },
             {
               name: "Tendinitis",
-              url: "rheumatology.html#Tendinitis",
+              url: "rheumatology#Tendinitis",
             },
           ],
         },
@@ -183,113 +183,113 @@ const Navbar = () => {
     },
     {
       name: "Procedures",
-      url: "procedures.html",
+      url: "procedures",
       subLinks: [
         {
           name: "Robotic Joint Replacement Surgery",
-          url: "procedures.html#Joint",
+          url: "procedures#Joint",
         },
         {
           name: "Trauma & Fracture Surgery",
-          url: "procedures.html#Trauma",
+          url: "procedures#Trauma",
         },
         {
           name: "Arthroscopic Surgery",
-          url: "procedures.html#Arthroscopic",
+          url: "procedures#Arthroscopic",
         },
         {
           name: "Pediatric Orthopedic",
-          url: "procedures.html#Pediatric",
+          url: "procedures#Pediatric",
         },
         {
           name: "Kyphoplasty",
-          url: "procedures.html#Kyphoplasty",
+          url: "procedures#Kyphoplasty",
         },
         {
           name: "Disc Replacement Surgery",
-          url: "procedures.html#Disc",
+          url: "procedures#Disc",
         },
         {
           name: "Major spine surgeries",
-          url: "procedures.html#Major",
+          url: "procedures#Major",
         },
         {
           name: "Direct Anterior Hip Replacement",
-          url: "procedures.html#DAA",
+          url: "procedures#DAA",
         },
       ],
     },
     {
       name: "Infra & Equip",
-      url: "infra-equipment.html",
+      url: "infra-equipment",
     },
     {
       name: "Patients",
-      url: "#",
+      url: "patients",
       subLinks: [
         {
           name: "Testimonials",
-          url: "patients.html#Testimonials",
+          url: "patients#Testimonials",
         },
         {
           name: "Patient Stories",
-          url: "patients.html#Stories",
+          url: "patients#Stories",
         },
         {
           name: "International Patients",
-          url: "international-patients.html",
+          url: "international-patients",
         },
       ],
     },
     {
-      name: "MOH Institute",
-      url: "MOH-institute.html",
+      name: "SMC Institute",
+      url: "SMC-institute",
       subLinks: [
         {
           name: "24×7 Emergency Trauma Services",
-          url: "MOH-institute.html#Emergency",
+          url: "SMC-institute#Emergency",
         },
         {
           name: "Peadiatric Orthopaedics",
-          url: "MOH-institute.html#Peadiatric",
+          url: "SMC-institute#Peadiatric",
         },
         {
           name: "Physiotherapy & Rehabilitation",
-          url: "MOH-institute.html#Physiotherapy",
+          url: "SMC-institute#Physiotherapy",
         },
         {
           name: "General Orthopaedics",
-          url: "MOH-institute.html#General",
+          url: "SMC-institute#General",
         },
         {
           name: "Research And Academics",
-          url: "MOH-institute.html#Research",
+          url: "SMC-institute#Research",
         },
         {
           name: "Orthotics & Prosthetics Workshop",
-          url: "MOH-institute.html#Workshop",
+          url: "SMC-institute#Workshop",
         },
         {
           name: "Dual Energy X-Ray Absorptiometry",
-          url: "MOH-institute.html#X-Ray",
+          url: "SMC-institute#X-Ray",
         },
         {
           name: "Postgraduate Education",
-          url: "MOH-institute.html#Postgraduate",
+          url: "SMC-institute#Postgraduate",
         },
         {
           name: "Robotics & AI",
-          url: "MOH-institute.html#Robotics",
+          url: "SMC-institute#Robotics",
         },
         {
           name: "Specialised OPDs",
-          url: "MOH-institute.html#OPD",
+          url: "SMC-institute#OPD",
         },
       ],
     },
     {
       name: "Contact",
-      url: "contact.html",
+      url: "contact",
     },
 
     // {
@@ -378,9 +378,9 @@ const Navbar = () => {
               </div>
 
               <div className="header-btn d-inline-flex">
-                <a href="contact.html#Appointment" className="btn-default">
+                <Link to="contact#Appointment" className="btn-default">
                   <span>Appointment</span>
-                </a>
+                </Link>
               </div>
             </div>
 
