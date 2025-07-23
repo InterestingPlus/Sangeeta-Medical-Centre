@@ -10,7 +10,7 @@ const SpecialtiesSection = () => {
       alt: "Arthoscopy",
 
       icon: "arthoscopy.png",
-      link: "arthroscopy.html",
+      link: "arthroscopy",
       title: "Arthroscopy Meerut",
     },
     {
@@ -20,7 +20,7 @@ const SpecialtiesSection = () => {
       alt: "Fracture Management",
 
       icon: "knee.png",
-      link: "knee-department.html",
+      link: "knee-department",
       title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
@@ -30,7 +30,7 @@ const SpecialtiesSection = () => {
       alt: "Knee Replacement",
 
       icon: "knee.png",
-      link: "knee-department.html",
+      link: "knee-department",
       title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
@@ -40,7 +40,7 @@ const SpecialtiesSection = () => {
       alt: "Hip Joint Replacement",
 
       icon: "hip.png",
-      link: "hip-department.html",
+      link: "hip-department",
       title: "Hip Treatment & Surgery Meerut",
     },
     {
@@ -92,9 +92,9 @@ const SpecialtiesSection = () => {
             </div>
             <div class="col-lg-5">
               <div class="section-btn wow fadeInUp">
-                <a href="contact.html#Appointment" class="btn-default">
+                <Link href="contact#Appointment" class="btn-default">
                   <span>make an appointment</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ const SpecialtiesSection = () => {
             <div class="col-lg-12">
               <div class="more-service-btn wow fadeInUp" data-wow-delay="1.5s">
                 <Link
-                  to="/services"
+                  to="/specialties"
                   title="Best orthopedic treatments in Meerut"
                 >
                   Find Out More About Our Specialties

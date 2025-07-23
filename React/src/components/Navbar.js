@@ -1,7 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
+import doctorData from "../pages/Doctor.json";
+
 const Navbar = () => {
+  const doctors = doctorData?.map((doc) => {
+    return {
+      name: doc.name,
+      url: `/doctor/${doc.link}`,
+    };
+  });
+
   const navigations = [
     {
       name: "About",
@@ -18,16 +27,7 @@ const Navbar = () => {
         {
           name: "Our Doctors",
           url: "about#Doctors",
-          subLink: [
-            {
-              name: "Dr. Shachindra Shekhar",
-              url: "dr-shachindra-shekhar",
-            },
-            {
-              name: "Dr. Shubhankar Shekhar",
-              url: "dr-shubhankar-shekhar",
-            },
-          ],
+          subLink: doctors,
         },
         {
           name: "Vision & Mission",

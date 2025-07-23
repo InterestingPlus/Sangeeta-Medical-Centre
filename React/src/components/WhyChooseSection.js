@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WhyChooseSection = () => {
   return (
@@ -54,9 +55,9 @@ const WhyChooseSection = () => {
                   className="quality-treatment-footer wow fadeInUp"
                   data-wow-delay="0.75s"
                 >
-                  <a href="#appointment" className="btn-default">
+                  <Link tp="/contact#appointment" className="btn-default">
                     <span>Make an Appointment</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

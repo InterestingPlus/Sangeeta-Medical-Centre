@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SliderSection = () => {
   return (
@@ -35,19 +36,19 @@ const SliderSection = () => {
                   class="hero-content-body wow fadeInUp"
                   data-wow-delay="0.5s"
                 >
-                  <a
-                    href="specialties.html"
+                  <Link
+                    to="specialties"
                     title="Best orthopedic treatments in Meerut"
                     class="btn-default"
                   >
                     <span>explore services</span>
-                  </a>
-                  <a
-                    href="contact.html#Appointment"
+                  </Link>
+                  <Link
+                    href="contact#Appointment"
                     class="btn-default btn-highlighted"
                   >
                     <span>book appointment</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

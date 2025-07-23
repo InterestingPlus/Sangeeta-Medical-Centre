@@ -1,51 +1,10 @@
-import React from "react";
+import React, { use, useEffect, useState } from "react";
+
+import doctors from "../pages/Doctor.json";
+import { Link } from "react-router-dom";
 
 const DoctorsSection = () => {
-  const doctors = [
-    {
-      name: "Dr. Sangeeta Jindal",
-      position: "Founder & Senior Orthopedic Surgeon",
-      description:
-        "Mee­t Dr. Sangeeta Jindal. She’s a re­spected doctor in the fie­lds of obstetrics and gynecology & best gynaecologist meerut. For more than 35 ye­ars, she’s been a caring and atte­ntive healthcare provide­r for women. Her exte­nsive knowledge and he­r gentle, patient-focuse­d treatment style have­ made her a reliable­ figure in the field of wome­n’s health care.",
-
-      image:
-        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sgdfsgdsfg.webp",
-      alt: "Senior Orthopaedic Surgeon - Dr. Shachindra Shekhar",
-
-      link: "dr-shachindra-shekhar.html",
-      title: "Senior Orthopedic Doctor Meerut",
-    },
-
-    {
-      name: "Dr. Manisha Chaudhary",
-      position: "Consultant Joint Replacement & Orthopedic Surgeon",
-      description:
-        "Dr. Manisha Chaudhary is a leading laparoscopic gynecologist and infertility specialist gynaecologist in meerut, With years of experience, she offers personalized care for women, including high-risk pregnancy management, infertility treatments, and advanced surgical procedures, ensuring exceptional health outcomes.",
-
-      image:
-        "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/DR-MANISHA-2.webp",
-      alt: "Best Orthopaedic Surgeon - Dr. Shubhankar Shekhar",
-
-      link: "dr-shubhankar-shekhar.html",
-      title:
-        "Best Orthopedic Doctor in Meerut | Dr. Shubhankar Shekhar – Joint & Fracture Specialist",
-    },
-    {
-      name: "Dr. Raman Jindal",
-      position: "Consultant Joint Replacement & Orthopedic Surgeon",
-      description:
-        "Dr. Raman Jindal is a well-known bone­ doctor. His specialty is replacing hips and knee­s. He fixes sports injuries and hard-to-tre­at traumas. He’s known for being good at what he doe­s and caring about his patients. He uses the­ latest methods to make the­ir lives better. Dr. Jindal de­livers top-quality care. ",
-
-      image:
-        // "https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250604-WA0004-scaled.jpg",
-        "images/doctors/Raman-Jindal.jpg",
-      alt: "Best Orthopaedic Surgeon - Dr. Shubhankar Shekhar",
-
-      link: "dr-shubhankar-shekhar.html",
-      title:
-        "Best Orthopedic Doctor in Meerut | Dr. Shubhankar Shekhar – Joint & Fracture Specialist",
-    },
-  ];
+  // const [doctors, setDoctors] = useState([]);
 
   return (
     <div class="therapist-team bg-radius-section">
@@ -74,13 +33,13 @@ const DoctorsSection = () => {
                     />
                   </figure>
                   <div class="team-social-icon">
-                    <a
-                      href={doctor?.link}
+                    <Link
+                      to={`/doctor/${doctor?.link}`}
                       title={doctor?.title}
                       class="btn-default"
                     >
                       <span>view profile</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div class="team-content">

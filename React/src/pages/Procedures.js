@@ -1,36 +1,14 @@
 import React from "react";
+import BreadCrumb from "../components/BreadCrumb";
 
 const Procedures = () => {
   return (
     <>
-      {/* Breadcrumb Start */}
-      <div
-        className="page-header about-page-header bg-radius-section parallaxie"
-        style={{ backgroundImage: "url(images/breadcrumb.jpg)" }}
-      >
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-12">
-              <div className="page-header-box">
-                <h1 className="text-anime-style-2" data-cursor="-opaque">
-                  Orthopaedic Procedures Meerut
-                </h1>
-                <nav className="wow fadeInUp">
-                  <ol className="breadcrumb">
-                    <li className="breadcrumb-item">
-                      <a href="https://www.mrityunjayhospital.com">home</a>
-                    </li>
-                    <li className="breadcrumb-item active" aria-current="page">
-                      Procedures
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Page Header End */}
+      <BreadCrumb
+        image="images/breadcrumb.jpg"
+        title="Orthopaedic Procedures Meerut"
+        page="Procedures"
+      />
 
       {/* Section Start */}
       <div className="page-about-us ptb60" id="Legacy">

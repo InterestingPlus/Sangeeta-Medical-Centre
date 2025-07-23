@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TestimonialSection = () => {
   return (
@@ -18,8 +19,8 @@ const TestimonialSection = () => {
                   lives transformed by surgical precision, compassionate care,
                   and futuristic technology.
                 </p>
-                <a
-                  href="https://g.page/r/CZa_uGf0aqFLEBM/review"
+                <Link
+                  to="https://g.page/r/CZa_uGf0aqFLEBM/review"
                   target="_blank"
                 >
                   <img
@@ -28,7 +29,7 @@ const TestimonialSection = () => {
                     width="250"
                     loading="lazy"
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

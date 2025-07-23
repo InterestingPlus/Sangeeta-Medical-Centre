@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const InfraSection = () => {
   return (
@@ -14,13 +15,13 @@ const InfraSection = () => {
           </div>
           <div class="col-lg-4">
             <div class="section-btn wow fadeInUp">
-              <a
-                href="infra-equipment.html"
+              <Link
+                to="/infra-equipment"
                 title="Orthopedic infrastructure Meerut"
                 class="btn-default"
               >
                 <span>view all infra & Equip</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -32,8 +33,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -43,7 +44,7 @@ const InfraSection = () => {
                           alt="Pneumatic & Electric Power System"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -53,13 +54,13 @@ const InfraSection = () => {
                       </h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -69,8 +70,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -80,7 +81,7 @@ const InfraSection = () => {
                           alt="Electric Tourniquet System"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -88,13 +89,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Electric Tourniquet System</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -104,8 +105,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -115,7 +116,7 @@ const InfraSection = () => {
                           alt="Arthroscopy Equipment"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -123,13 +124,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Arthroscopy Equipment</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -139,8 +140,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -150,7 +151,7 @@ const InfraSection = () => {
                           alt="Joint Replacement Equipment"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -158,13 +159,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Joint Replacement Equipment</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -174,8 +175,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -185,7 +186,7 @@ const InfraSection = () => {
                           alt="Orthopaedic OT"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -193,13 +194,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Dedicated Orthopaedic OT</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -209,8 +210,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -220,7 +221,7 @@ const InfraSection = () => {
                           alt="Specialized ICU"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -228,13 +229,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Specialized ICU</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -244,8 +245,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -255,7 +256,7 @@ const InfraSection = () => {
                           alt="Physiotherapy & Rehabilitation Unit"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -265,13 +266,13 @@ const InfraSection = () => {
                       </h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -281,8 +282,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -292,7 +293,7 @@ const InfraSection = () => {
                           alt="C-Arm"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -300,13 +301,13 @@ const InfraSection = () => {
                       <h2 class="text-black">C-Arm</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -316,8 +317,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -327,7 +328,7 @@ const InfraSection = () => {
                           alt="World's most advanced Orthopaedic robot"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -337,13 +338,13 @@ const InfraSection = () => {
                       </h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -353,8 +354,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -364,7 +365,7 @@ const InfraSection = () => {
                           alt="Advanced sterilisation (Cold Plasma and steam)"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -374,13 +375,13 @@ const InfraSection = () => {
                       </h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -390,8 +391,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -401,7 +402,7 @@ const InfraSection = () => {
                           alt="DEXA"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -409,13 +410,13 @@ const InfraSection = () => {
                       <h2 class="text-black">DEXA</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -425,8 +426,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -436,7 +437,7 @@ const InfraSection = () => {
                           alt="DR system for Xray"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -444,13 +445,13 @@ const InfraSection = () => {
                       <h2 class="text-black">DR system for Xray</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -460,8 +461,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -471,7 +472,7 @@ const InfraSection = () => {
                           alt="Advanced GE and Seimens Ventilators and monitors"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -481,13 +482,13 @@ const InfraSection = () => {
                       </h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -497,8 +498,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -508,7 +509,7 @@ const InfraSection = () => {
                           alt="Highest grade Anaesthesia machines"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -518,13 +519,13 @@ const InfraSection = () => {
                       </h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -534,8 +535,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -545,7 +546,7 @@ const InfraSection = () => {
                           alt="Ultra High speed Burr"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -553,13 +554,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Ultra High speed Burr</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -569,8 +570,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -580,7 +581,7 @@ const InfraSection = () => {
                           alt="Centralised EMR"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -588,13 +589,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Centralised EMR</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -604,8 +605,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -615,7 +616,7 @@ const InfraSection = () => {
                           alt="Mobile DR system"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -623,13 +624,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Mobile DR system</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -639,8 +640,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -650,7 +651,7 @@ const InfraSection = () => {
                           alt="Specialised OR Table"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -658,13 +659,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Specialised OR Table</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -674,8 +675,8 @@ const InfraSection = () => {
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="image-anime"
                         data-cursor-text="View"
@@ -685,7 +686,7 @@ const InfraSection = () => {
                           alt="Joint Replacement ROBOT"
                           loading="lazy"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
                   <div class="post-item-content">
@@ -693,13 +694,13 @@ const InfraSection = () => {
                       <h2 class="text-black">Joint Replacement ROBOT</h2>
                     </div>
                     <div class="post-item-footer">
-                      <a
-                        href="infra-equipment.html"
+                      <Link
+                        to="/infra-equipment"
                         title="Orthopedic infrastructure Meerut"
                         class="readmore-btn"
                       >
                         explore now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

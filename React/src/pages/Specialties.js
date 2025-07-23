@@ -1,4 +1,5 @@
 import React from "react";
+import BreadCrumb from "../components/BreadCrumb";
 
 const Specialties = () => {
   const specialties = [
@@ -79,41 +80,11 @@ const Specialties = () => {
 
   return (
     <>
-      {/* Breadcrumb Start */}
-      <div
-        class="page-header about-page-header bg-radius-section parallaxie"
-        style={{
-          backgroundImage:
-            "url(https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp)",
-          backgroundPosition: "10%",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          height: "300px",
-        }}
-      >
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <div class="page-header-box">
-                <h1 class="text-anime-style-2" data-cursor="-opaque">
-                  Best orthopedic treatments
-                </h1>
-                <nav class="wow fadeInUp">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                      <a href="https://www.mrityunjayhospital.com">home</a>
-                    </li>
-                    <li class="breadcrumb-item active" aria-current="page">
-                      Specialties
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Page Header End */}
+      <BreadCrumb
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        title="Best orthopedic treatments"
+        page="Specialties"
+      />
 
       {/* Section Start */}
       <div class="page-about-us">
@@ -126,26 +97,33 @@ const Specialties = () => {
                     Specialties @SangeetaMedicalCentre
                   </h2>
                   <p>
-                    At <strong>Mrityunjay Hospital, Meerut</strong>, we proudly
-                    offer a broad range of specialized medical services,
-                    ensuring comprehensive and patient-centered care under one
-                    roof. Led by experts like{" "}
-                    <strong>Dr. Shubhankar Shekhar</strong>, Consultant Joint
-                    Replacement & Orthopedic Surgeon, our team is dedicated to
-                    delivering excellence in orthopedics, rheumatology, spine
-                    care, arthroscopy, and foot & ankle treatments. We combine
-                    advanced technology, precise diagnostics, and compassionate
-                    care to meet the diverse healthcare needs of every patient.
+                    At <strong>Sangeeta Medical Centre, Meerut</strong>, we take
+                    pride in delivering comprehensive, patient-focused care in
+                    both orthopedics and women’s health. With over 35 years of
+                    excellence, our center is home to experienced specialists
+                    like{" "}
+                    <strong>
+                      Dr. Raman Jindal, Dr. Sangeeta Jindal, and Dr. Manisha
+                      Chaudhary,
+                    </strong>
+                    who are committed to offering compassionate, cutting-edge
+                    medical services for every stage of life.
                   </p>
                   <p>
-                    With a mission to provide world-class treatment close to
-                    home, <strong>Mrityunjay Hospital, Meerut</strong> brings
-                    together experienced consultants and multidisciplinary teams
-                    to create personalized care plans. Whether you require
-                    surgical intervention, chronic disease management, or
-                    rehabilitation support, we are committed to ensuring every
-                    patient receives expert care in a safe, modern, and
-                    supportive environment.
+                    From advanced joint replacement surgeries and complex trauma
+                    management to high-risk pregnancy care, infertility
+                    treatment, and cosmetic gynecological procedures, our
+                    multidisciplinary team ensures that each patient receives
+                    personalized and effective care. Whether you're seeking
+                    relief from chronic pain, planning a family, or navigating a
+                    complex medical concern, Sangeeta Medical Centre provides
+                    expert care in a safe, modern, and supportive environment.
+                  </p>
+                  <p>
+                    We are dedicated to upholding medical excellence through
+                    precise diagnostics, minimally invasive techniques, and
+                    ethical practices—empowering you to live healthier, fuller
+                    lives.
                   </p>
                 </div>
               </div>

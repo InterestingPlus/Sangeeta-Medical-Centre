@@ -1,36 +1,14 @@
 import React from "react";
+import BreadCrumb from "../components/BreadCrumb";
 
 const SMCInstitute = () => {
   return (
     <>
-      {/* Breadcrumb Start */}
-      <div
-        class="page-header about-page-header bg-radius-section parallaxie"
-        style={{ backgroundImage: "url(images/breadcrumb.jpg)" }}
-      >
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <div class="page-header-box">
-                <h1 class="text-anime-style-2" data-cursor="-opaque">
-                  Orthopaedic Training & Research, Meerut
-                </h1>
-                <nav class="wow fadeInUp">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                      <a href="https://www.mrityunjayhospital.com">home</a>
-                    </li>
-                    <li class="breadcrumb-item active" aria-current="page">
-                      MOH Institute
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Page Header End */}
+      <BreadCrumb
+        image="images/breadcrumb.jpg"
+        title="SMC Institute"
+        page="SMC Institute"
+      />
 
       {/* Section Start */}
       <div class="page-about-us about-faq-section ptb60">

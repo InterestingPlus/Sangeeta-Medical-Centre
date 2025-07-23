@@ -1,40 +1,15 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import BreadCrumb from "../components/BreadCrumb";
 
 const Contact = () => {
   return (
     <>
-      {/* Breadcrumb Start */}
-      <div
-        className="page-header about-page-header bg-radius-section parallaxie"
-        style={{
-          backgroundImage:
-            "url('https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/contact-us.webp')",
-        }}
-      >
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-12">
-              <div className="page-header-box">
-                <h1 className="text-anime-style-2" data-cursor="-opaque">
-                  Contact
-                </h1>
-                <nav className="wow fadeInUp">
-                  <ol className="breadcrumb">
-                    <li className="breadcrumb-item">
-                      <a href="https://www.mrityunjayhospital.com">home</a>
-                    </li>
-                    <li className="breadcrumb-item active" aria-current="page">
-                      Contact
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Page Header End */}
+      <BreadCrumb
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/contact-us.webp"
+        title="Contact"
+        page="Contact"
+      />
 
       {/* Page Contact Us Start */}
       <div className="page-contact-us bg-radius-section">

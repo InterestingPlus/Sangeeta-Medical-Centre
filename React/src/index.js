@@ -15,22 +15,29 @@ import Procedures from "./pages/Procedures";
 import InfraEquipment from "./pages/InfraEquipment";
 import SMCInstitute from "./pages/SMCInstitute";
 import Patients from "./pages/Patients";
+import ScrollToHashElement from "./components/ScrollToHashElement";
+import InPatients from "./components/InPatients";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToHashElement />
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+
           <Route path="/doctor" element={<Doctor />} />
+          <Route path="/doctor/:name" element={<Doctor />} />
+
           <Route path="/specialties" element={<Specialties />} />
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/infra-equipment" element={<InfraEquipment />} />
           <Route path="/SMC-institute" element={<SMCInstitute />} />
           <Route path="/patients" element={<Patients />} />
+          <Route path="/international-patients" element={<InPatients />} />
         </Route>
 
         <Route path="*" element={<NotFound />} />

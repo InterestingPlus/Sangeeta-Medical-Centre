@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProceduresSection = () => {
   return (
@@ -14,13 +15,13 @@ const ProceduresSection = () => {
           </div>
           <div class="col-lg-6">
             <div class="section-btn wow fadeInUp">
-              <a
-                href="procedures.html"
+              <Link
+                to="procedures"
                 title="Orthopaedic Procedures Meerut"
                 class="btn-default"
               >
                 <span>view all procedures</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
