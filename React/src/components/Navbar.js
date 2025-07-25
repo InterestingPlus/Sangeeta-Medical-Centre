@@ -292,31 +292,6 @@ const Navbar2 = () => {
       name: "Contact",
       url: "contact",
     },
-
-    // {
-    //   name: "Home",
-    //   url: "/",
-    // },
-    // {
-    //   name: "Services",
-    //   url: "/services",
-    // },
-    // {
-    //   name: "Blog",
-    //   url: "/blog",
-    // },
-    // {
-    //   name: "Gallary",
-    //   url: "/gallary",
-    // },
-    // {
-    //   name: "About",
-    //   url: "/about",
-    // },
-    // {
-    //   name: "Contact",
-    //   url: "/contact",
-    // },
   ];
 
   const [showMenu, setShowMenu] = useState(true);
@@ -341,18 +316,44 @@ const Navbar2 = () => {
                     <li className="nav-item submenu" key={index}>
                       <NavLink
                         to={navigation.url}
-                        className="nav-link"
+                        className="nav-link d-flex align-items-center gap-1"
                         title={`About ${navigation.name}`}
                       >
                         {navigation.name}
+                        {navigation?.subLinks && (
+                          <span
+                            className="dropdown"
+                            style={{ fontSize: "0.75rem", marginLeft: "4px" }}
+                          >
+                            <i class="fa-solid fa-angle-left"></i>
+                          </span>
+                        )}
                       </NavLink>
 
                       {navigation.subLinks && (
                         <ul className="sub-menu">
                           {navigation.subLinks.map((sublink, subIndex) => (
                             <li className="nav-item" key={subIndex}>
-                              <NavLink className="nav-link" to={sublink.url}>
+                              <NavLink
+                                className="nav-link"
+                                to={sublink.url}
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "space-between",
+                                }}
+                              >
                                 {sublink.name}
+
+                                {sublink.subLink && (
+                                  <span
+                                    style={{
+                                      fontSize: "0.75rem",
+                                      marginLeft: "4px",
+                                    }}
+                                  >
+                                    {">"}
+                                  </span>
+                                )}
                               </NavLink>
 
                               {Array.isArray(sublink.subLink) && (

@@ -8,7 +8,7 @@ const BookApointment = () => {
   const [message, setMessage] = useState("");
   const [selectedDoctor, setSelectedDoctor] = useState("");
 
-  const production = false;
+  const production = true;
 
   let api_url = "http://localhost:4000/send-email";
 
@@ -101,8 +101,13 @@ const BookApointment = () => {
                     <div className="help-block with-errors"></div>
                   </div>
 
+                  {/* Select Doctor Start */}
+
                   <div className="form-group col-md-6 mb-4">
-                    <div className="tesla-select-wrapper">
+                    <div
+                      className="tesla-select-wrapper"
+                      style={{ position: "relative" }}
+                    >
                       <select
                         name="user_doctor"
                         className="form-control"
@@ -110,16 +115,39 @@ const BookApointment = () => {
                         required
                         value={selectedDoctor}
                         onChange={(e) => setSelectedDoctor(e.target.value)}
+                        style={{
+                          appearance: "none",
+                          WebkitAppearance: "none",
+                          MozAppearance: "none",
+                          paddingRight: "2.5rem", // leave space for the icon
+                        }}
                       >
                         <option value="">Select Doctor* </option>
 
                         {doctors?.map((doctor) => (
-                          <option value={doctor?.email}>{doctor?.name} </option>
+                          <option key={doctor?.email} value={doctor?.email}>
+                            {doctor?.name}
+                          </option>
                         ))}
                       </select>
+
+                      {/* Custom dropdown icon */}
+                      <span
+                        style={{
+                          position: "absolute",
+                          right: "1rem",
+                          top: "50%",
+                          transform: "translateY(-50%)",
+                          pointerEvents: "none",
+                          fontSize: "1rem",
+                          color: "#666",
+                        }}
+                      ></span>
+
                       <div className="help-block with-errors"></div>
                     </div>
                   </div>
+                  {/* Select Doctor End */}
 
                   <div className="form-group col-md-12 mb-4">
                     <textarea

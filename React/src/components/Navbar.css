@@ -25,3 +25,12 @@
 .main-header .header-sticky .navbar-nav .sub-menu .nav-item .nav-link {
   color: #fff;
 }
+
+.nav-item.submenu:hover > .nav-link span.dropdown {
+  transform: rotate(180deg);
+  transition: 0.3s ease;
+}
+.nav-item.submenu > .nav-link span.dropdown {
+  display: inline-block;
+  transition: 0.3s ease;
+}
