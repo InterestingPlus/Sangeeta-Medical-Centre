@@ -13,7 +13,10 @@ const BreadCrumb = ({ image, title, page }) => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12">
-            <div className="page-header-box" style={{ background: "none" }}>
+            <div
+              className="page-header-box fadeInUp"
+              style={{ background: "none" }}
+            >
               <h1 className="text-anime-style-2" data-cursor="-opaque">
                 {title}
               </h1>

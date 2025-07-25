@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import BreadCrumb from "../components/BreadCrumb";
 import DoctorsSection from "../components/DoctorsSection";
 
@@ -63,13 +61,13 @@ const About = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/about/sangeeta-legacy.jpg"
-                      alt="Sangeeta Medical Centre Legacy"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/about/sangeeta-legacy.jpg"
+                    alt="Sangeeta Medical Centre Legacy"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -85,13 +83,13 @@ const About = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/about/ethical-practice.jpg"
-                      alt="Ethical Practice"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/about/ethical-practice.jpg"
+                    alt="Ethical Practice"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -206,13 +204,13 @@ const About = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/about/award.jpg"
-                      alt="Award"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/about/award.jpg"
+                    alt="Award"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -305,13 +303,13 @@ const About = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/about/work-with-us.jpg"
-                      alt="Work with Mrityunjay Hospital"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/about/work-with-us.jpg"
+                    alt="Work with Mrityunjay Hospital"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -327,13 +325,13 @@ const About = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/about/brand.jpg"
-                      alt="Brand"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/about/brand.jpg"
+                    alt="Brand"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -380,6 +378,7 @@ const About = () => {
         </div>
       </div>
       {/* Brand Section End */}
+
       {/* Privacy Policy Section Start */}
       <div className="page-about-us bg-radius-section2" id="Privacy">
         <div className="container">
@@ -427,13 +426,13 @@ const About = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/about/privacy-policy.jpg"
-                      alt="Sangeeta Medical Centre Privacy Policy"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/about/privacy-policy.jpg"
+                    alt="Sangeeta Medical Centre Privacy Policy"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>

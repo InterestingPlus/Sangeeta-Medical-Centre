@@ -92,7 +92,7 @@ const SpecialtiesSection = () => {
             </div>
             <div class="col-lg-5">
               <div class="section-btn wow fadeInUp">
-                <Link href="contact#Appointment" class="btn-default">
+                <Link to="/contact#Appointment" class="btn-default">
                   <span>make an appointment</span>
                 </Link>
               </div>
@@ -124,12 +124,15 @@ const SpecialtiesSection = () => {
                       <h3>{specialty?.name}</h3>
                     </div>
                     <div class="service-btn">
-                      <a href={specialty?.link} title={specialty?.title}>
+                      <Link
+                        to={`specialties/${specialty?.link}`}
+                        title={specialty?.title}
+                      >
                         <img
                           src="images/svg-icons/arrow-readmore-btn.svg"
                           alt="More arrow"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

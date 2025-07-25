@@ -1,5 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
+import { Link } from "react-router-dom";
 
 const Specialties = () => {
   const specialties = [
@@ -88,7 +89,7 @@ const Specialties = () => {
 
       {/* Section Start */}
       <div class="page-about-us">
-        <div class="container">
+        <div class="container fadeInUp">
           <div class="row align-items-center">
             <div class="col-lg-7">
               <div class="page-about-content">
@@ -132,14 +133,13 @@ const Specialties = () => {
             <div class="col-lg-5">
               <div class="how-work-image-box-2 rounded-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      // src="images/specialties/big.jpg"
-                      src="https://www.mrityunjayhospital.com/images/specialties/big.jpg"
-                      alt="Orthopaedic Treatment Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    // src="images/specialties/big.jpg"
+                    src="https://www.mrityunjayhospital.com/images/specialties/big.jpg"
+                    alt="Orthopaedic Treatment Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal"></figure> */}
                 </div>
               </div>
             </div>
@@ -173,12 +173,12 @@ const Specialties = () => {
                       <h3>{specialty.name}</h3>
                     </div>
                     <div class="service-btn">
-                      <a href={specialty.href} title={specialty.title}>
+                      <Link to={specialty.href} title={specialty.title}>
                         <img
                           src="images/svg-icons/arrow-readmore-btn.svg"
                           alt="More arrow"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

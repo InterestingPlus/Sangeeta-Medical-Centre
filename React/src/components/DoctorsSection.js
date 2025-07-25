@@ -1,5 +1,3 @@
-import React, { use, useEffect, useState } from "react";
-
 import doctors from "../pages/Doctor.json";
 import { Link } from "react-router-dom";
 

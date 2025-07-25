@@ -5,7 +5,8 @@ const InfraEquipment = () => {
   return (
     <>
       <BreadCrumb
-        image="images/breadcrumb.jpg"
+        // image="images/breadcrumb.jpg"
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
         title="Infrastructure & Equipment"
         page="Infrastructure & Equipment"
       />

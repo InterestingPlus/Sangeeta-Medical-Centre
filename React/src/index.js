@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Specialties from "./pages/Specialties";
+import Specialty from "./pages/Specialty";
 import About from "./pages/About";
 import Doctor from "./pages/Doctor";
 import Contact from "./pages/Contact";
@@ -33,6 +34,8 @@ root.render(
           <Route path="/doctor/:name" element={<Doctor />} />
 
           <Route path="/specialties" element={<Specialties />} />
+          <Route path="/specialties/:name" element={<Specialty />} />
+
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/infra-equipment" element={<InfraEquipment />} />
           <Route path="/SMC-institute" element={<SMCInstitute />} />

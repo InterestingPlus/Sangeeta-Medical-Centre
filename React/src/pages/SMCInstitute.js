@@ -5,7 +5,8 @@ const SMCInstitute = () => {
   return (
     <>
       <BreadCrumb
-        image="images/breadcrumb.jpg"
+        // image="images/breadcrumb.jpg"
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
         title="SMC Institute"
         page="SMC Institute"
       />
@@ -78,13 +79,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/emergency-trauma.jpg"
-                      alt="24×7 Emergency Trauma Services Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/emergency-trauma.jpg"
+                    alt="24×7 Emergency Trauma Services Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -98,13 +99,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4 mb-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/peadiatric-orthopaedics.jpg"
-                      alt="Peadiatric Orthopaedics Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/peadiatric-orthopaedics.jpg"
+                    alt="Peadiatric Orthopaedics Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -167,13 +168,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/physiotherapy-rehabilitation.jpg"
-                      alt="Physiotherapy & Rehabilitation Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/physiotherapy-rehabilitation.jpg"
+                    alt="Physiotherapy & Rehabilitation Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -187,13 +188,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4 mb-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/general-orthopaedics.jpg"
-                      alt="General Orthopaedics Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/general-orthopaedics.jpg"
+                    alt="General Orthopaedics Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -255,13 +256,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/research-academics.jpg"
-                      alt="Research and Academics Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/research-academics.jpg"
+                    alt="Research and Academics Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -275,13 +276,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4 mb-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/orthotics-prosthetics-workshop.jpg"
-                      alt="Orthotics & Prosthetics Workshop Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/orthotics-prosthetics-workshop.jpg"
+                    alt="Orthotics & Prosthetics Workshop Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -340,13 +341,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/dual-energy-xray-absorptiometry.jpg"
-                      alt="Dual-Energy X-Ray Absorptiometry Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/dual-energy-xray-absorptiometry.jpg"
+                    alt="Dual-Energy X-Ray Absorptiometry Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -360,13 +361,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4 mb-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/postgraduate-education.jpg"
-                      alt="Postgraduate Education"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/postgraduate-education.jpg"
+                    alt="Postgraduate Education"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -428,13 +429,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/robotics-AI.jpg"
-                      alt="Robotics & AI Orthopaedic-assisted surgery Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/robotics-AI.jpg"
+                    alt="Robotics & AI Orthopaedic-assisted surgery Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -448,13 +449,13 @@ const SMCInstitute = () => {
             <div class="col-lg-4">
               <div class="how-work-image-box-2 rounded-4 mb-4">
                 <div class="how-work-img-2">
-                  <figure class="image-anime reveal">
-                    <img
-                      src="images/MOH-institute/specialised-OPD.jpg"
-                      alt="Ortho Special OPD"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/MOH-institute/specialised-OPD.jpg"
+                    alt="Ortho Special OPD"
+                    loading="lazy"
+                  />
+                  {/* <figure class="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>

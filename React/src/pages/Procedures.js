@@ -5,7 +5,8 @@ const Procedures = () => {
   return (
     <>
       <BreadCrumb
-        image="images/breadcrumb.jpg"
+        // image="images/breadcrumb.jpg"
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
         title="Orthopaedic Procedures Meerut"
         page="Procedures"
       />
@@ -37,13 +38,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/joint-replacement-surgery.jpg"
-                      alt="Joint Replacement Surgery (Robotic & Muscle-Sparing) Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/joint-replacement-surgery.jpg"
+                    alt="Joint Replacement Surgery (Robotic & Muscle-Sparing) Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -145,13 +146,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/trauma-fracture-surgery.jpg"
-                      alt="Trauma & Fracture Surgery Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/trauma-fracture-surgery.jpg"
+                    alt="Trauma & Fracture Surgery Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -168,13 +169,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/arthroscopic-surgery.jpg"
-                      alt="Arthroscopic Surgery (Keyhole Precision) Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/arthroscopic-surgery.jpg"
+                    alt="Arthroscopic Surgery (Keyhole Precision) Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -266,13 +267,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/pediatric-orthopedic-surgery.jpg"
-                      alt="Pediatric Orthopedic Surgery Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/pediatric-orthopedic-surgery.jpg"
+                    alt="Pediatric Orthopedic Surgery Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -289,13 +290,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/kyphoplasty.jpg"
-                      alt="Kyphoplasty Treatment Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/kyphoplasty.jpg"
+                    alt="Kyphoplasty Treatment Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -389,13 +390,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/disc-replacement-surgery.jpg"
-                      alt="Disc Replacement Surgery Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/disc-replacement-surgery.jpg"
+                    alt="Disc Replacement Surgery Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -409,13 +410,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/major-spine-surgeries.jpg"
-                      alt="Major Spine Surgeries Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/major-spine-surgeries.jpg"
+                    alt="Major Spine Surgeries Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>
@@ -528,13 +529,13 @@ const Procedures = () => {
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
-                  <figure className="image-anime reveal">
-                    <img
-                      src="images/procedures/daa-surgery.jpg"
-                      alt="Direct Anterior Hip Replacement Meerut"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img
+                    src="images/procedures/major-spine-surgeries.jpg"
+                    alt="Direct Anterior Hip Replacement Meerut"
+                    loading="lazy"
+                  />
+                  {/* <figure className="image-anime reveal">
+                  </figure> */}
                 </div>
               </div>
             </div>

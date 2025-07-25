@@ -169,13 +169,13 @@
 //       </div>
 //     </footer>
 
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faEnvelope,
-  faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
+// import React from "react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faPhone,
+//   faEnvelope,
+//   faLocationDot,
+// } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
 import { Link, NavLink } from "react-router-dom";
 
