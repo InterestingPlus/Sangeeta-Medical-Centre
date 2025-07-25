@@ -6,6 +6,9 @@ const cors = require("cors");
 
 const express = require("express");
 const app = express();
+const job = require("./cron.js");
+
+job.start();
 
 app.use(express.json());
 app.use(cors());
