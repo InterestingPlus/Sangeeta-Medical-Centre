@@ -13,7 +13,7 @@ const BookApointment = () => {
   let api_url = "http://localhost:4000/send-email";
 
   if (production) {
-    api_url = "https://sangeetamedicalcentre.onrender.com/send-email";
+    api_url = "https://sangeeta-medical-centre.onrender.com/send-email";
   }
 
   const handleFormSubmit = async (e) => {
