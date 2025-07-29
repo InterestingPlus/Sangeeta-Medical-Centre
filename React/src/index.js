@@ -18,6 +18,8 @@ import SMCInstitute from "./pages/SMCInstitute";
 import Patients from "./pages/Patients";
 import ScrollToHashElement from "./components/ScrollToHashElement";
 import InPatients from "./components/InPatients";
+import BlogPage from "./components/BlogSection";
+import Blog from "./pages/Blog";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -35,6 +37,9 @@ root.render(
 
           <Route path="/specialties" element={<Specialties />} />
           <Route path="/specialties/:name" element={<Specialty />} />
+
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<Blog />} />
 
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/infra-equipment" element={<InfraEquipment />} />
