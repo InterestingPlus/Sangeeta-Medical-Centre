@@ -194,23 +194,19 @@ const BlogPostDetail = () => {
             max-width: 960px;
             margin: 2rem auto;
             padding: 2rem;
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
           }
           .blog-header-section {
             text-align: center;
             margin-bottom: 2rem;
           }
           .blog-header-section h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #1f2937;
+            font-size: 2.5rem; 
+            color: #720e18;
             margin-bottom: 1rem;
           }
           .blog-meta {
             font-size: 0.9rem;
-            color: #6b7280;
+            color: #720e18;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -257,8 +253,8 @@ const BlogPostDetail = () => {
             padding-top: 1.5rem;
           }
           .blog-tags-section .tag {
-            background-color: #e0e7ff;
-            color: #720e18;
+            background-color: #720e18;
+            color: #fff;
             padding: 0.5rem 1rem;
             border-radius: 9999px;
             font-size: 0.85rem;
@@ -292,15 +288,24 @@ const BlogPostDetail = () => {
         `}
       </style>
 
-      <BreadCrumb />
+      <BreadCrumb
+        // image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        title="Our Blogs"
+        page="Blog"
+      />
 
       <div className="blog-detail-container">
         {/* Header Section */}
         <div className="blog-header-section">
           <h1>{post.title}</h1>
-          <div className="blog-meta">
-            <span>
+          <div
+            className="blog-meta"
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            <span style={{ display: "flex", alignItems: "center" }}>
               <svg
+                style={{ width: "20px", height: "20px" }}
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 text-gray-500"
                 viewBox="0 0 20 20"
@@ -312,10 +317,15 @@ const BlogPostDetail = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              By {post.author?.name || "Unknown Author"}
+
+              <p style={{ margin: 0 }}>
+                By {post.author?.name || "Unknown Author"}
+              </p>
             </span>
-            <span>
+
+            <span style={{ display: "flex", alignItems: "center" }}>
               <svg
+                style={{ width: "20px", height: "20px" }}
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 text-gray-500"
                 viewBox="0 0 20 20"
@@ -327,7 +337,27 @@ const BlogPostDetail = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Published on {formatDate(post.publishedAt)}
+
+              <div style={{ display: "flex", flexWrap: "wrap" }}>
+                <p
+                  style={{
+                    whiteSpace: "nowrap",
+                    margin: 0,
+                    marginRight: ".3rem",
+                  }}
+                >
+                  Published on
+                </p>
+                <p
+                  style={{
+                    whiteSpace: "nowrap",
+                    fontWeight: "bold",
+                    margin: 0,
+                  }}
+                >
+                  {formatDate(post.publishedAt)}
+                </p>
+              </div>
             </span>
           </div>
         </div>

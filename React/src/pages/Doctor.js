@@ -97,7 +97,7 @@ const Doctor = () => {
                       }
                       alt={`Dr. ${doctor?.name} - ${doctor?.designation}`}
                     />
-                    <figure className="image-anime reveal">
+                    {/* <figure className="image-anime reveal">
                       <img
                         src={
                           doctor?.profileImage?.asset?.url ||
@@ -105,7 +105,7 @@ const Doctor = () => {
                         }
                         alt={`Dr. ${doctor?.name} - ${doctor?.designation}`}
                       />
-                    </figure>
+                    </figure> */}
                   </div>
 
                   <div className="working-hours">

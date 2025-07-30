@@ -121,10 +121,10 @@ const BlogPage = () => {
     <>
       <div className="blog-page-container">
         <div className="section-title rounded-lg">
-          <h1 className="text-anime-style-3" data-cursor="-opaque">
+          <h1 className="text-anime-style-3 heading" data-cursor="-opaque">
             Our Latest Insights & News
           </h1>
-          <p>
+          <p className="para">
             Stay informed with the latest from Mrityunjay Orthopedic Hospital.
           </p>
         </div>

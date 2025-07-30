@@ -28,8 +28,18 @@ const InfraSection = () => {
 
         <div class="infra-slider">
           <div class="swiper">
-            <div class="swiper-wrapper" data-cursor-text="Drag">
-              <div class="swiper-slide">
+            <div
+              class="swiper-wrapper"
+              data-cursor-text="View"
+              style={{
+                maxWidth: "100vw",
+                overflowX: "auto",
+                gap: "1rem",
+                paddingInline: "2rem",
+                paddingRight: "5rem",
+              }}
+            >
+              <div class="swiper-slide" style={{ width: "fit-content" }}>
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>

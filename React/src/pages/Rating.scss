@@ -1,0 +1,12 @@
+.testimonial-rating {
+  color: #ffc107; /* Gold stars - now applied directly to SVG fill */
+  margin-bottom: 10px;
+  display: flex; /* Use flex for star alignment */
+  gap: 5px; /* Space between stars */
+
+  svg {
+    width: 20px; /* Smaller SVG size */
+    height: 20px; /* Smaller SVG size */
+    fill: #ffc107; /* Orange/Yellow color for stars */
+  }
+}

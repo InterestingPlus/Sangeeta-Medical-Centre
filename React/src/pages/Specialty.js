@@ -1,482 +1,310 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import BreadCrumb from "../components/BreadCrumb";
+import SideBar from "../components/SideBar";
+import { client } from "../config/sanityClient";
+import SanityBlockContent from "@sanity/block-content-to-react";
+
+const serializers = {
+  types: {
+    block: (props) => {
+      switch (props.node.style) {
+        case "h1":
+          return <h1 className="text-4xl font-bold my-4">{props.children}</h1>;
+        case "h2":
+          return (
+            <h2 className="text-3xl font-semibold my-3">{props.children}</h2>
+          );
+        case "h3":
+          return (
+            <h3 className="text-2xl font-semibold my-2">{props.children}</h3>
+          );
+        case "h4":
+          return (
+            <h4 className="text-xl font-semibold my-2">{props.children}</h4>
+          );
+        case "blockquote":
+          return (
+            <blockquote className="border-l-4 border-blue-500 pl-4 py-2 italic my-4">
+              {props.children}
+            </blockquote>
+          );
+        default:
+          return (
+            <p className="text-gray-700 leading-relaxed my-2">
+              {props.children}
+            </p>
+          );
+      }
+    },
+    image: (props) => (
+      <img
+        src={props.node.asset.url}
+        alt={props.node.alt || "Content Image"}
+        className="w-full h-auto rounded-lg my-6"
+      />
+    ),
+  },
+  list: (props) => {
+    const { type } = props;
+    if (type === "bullet") {
+      return <ul className="custom-list mt-1 mb-3">{props.children}</ul>; // Apply custom-list class
+    }
+    if (type === "number") {
+      return (
+        <ol className="list-decimal list-inside text-gray-700 my-2">
+          {props.children}
+        </ol>
+      );
+    }
+    return null;
+  },
+  listItem: (props) => <li className="mb-1">{props.children}</li>,
+  marks: {
+    link: ({ mark, children }) => {
+      const { href } = mark;
+      return (
+        <a
+          href={href}
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {children}
+        </a>
+      );
+    },
+    strong: ({ children }) => <strong className="font-bold">{children}</strong>,
+    em: ({ children }) => <em className="italic">{children}</em>,
+  },
+};
 
 const Specialty = () => {
   const { name } = useParams();
+  const [specialty, setSpecialty] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Sanity query to fetch a single specialty by slug
+    const query = `*[_type == "specialty" && slug.current == $slug][0]{
+      name,
+      slug,
+      "iconUrl": icon.asset->url, // Fetch icon URL
+      mainDescription,
+      sections[]{
+        sectionId,
+        title,
+        "mainImageUrl": mainImage.asset->url,
+        description,
+        "secondaryImageUrl": secondaryImage.asset->url,
+        bulletPoints,
+        conclusion
+      },
+      uniqueSellingPoints
+    }`;
+
+    const fetchSpecialty = async () => {
+      try {
+        setLoading(true);
+        const data = await client.fetch(query, { slug: name });
+        console.log(data);
+        if (data) {
+          setSpecialty(data);
+          setError(null);
+        } else {
+          setSpecialty(null); // No specialty found
+          setError("Specialty not found.");
+        }
+      } catch (err) {
+        console.error("Failed to fetch specialty:", err);
+        setError("Failed to load specialty details. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (name) {
+      fetchSpecialty();
+    } else {
+      setLoading(false);
+      setError("No specialty slug provided in the URL.");
+    }
+  }, [name]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="spinner"></div> {/* Your existing spinner CSS */}
+        <p className="ml-4 text-gray-700">Loading specialty details...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col justify-center items-center h-screen text-red-600">
+        <p>{error}</p>
+        <Link to="/specialties" className="mt-4 text-blue-600 hover:underline">
+          Back to Specialties
+        </Link>
+      </div>
+    );
+  }
+
+  if (!specialty) {
+    return (
+      <div className="flex flex-col justify-center items-center h-screen text-gray-700">
+        <p>Specialty not found.</p>
+        <Link to="/specialties" className="mt-4 text-blue-600 hover:underline">
+          Back to Specialties
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <>
       <BreadCrumb
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
-        title="Best Orthopedic Treatments"
-        page={`Specialties / ${name}`}
+        title={specialty?.name}
+        page={`Specialties / ${specialty?.name}`}
       />
 
       {/* Section Start  */}
       <div className="page-service-single bg-radius-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 hidden-xs">
-              <div className="service-sidebar">
-                <div className="service-catagery-list specialties-panel wow fadeInUp">
-                  <h3>Specialties</h3>
-                  <div className="faq-accordion" id="accordion">
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading1">
-                        <button
-                          className="accordion-button"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse1"
-                          aria-expanded="true"
-                          aria-controls="collapse1"
-                        >
-                          Shoulder Department
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse1"
-                        className="accordion-collapse collapse show"
-                        aria-labelledby="heading1"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/shoulder-department#Instability"
-                                title="Shoulder Instability treatment Meerut"
-                              >
-                                Shoulder Instability
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/shoulder-department#Rotator"
-                                title="Rotator cuff tear treatment Meerut"
-                              >
-                                Rotator cuff tear
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/shoulder-department#Frozen"
-                                title="Frozen shoulder treatment Meerut"
-                              >
-                                Frozen shoulder
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading2">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse2"
-                          aria-expanded="false"
-                          aria-controls="collapse2"
-                        >
-                          Hand & Microvascular Department
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse2"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading2"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/hand-microvascular-department#Elbow"
-                                title="Elbow instability treatment Meerut"
-                              >
-                                Elbow instability
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/hand-microvascular-department#Inflammatory"
-                                title="Inflammatory pathologies treatment Meerut"
-                              >
-                                Inflammatory pathologies
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading3">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse3"
-                          aria-expanded="false"
-                          aria-controls="collapse3"
-                        >
-                          Hip Department
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse3"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading3"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/hip-department#Trauma"
-                                title="Hip surgery Meerut"
-                              >
-                                Hip trauma
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/hip-department#Injuries"
-                                title="Hip Labral injuries treatment Meerut"
-                              >
-                                Labral injuries
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/hip-department#Replacement"
-                                title="Hip Replacement surgery Meerut"
-                              >
-                                Hip Replacement
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/hip-department#DAA"
-                                title="Direct Anterior Approach (DAA) Hip Replacement Meerut"
-                              >
-                                DAA Hip Replacement
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading4">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse4"
-                          aria-expanded="false"
-                          aria-controls="collapse4"
-                        >
-                          Knee Department
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse4"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading4"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/knee-department#Instability"
-                                title="Knee instability/pain treatment Meerut"
-                              >
-                                Knee instability/pain
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/knee-department#Replacement"
-                                title="Partial and Total Knee Replacement Surgery Meerut"
-                              >
-                                Knee Replacement (Partial/Total)
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading5">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse5"
-                          aria-expanded="false"
-                          aria-controls="collapse5"
-                        >
-                          Spine Department
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse5"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading5"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/spine-department#Degenerative"
-                                title="Degenerative spine/Disc disease treatment Meerut"
-                              >
-                                Degenerative spine/Disc disease
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading6">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse6"
-                          aria-expanded="false"
-                          aria-controls="collapse6"
-                        >
-                          Foot And Ankle Department
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse6"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading6"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/foot-ankle-department#Arthroscopy"
-                                title="Ankle arthroscopy Meerut"
-                              >
-                                Ankle arthroscopy
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/foot-ankle-department#Heel"
-                                title="Foot and heel pain treatment Meerut"
-                              >
-                                Foot and heel pain
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/foot-ankle-department#Fractures"
-                                title="Foot and ankle fractures surgery Meerut"
-                              >
-                                Foot and ankle fractures
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading7">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse7"
-                          aria-expanded="false"
-                          aria-controls="collapse7"
-                        >
-                          Arthroscopy
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse7"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading7"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/arthroscopy#Injuries"
-                                title="Sports injuries treatment Meerut"
-                              >
-                                Sports injuries
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="accordion-item">
-                      <h2 className="accordion-header" id="heading8">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse8"
-                          aria-expanded="false"
-                          aria-controls="collapse8"
-                        >
-                          Rheumatology
-                        </button>
-                      </h2>
-                      <div
-                        id="collapse8"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="heading8"
-                        data-bs-parent="#accordion"
-                      >
-                        <div className="accordion-body">
-                          <ul>
-                            <li>
-                              <Link
-                                to="/specialties/rheumatology#Arthritis"
-                                title="Arthritis Treatment Meerut"
-                              >
-                                Arthritis
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/rheumatology#Osteoarthritis"
-                                title="Osteoarthritis Treatment Meerut"
-                              >
-                                Osteoarthritis
-                              </Link>
-                            </li>
-                            <li>
-                              <Link
-                                to="/specialties/rheumatology#Tendinitis"
-                                title="Tendinitis Treatment Meerut"
-                              >
-                                Tendinitis
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="working-hours">
-                  <h3>opening hours</h3>
-                  <ul>
-                    <li>Mon - Sat: 10.00 AM - 4.00 PM</li>
-                    <li>Sun: 09.00 AM - 4.00 PM</li>
-                    <li>Friday: Closed</li>
-                    <li>Emergency: 24 hours</li>
-                  </ul>
-                  <div className="working-hours-btn">
-                    {" "}
-                    <Link to="/contact#Appointment" className="btn-default">
-                      <span>make an appointment</span>
-                    </Link>{" "}
-                  </div>
-                </div>
-
-                <div className="sidebar-cta-box">
-                  <div className="sidebar-cta-image">
-                    <img
-                      src="images/contact-treatment.jpg"
-                      alt="Contact Mrityunjay Hospital Meerut"
-                      loading="lazy"
-                    />
-                    {/* <figure>
-                    </figure> */}
-                  </div>
-
-                  <div className="sidebar-cta-item">
-                    <div className="icon-box">
-                      <img
-                        src="images/svg-icons/cta-icon-phone.svg"
-                        alt="CTA Phone Icon"
-                      />
-                      {/* <figure>
-                      </figure> */}
-                    </div>
-                    <div className="sidebar-cta-content">
-                      <h3>Need any Help?</h3>
-                      <h4 className="text-white mb-1">Call us:</h4>
-                      <p>
-                        +(91) <Link to="tel:+919837054400">9837054400</Link>
-                      </p>
-                      <h4 className="text-white mb-1">Whatsapp:</h4>
-                      <p>
-                        +(91){" "}
-                        <Link
-                          to="https://api.whatsapp.com/send?phone=+919068168434&text=Hi+there+I+have+been+on+your+website+and+I+want+to+be+counselled+by+experts"
-                          target="_blank"
-                        >
-                          9068168434
-                        </Link>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <SideBar />
 
             <div className="col-lg-8">
               <div className="service-single-content">
                 <div className="service-entry">
-                  <h2 className="text-anime-style-3">Shoulder Department</h2>
-                  <h3 className="fs-3">
+                  <h2 className="text-anime-style-3">{specialty.name}</h2>
+                  {/* <h3 className="fs-3">
                     Precision Shoulder Surgery by Dr. Shubhankar Shekhar
-                  </h3>
-                  <p>
-                    At Mrityunjay Orthopedic Hospital, the Shoulder Department
-                    is a center of advanced care—personally led by Dr.
-                    Shubhankar Shekhar, AIIMS globally trained orthopedic
-                    surgeon. With years of experience and international exposure
-                    in robotic and minimally invasive joint surgeries, Dr.
-                    Shubhankar brings global standards to shoulder care in
-                    Meerut.
-                  </p>
-                  <p>
-                    Every diagnosis, every decision, and every procedure in this
-                    department is overseen and executed by Dr. Shubhankar
-                    himself—ensuring that patients receive the most accurate
-                    diagnosis, the most conservative treatment possible, and the
-                    most effective surgical outcomes when required.
-                  </p>
+                  </h3> */}
+                  {specialty.mainDescription && (
+                    <SanityBlockContent
+                      blocks={specialty.mainDescription}
+                      projectId={client.projectId}
+                      dataset={client.dataset}
+                      serializers={serializers}
+                    />
+                  )}
 
                   <hr />
 
-                  <div id="Instability">
+                  {specialty.sections?.map((section, index) => (
+                    <div
+                      key={section.sectionId || index}
+                      id={section.sectionId}
+                    >
+                      {section.mainImageUrl && (
+                        <div className="service-single-image">
+                          <img
+                            src={section.mainImageUrl}
+                            alt={section.title}
+                            loading="lazy"
+                          />
+                        </div>
+                      )}
+                      <h3 className="fs-3">{section.title}</h3>
+                      {section.description && (
+                        <SanityBlockContent
+                          blocks={section.description}
+                          projectId={client.projectId}
+                          dataset={client.dataset}
+                          serializers={serializers}
+                        />
+                      )}
+                      {section.secondaryImageUrl && (
+                        <div className="row">
+                          <div className="col-lg-8">
+                            {/* If there's a secondary image, the description might be split */}
+                            {/* This assumes the description array might contain content before the image */}
+                            {/* You might need to adjust how your 'description' is structured in Sanity
+                                if you want specific paragraphs before/after the secondary image */}
+                            {section.description && (
+                              <SanityBlockContent
+                                blocks={section.description}
+                                projectId={client.projectId}
+                                dataset={client.dataset}
+                                serializers={serializers}
+                              />
+                            )}
+                          </div>
+                          <div className="col-lg-4">
+                            <div className="how-work-image-box-2 rounded-4">
+                              <div className="how-work-img-2">
+                                <img
+                                  src={section.secondaryImageUrl}
+                                  alt={section.title}
+                                  loading="lazy"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                      {section.bulletPoints &&
+                        section.bulletPoints.length > 0 && (
+                          <>
+                            <p className="mt-4">
+                              <strong>Under {specialty.name}'s care:</strong>{" "}
+                              {/* Dynamic reference */}
+                            </p>
+                            <SanityBlockContent
+                              blocks={section.bulletPoints}
+                              projectId={client.projectId}
+                              dataset={client.dataset}
+                              serializers={serializers}
+                            />
+                          </>
+                        )}
+                      {section.conclusion && (
+                        <SanityBlockContent
+                          blocks={section.conclusion}
+                          projectId={client.projectId}
+                          dataset={client.dataset}
+                          serializers={serializers}
+                        />
+                      )}
+                      <hr /> {/* Separator between sections */}
+                    </div>
+                  ))}
+
+                  {/* What Makes This Department Different section */}
+                  {specialty.uniqueSellingPoints &&
+                    specialty.uniqueSellingPoints.length > 0 && (
+                      <div id="what-makes-different">
+                        <h3 className="fs-3">
+                          What Makes This Department Different
+                        </h3>
+                        <SanityBlockContent
+                          blocks={specialty.uniqueSellingPoints}
+                          projectId={client.projectId}
+                          dataset={client.dataset}
+                          serializers={serializers}
+                        />
+                        <p>
+                          The {specialty.name} at Sangeeta Medical Centre, is
+                          where modern orthopedic science meets surgical
+                          mastery—delivering outcomes that patients can trust
+                          and feel.
+                        </p>
+                      </div>
+                    )}
+
+                  {/* <div id="Instability">
                     <div className="service-single-image">
                       <img
                         src="images/specialties/shoulder/shoulder-instability.jpg"
                         alt="Shoulder treatment and surgery Meerut"
                         loading="lazy"
                       />
-                      {/* <figure className="image-anime reveal">
-                                    </figure> */}
+  <figure className="image-anime reveal">
+                                    </figure> 
                     </div>
                     <h3 className="fs-3">Shoulder Instability</h3>
                     <p>
@@ -710,8 +538,8 @@ const Specialty = () => {
                               alt="Frozen Shoulder Specialist Meerut"
                               loading="lazy"
                             />
-                            {/* <figure className="image-anime reveal">
-                                                </figure> */}
+                           <figure className="image-anime reveal">
+                                                </figure>  
                           </div>
                         </div>
                       </div>
@@ -786,7 +614,7 @@ const Specialty = () => {
                       mastery—delivering outcomes that patients can trust and
                       feel.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

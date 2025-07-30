@@ -90,13 +90,12 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/1pneumatic-electric-power-system.jpg"
-                                  alt="Pneumatic & Electric Power System"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/1pneumatic-electric-power-system.jpg"
+                                alt="Pneumatic & Electric Power System"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal"></figure> */}
                             </div>
                           </div>
                         </div>
@@ -152,13 +151,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/2electric-tourniquet-system.jpg"
-                                  alt="Electric Tourniquet System"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/2electric-tourniquet-system.jpg"
+                                alt="Electric Tourniquet System"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -214,13 +213,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/3arthroscopy-equipment.jpg"
-                                  alt="Arthroscopy Equipment"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/3arthroscopy-equipment.jpg"
+                                alt="Arthroscopy Equipment"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -275,13 +274,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/4joint-replacement-equipment.jpg"
-                                  alt="Joint Replacement Equipment"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/4joint-replacement-equipment.jpg"
+                                alt="Joint Replacement Equipment"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -336,13 +335,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/5dedicated-orthopaedic-OT.jpg"
-                                  alt="Orthopaedic OT"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/5dedicated-orthopaedic-OT.jpg"
+                                alt="Orthopaedic OT"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -397,13 +396,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/6specialized-ICU.jpg"
-                                  alt="Specialized ICU"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/6specialized-ICU.jpg"
+                                alt="Specialized ICU"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -457,13 +456,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/7physiotherapy-rehabilitation-unit.jpg"
-                                  alt="Physiotherapy & Rehabilitation Unit"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/7physiotherapy-rehabilitation-unit.jpg"
+                                alt="Physiotherapy & Rehabilitation Unit"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -519,13 +518,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/8c-arm.jpg"
-                                  alt="C-Arm"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/8c-arm.jpg"
+                                alt="C-Arm"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -579,13 +578,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/9advanced-orthopaedic-robot.jpg"
-                                  alt="World's most advanced Orthopaedic robot"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/9advanced-orthopaedic-robot.jpg"
+                                alt="World's most advanced Orthopaedic robot"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -639,13 +638,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/10advanced-sterilisation-protocols.jpg"
-                                  alt="Advanced sterilisation (Cold Plasma and steam)"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/10advanced-sterilisation-protocols.jpg"
+                                alt="Advanced sterilisation (Cold Plasma and steam)"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -699,13 +698,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/11DEXA-scan.jpg"
-                                  alt="DEXA"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/11DEXA-scan.jpg"
+                                alt="DEXA"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -759,13 +758,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/12DR-system-xray.jpg"
-                                  alt="DR system for Xray"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/12DR-system-xray.jpg"
+                                alt="DR system for Xray"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -819,13 +818,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/13advanced-ventilators-monitors.jpg"
-                                  alt="Advanced GE and Seimens Ventilators and monitors"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/13advanced-ventilators-monitors.jpg"
+                                alt="Advanced GE and Seimens Ventilators and monitors"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -879,13 +878,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/14-high-grade-anesthesia-machines.jpg"
-                                  alt="Highest grade Anaesthesia machines"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/14-high-grade-anesthesia-machines.jpg"
+                                alt="Highest grade Anaesthesia machines"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -938,13 +937,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/15ultra-high-speed-burr.jpg"
-                                  alt="Ultra High speed Burr"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/15ultra-high-speed-burr.jpg"
+                                alt="Ultra High speed Burr"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -997,13 +996,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/16centralised-EMR.jpg"
-                                  alt="Centralised EMR"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/16centralised-EMR.jpg"
+                                alt="Centralised EMR"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -1055,13 +1054,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/17mobile-DR-system.jpg"
-                                  alt="Mobile DR system"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/17mobile-DR-system.jpg"
+                                alt="Mobile DR system"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -1113,13 +1112,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/18specialised-OR-table.jpg"
-                                  alt="Specialised OR Table"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/18specialised-OR-table.jpg"
+                                alt="Specialised OR Table"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>
@@ -1171,13 +1170,13 @@ const InfraEquipment = () => {
                         <div class="col-lg-4">
                           <div class="how-work-image-box-2 rounded-4">
                             <div class="how-work-img-2">
-                              <figure class="image-anime reveal">
-                                <img
-                                  src="images/infra-equip/19joint-replacement-robot.jpg"
-                                  alt="Joint Replacement ROBOT"
-                                  loading="lazy"
-                                />
-                              </figure>
+                              <img
+                                src="images/infra-equip/19joint-replacement-robot.jpg"
+                                alt="Joint Replacement ROBOT"
+                                loading="lazy"
+                              />
+                              {/* <figure class="image-anime reveal">
+                              </figure> */}
                             </div>
                           </div>
                         </div>

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import { Link } from "react-router-dom";
+import { client } from "../config/sanityClient";
 
 const Specialties = () => {
-  const specialties = [
+  const [specialties, setSpecialties] = useState([
     {
       name: "Arthoscopy",
       image:
@@ -11,7 +12,7 @@ const Specialties = () => {
       alt: "Arthoscopy",
 
       icon: "arthoscopy.png",
-      link: "arthroscopy.html",
+      link: "/specialties/arthroscopy",
       title: "Arthroscopy Meerut",
     },
     {
@@ -21,7 +22,7 @@ const Specialties = () => {
       alt: "Fracture Management",
 
       icon: "knee.png",
-      link: "knee-department.html",
+      link: "/specialties/knee-department",
       title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
@@ -31,7 +32,7 @@ const Specialties = () => {
       alt: "Knee Replacement",
 
       icon: "knee.png",
-      link: "knee-department.html",
+      link: "/specialties/knee-department",
       title: "Advanced Knee Treatment/Surgery Meerut",
     },
     {
@@ -41,7 +42,7 @@ const Specialties = () => {
       alt: "Hip Joint Replacement",
 
       icon: "hip.png",
-      link: "hip-department.html",
+      link: "/specialties/hip-department",
       title: "Hip Treatment & Surgery Meerut",
     },
     {
@@ -77,7 +78,55 @@ const Specialties = () => {
 
       icon: "rheumatology.png",
     },
-  ];
+  ]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const query = `*[_type == "specialty"]{
+      name,
+      "link": slug.current,
+      "image": mainImage.asset->url,
+      "icon": icon.asset->url,
+    } | order(name asc)`;
+
+    const fetchSpecialties = async () => {
+      try {
+        setLoading(true);
+        const data = await client.fetch(query);
+        setSpecialties(data);
+        console.log(data);
+        setError(null);
+      } catch (err) {
+        console.error("Failed to fetch specialties:", err);
+        setError("Failed to load specialties. Please try again later.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchSpecialties();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="spinner"></div> {/* Your existing spinner CSS */}
+        <p className="ml-4 text-gray-700">Loading specialties...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col justify-center items-center h-screen text-red-600">
+        <p>{error}</p>
+        <Link to="/" className="mt-4 text-blue-600 hover:underline">
+          Back to Home
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -156,15 +205,21 @@ const Specialties = () => {
                   <div class="service-item-image">
                     <figure>
                       <img
-                        src={specialty.image}
-                        alt={specialty.alt}
+                        src={
+                          specialty.image ||
+                          "https://placehold.co/400x200/cccccc/ffffff?text=Specialty+Image"
+                        }
+                        alt={specialty.name}
                         loading="lazy"
                       />
                     </figure>
                   </div>
                   <div class="icon-box">
                     <img
-                      src={`images/icons/${specialty.icon}`}
+                      src={
+                        specialty.icon ||
+                        "https://placehold.co/35x35/007bff/ffffff?text=Icon"
+                      }
                       alt="Foot Icon"
                     />
                   </div>
@@ -173,7 +228,10 @@ const Specialties = () => {
                       <h3>{specialty.name}</h3>
                     </div>
                     <div class="service-btn">
-                      <Link to={specialty.href} title={specialty.title}>
+                      <Link
+                        to={`/specialties/${specialty?.link}`}
+                        title={specialty.title}
+                      >
                         <img
                           src="images/svg-icons/arrow-readmore-btn.svg"
                           alt="More arrow"

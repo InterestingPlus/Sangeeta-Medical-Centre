@@ -85,7 +85,7 @@ const WhyChooseSection = () => {
                   className="quality-treatment-footer wow fadeInUp"
                   data-wow-delay="0.75s"
                 >
-                  <Link tp="/contact#appointment" className="btn-default">
+                  <Link to="/contact#appointment" className="btn-default">
                     <span>Make an Appointment</span>
                   </Link>
                 </div>

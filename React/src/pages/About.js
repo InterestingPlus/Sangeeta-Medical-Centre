@@ -6,7 +6,7 @@ const About = () => {
     <>
       <BreadCrumb
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
-        title="About Mrityunjay Hospital"
+        title="About Sangeeta Medical Centre"
         page="About"
       />
 

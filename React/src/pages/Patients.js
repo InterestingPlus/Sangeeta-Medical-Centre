@@ -1,5 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
+import Testimonials from "./Testimonials";
 
 const Patients = () => {
   return (
@@ -129,109 +130,7 @@ const Patients = () => {
         </div>
       </div>
 
-      <div class="page-about-us bg-radius-section2 bg-light" id="Testimonials">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-title mb-0">
-                  <h2 class="text-anime-style-3" data-cursor="-opaque">
-                    Testimonials
-                  </h2>
-                </div>
-              </div>
-
-              <div class="col-lg-4">
-                <div class="testimonial-item shadow mt-4">
-                  <div class="testimonial-header">
-                    <div class="testimonial-rating">
-                      {" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                    </div>
-                    <div class="testimonial-content">
-                      <p>
-                        You don’t feel like a case here — you feel like a
-                        person. Dr. Shubhankar Shekhar’s calm guidance and
-                        surgical skills are unmatched. The hospital has
-                        everything — infrastructure, cleanliness, empathy.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="testimonial-body">
-                    <div class="author-content">
-                      <h3>Vikram Mehta</h3>
-                      <p>Joint Replacement Patient</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4">
-                <div class="testimonial-item shadow mt-4">
-                  <div class="testimonial-header">
-                    <div class="testimonial-rating">
-                      {" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                    </div>
-                    <div class="testimonial-content">
-                      <p>
-                        Spine surgery is scary — but Dr. Shubhankar made it
-                        reassuring. Every step was explained. I never imagined
-                        I’d walk straight and pain-free again. Grateful beyond
-                        words.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="testimonial-body">
-                    <div class="author-content">
-                      <h3>Savitri Devi</h3>
-                      <p>L4-L5 Decompression</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4">
-                <div class="testimonial-item shadow mt-4">
-                  <div class="testimonial-header">
-                    <div class="testimonial-rating">
-                      {" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                      <i class="fa-solid fa-star"></i>{" "}
-                    </div>
-                    <div class="testimonial-content">
-                      <p>
-                        The ICU, nurses, and follow-up support after my mother’s
-                        hip fracture surgery was world-class. MOH has brought
-                        big-city care to Meerut.
-                        <br />
-                        &nbsp;
-                      </p>
-                    </div>
-                  </div>
-                  <div class="testimonial-body">
-                    <div class="author-content">
-                      <h3>Anjali R.</h3>
-                      <p>Attendant</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Testimonials />
 
       <div class="page-about-us bg-radius-section2" id="Stories">
         <div class="container">

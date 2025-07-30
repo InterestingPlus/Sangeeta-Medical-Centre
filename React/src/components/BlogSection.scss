@@ -6,13 +6,13 @@
 
   background: #720e18;
 }
-.section-title h1 {
+.section-title h1.heading {
   text-align: center;
   font-size: 2.8rem;
   margin-bottom: 0.5rem;
   color: #fff;
 }
-.section-title p {
+.section-title p.para {
   text-align: center;
   font-size: 1.2rem;
   opacity: 0.9;
@@ -50,6 +50,7 @@
 }
 .blog-card img {
   border-bottom: 1px solid #e0e0e0;
+  aspect-ratio: 16/9;
 }
 .blog-card h3 a {
   text-decoration: none;
