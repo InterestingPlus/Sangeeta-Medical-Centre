@@ -14,8 +14,8 @@ const BenefitsSection = () => {
                 />
               </div>
               <div class="benefits-content">
-                <h3>Advanced Orthopaedics</h3>
-                <p>Easy treatment with experts</p>
+                <h3>Trusted by Families for 35+ Years</h3>
+                <p>Generations of care and trust</p>
               </div>
             </div>
           </div>
@@ -29,8 +29,8 @@ const BenefitsSection = () => {
                 />
               </div>
               <div class="benefits-content">
-                <h3>Emergency Service</h3>
-                <p>24/7 Emergency Available</p>
+                <h3>Fully Equipped Facility</h3>
+                <p>Modern infrastructure & diagnostics</p>
               </div>
             </div>
           </div>
@@ -44,8 +44,8 @@ const BenefitsSection = () => {
                 />
               </div>
               <div class="benefits-content">
-                <h3>World renowned consultants</h3>
-                <p>Advice with Experts</p>
+                <h3>24/7 Emergency Services</h3>
+                <p>Immediate care when it matters most</p>
               </div>
             </div>
           </div>

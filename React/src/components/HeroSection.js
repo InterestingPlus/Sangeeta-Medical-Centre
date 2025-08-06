@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -29,19 +30,19 @@ const HeroSection = () => {
                         </p>
                       </div>
                       <div className="hero-content-body">
-                        <a
-                          href="specialties.html"
+                        <Link
+                          to="specialties/"
                           className="btn-default"
-                          title="Best orthopedic treatments in Meerut"
+                          title="Best orthopedic treatments"
                         >
                           <span>Explore Services</span>
-                        </a>
-                        <a
-                          href="contact.html#Appointment"
+                        </Link>
+                        <Link
+                          to="tel:011-69269888"
                           className="btn-default btn-highlighted"
                         >
                           <span>Book Appointment</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

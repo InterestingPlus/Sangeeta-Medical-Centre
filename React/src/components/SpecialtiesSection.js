@@ -141,7 +141,7 @@ const SpecialtiesSection = () => {
             </div>
             <div class="col-lg-5">
               <div class="section-btn wow fadeInUp">
-                <Link to="/contact#Appointment" class="btn-default">
+                <Link to="tel:011-69269888" class="btn-default">
                   <span>make an appointment</span>
                 </Link>
               </div>

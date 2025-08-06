@@ -57,129 +57,203 @@ const Navbar2 = () => {
       url: "specialties",
       subLinks: [
         {
-          name: "Shoulder Department",
-          url: "specialties/shoulder-department",
+          name: "Orthopedic Department",
+          url: "specialties/",
           subLink: [
             {
-              name: "Shoulder Instability",
-              url: "specialties/shoulder-department#Instability",
+              name: "Fracture Management",
+              url: "specialties/fracture-management",
             },
             {
-              name: "Rotator cuff tear",
-              url: "specialties/shoulder-department#Rotator",
+              name: "Knee Replacement Surgery (TKR)",
+              url: "specialties/knee-replacement-surgery",
             },
             {
-              name: "Frozen shoulder",
-              url: "specialties/shoulder-department#Frozen",
+              name: "Hip Replacement Surgery (THR)",
+              url: "specialties/hip-replacement-surgery",
+            },
+            {
+              name: "Arthroscopy & Sports Injury Treatment",
+              url: "specialties/arthroscopy-&-sports-injury-treatment",
+            },
+            {
+              name: "Spine & Back Pain Treatment",
+              url: "specialties/spine-&-back-pain-treatment",
+            },
+            {
+              name: "Joint Pain & Arthritis Management",
+              url: "specialties/joint-pain-&-arthritis-management",
+            },
+            {
+              name: "Pediatric Orthopedics",
+              url: "specialties/pediatric-orthopedics",
+            },
+            {
+              name: "Bone Deformity Correction",
+              url: "specialties/bone-deformity-correction",
+            },
+            {
+              name: "Orthopedic Emergencies & Trauma Care",
+              url: "specialties/orthopedic-emergencies-&-trauma-care",
+            },
+            {
+              name: "Geriatric Bone Health",
+              url: "specialties/geriatric-bone-health",
             },
           ],
         },
         {
-          name: "Hand & Microvascular Department",
-          url: "specialties/hand-microvascular-department",
+          name: "Gynecologist Department",
+          url: "specialties/",
           subLink: [
             {
-              name: "Elbow instability",
-              url: "specialties/hand-microvascular-department#Elbow",
+              name: "Normal & High-Risk Pregnancy Care",
+              url: "specialties/normal-&-high-risk-pregnancy-care",
             },
             {
-              name: "Inflammatory pathologies",
-              url: "specialties/hand-microvascular-department#Inflammatory",
+              name: "Laparoscopic (Keyhole) Surgeries",
+              url: "specialties/laparoscopic-surgeries",
+            },
+            {
+              name: "Infertility Treatments (IVF, IUI, etc.)",
+              url: "specialties/infertility-treatments",
+            },
+            {
+              name: "Menstrual Disorders Treatment",
+              url: "specialties/menstrual-disorders-treatment",
+            },
+            {
+              name: "PCOS/PCOD Management",
+              url: "specialties/pcos-pcod-management",
+            },
+            {
+              name: "Adolescent & Menopausal Health",
+              url: "specialties/adolescent-&-menopausal-health",
+            },
+            {
+              name: "Painless Delivery Options",
+              url: "specialties/painless-delivery-options",
+            },
+            {
+              name: "Cancer Screening & Prevention",
+              url: "specialties/cancer-screening-&-prevention",
+            },
+            {
+              name: "Contraception & Family Planning",
+              url: "specialties/contraception-&-family-planning",
+            },
+            {
+              name: "Gynecological Ultrasound & Diagnostics",
+              url: "specialties/gynecological-ultrasound-&-diagnostics",
             },
           ],
         },
-        {
-          name: "Hip Department",
-          url: "specialties/hip-department",
-          subLink: [
-            {
-              name: "Hip trauma",
-              url: "specialties/hip-department#Trauma",
-            },
-            {
-              name: "Labral injuries",
-              url: "specialties/hip-department#Injuries",
-            },
-            {
-              name: "Hip Replacement",
-              url: "specialties/hip-department#Replacement",
-            },
-            {
-              name: "DAA Hip Replacement",
-              url: "specialties/hip-department#DAA",
-            },
-          ],
-        },
-        {
-          name: "Knee Department",
-          url: "specialties/knee-department",
-          subLink: [
-            {
-              name: "Knee instability/pain",
-              url: "specialties/knee-department#Instability",
-            },
-            {
-              name: "Knee Replacement (Partial/Total)",
-              url: "specialties/knee-department#Replacement",
-            },
-          ],
-        },
-        {
-          name: "Spine Department",
-          url: "specialties/spine-department",
-          subLink: [
-            {
-              name: "Degenerative spine/Disc disease",
-              url: "specialties/spine-department#Degenerative",
-            },
-          ],
-        },
-        {
-          name: "Foot And Ankle Department",
-          url: "specialties/foot-ankle-department",
-          subLink: [
-            {
-              name: "Ankle arthroscopy",
-              url: "specialties/foot-ankle-department#Arthroscopy",
-            },
-            {
-              name: "Foot and heel pain",
-              url: "specialties/foot-ankle-department#Heel",
-            },
-            {
-              name: "Foot and ankle fractures",
-              url: "specialties/foot-ankle-department#Fractures",
-            },
-          ],
-        },
-        {
-          name: "Arthroscopy",
-          url: "specialties/arthroscopy",
-          subLink: [
-            {
-              name: "Sports injuries",
-              url: "specialties/arthroscopy#Injuries",
-            },
-          ],
-        },
-        {
-          name: "Rheumatology",
-          url: "specialties/rheumatology",
-          subLink: [
-            {
-              name: "Arthritis",
-              url: "specialties/rheumatology#Arthritis",
-            },
-            {
-              name: "Osteoarthritis",
-              url: "specialties/rheumatology#Osteoarthritis",
-            },
-            {
-              name: "Tendinitis",
-              url: "specialties/rheumatology#Tendinitis",
-            },
-          ],
-        },
+        // {
+        //   name: "Hand & Microvascular Department",
+        //   url: "specialties/hand-microvascular-department",
+        //   subLink: [
+        //     {
+        //       name: "Elbow instability",
+        //       url: "specialties/hand-microvascular-department#Elbow",
+        //     },
+        //     {
+        //       name: "Inflammatory pathologies",
+        //       url: "specialties/hand-microvascular-department#Inflammatory",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Hip Department",
+        //   url: "specialties/hip-department",
+        //   subLink: [
+        //     {
+        //       name: "Hip trauma",
+        //       url: "specialties/hip-department#Trauma",
+        //     },
+        //     {
+        //       name: "Labral injuries",
+        //       url: "specialties/hip-department#Injuries",
+        //     },
+        //     {
+        //       name: "Hip Replacement",
+        //       url: "specialties/hip-department#Replacement",
+        //     },
+        //     {
+        //       name: "DAA Hip Replacement",
+        //       url: "specialties/hip-department#DAA",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Knee Department",
+        //   url: "specialties/knee-department",
+        //   subLink: [
+        //     {
+        //       name: "Knee instability/pain",
+        //       url: "specialties/knee-department#Instability",
+        //     },
+        //     {
+        //       name: "Knee Replacement (Partial/Total)",
+        //       url: "specialties/knee-department#Replacement",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Spine Department",
+        //   url: "specialties/spine-department",
+        //   subLink: [
+        //     {
+        //       name: "Degenerative spine/Disc disease",
+        //       url: "specialties/spine-department#Degenerative",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Foot And Ankle Department",
+        //   url: "specialties/foot-ankle-department",
+        //   subLink: [
+        //     {
+        //       name: "Ankle arthroscopy",
+        //       url: "specialties/foot-ankle-department#Arthroscopy",
+        //     },
+        //     {
+        //       name: "Foot and heel pain",
+        //       url: "specialties/foot-ankle-department#Heel",
+        //     },
+        //     {
+        //       name: "Foot and ankle fractures",
+        //       url: "specialties/foot-ankle-department#Fractures",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Arthroscopy",
+        //   url: "specialties/arthroscopy",
+        //   subLink: [
+        //     {
+        //       name: "Sports injuries",
+        //       url: "specialties/arthroscopy#Injuries",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Rheumatology",
+        //   url: "specialties/rheumatology",
+        //   subLink: [
+        //     {
+        //       name: "Arthritis",
+        //       url: "specialties/rheumatology#Arthritis",
+        //     },
+        //     {
+        //       name: "Osteoarthritis",
+        //       url: "specialties/rheumatology#Osteoarthritis",
+        //     },
+        //     {
+        //       name: "Tendinitis",
+        //       url: "specialties/rheumatology#Tendinitis",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -187,37 +261,122 @@ const Navbar2 = () => {
       url: "procedures",
       subLinks: [
         {
-          name: "Robotic Joint Replacement Surgery",
-          url: "procedures#Joint",
+          name: "Orthopedic Procedures",
+          url: "procedures",
+          subLink: [
+            {
+              name: "Robotic Joint Replacement Surgery",
+              url: "procedures#",
+            },
+            {
+              name: "Trauma & Fracture Surgery",
+              url: "procedures#",
+            },
+            {
+              name: "Arthroscopic Surgery",
+              url: "procedures#",
+            },
+            {
+              name: "Pediatric Orthopedic",
+              url: "procedures#",
+            },
+            {
+              name: "Kyphoplasty",
+              url: "procedures#",
+            },
+            {
+              name: "Disc Replacement Surgery",
+              url: "procedures#",
+            },
+            {
+              name: "Major Spine Surgeries",
+              url: "procedures#",
+            },
+            {
+              name: "Direct Anterior Hip Replacement",
+              url: "procedures#",
+            },
+          ],
         },
         {
-          name: "Trauma & Fracture Surgery",
-          url: "procedures#Trauma",
+          name: "Gynecological & Obstetric Procedures",
+          url: "procedures",
+
+          subLink: [
+            {
+              name: "Normal & High-Risk Delivery",
+              url: "procedures#",
+            },
+            {
+              name: "Laparoscopic Gynecological Surgeries",
+              url: "procedures#",
+            },
+            {
+              name: "Infertility Procedures (IVF, IUI, etc.)",
+              url: "procedures#",
+            },
+            {
+              name: "Menstrual Disorder Management",
+              url: "procedures#",
+            },
+            {
+              name: "PCOD/PCOS Hormonal Treatment",
+              url: "procedures#",
+            },
+            {
+              name: "Adolescent & Menopausal Care",
+              url: "procedures#",
+            },
+            {
+              name: "Painless Delivery Options",
+              url: "procedures#",
+            },
+            {
+              name: "Cancer Screening",
+              url: "procedures#",
+            },
+            {
+              name: "Family Planning & Contraception",
+              url: "procedures#",
+            },
+            {
+              name: "Gynecological Ultrasound & Diagnostics",
+              url: "procedures#",
+            },
+          ],
         },
-        {
-          name: "Arthroscopic Surgery",
-          url: "procedures#Arthroscopic",
-        },
-        {
-          name: "Pediatric Orthopedic",
-          url: "procedures#Pediatric",
-        },
-        {
-          name: "Kyphoplasty",
-          url: "procedures#Kyphoplasty",
-        },
-        {
-          name: "Disc Replacement Surgery",
-          url: "procedures#Disc",
-        },
-        {
-          name: "Major spine surgeries",
-          url: "procedures#Major",
-        },
-        {
-          name: "Direct Anterior Hip Replacement",
-          url: "procedures#DAA",
-        },
+        // {
+        //   name: "Robotic Joint Replacement Surgery",
+        //   url: "procedures#Joint",
+        // },
+        // {
+        //   name: "Trauma & Fracture Surgery",
+        //   url: "procedures#Trauma",
+        // },
+        // {
+        //   name: "Arthroscopic Surgery",
+        //   url: "procedures#Arthroscopic",
+        // },
+        // {
+        //   name: "Pediatric Orthopedic",
+        //   url: "procedures#Pediatric",
+        // },
+        // {
+        //   name: "Kyphoplasty",
+        //   url: "procedures#Kyphoplasty",
+        // },
+        // {
+        //   name: "Disc Replacement Surgery",
+        //   url: "procedures#Disc",
+        // },
+        // {
+        //   name: "Major spine surgeries",
+        //   url: "procedures#Major",
+        // },
+        // {
+        //   name: "Direct Anterior Hip Replacement",
+        //   url: "procedures#DAA",
+        // },
       ],
     },
     {
@@ -230,63 +389,66 @@ const Navbar2 = () => {
       subLinks: [
         {
           name: "Testimonials",
-          url: "patients#Testimonials",
-        },
-        {
-          name: "Patient Stories",
-          url: "patients#Stories",
-        },
-        {
-          name: "International Patients",
-          url: "international-patients",
+          url: "patients",
+
+          subLink: [
+            {
+              name: "Orthopedic",
+              url: "patients#orthopedic",
+            },
+            {
+              name: "Gynecological",
+              url: "patients#gynecological",
+            },
+          ],
         },
       ],
     },
     {
-      name: "SMC Institute",
-      url: "SMC-institute",
-      subLinks: [
-        {
-          name: "24×7 Emergency Trauma Services",
-          url: "SMC-institute#Emergency",
-        },
-        {
-          name: "Peadiatric Orthopaedics",
-          url: "SMC-institute#Peadiatric",
-        },
-        {
-          name: "Physiotherapy & Rehabilitation",
-          url: "SMC-institute#Physiotherapy",
-        },
-        {
-          name: "General Orthopaedics",
-          url: "SMC-institute#General",
-        },
-        {
-          name: "Research And Academics",
-          url: "SMC-institute#Research",
-        },
-        {
-          name: "Orthotics & Prosthetics Workshop",
-          url: "SMC-institute#Workshop",
-        },
-        {
-          name: "Dual Energy X-Ray Absorptiometry",
-          url: "SMC-institute#X-Ray",
-        },
-        {
-          name: "Postgraduate Education",
-          url: "SMC-institute#Postgraduate",
-        },
-        {
-          name: "Robotics & AI",
-          url: "SMC-institute#Robotics",
-        },
-        {
-          name: "Specialised OPDs",
-          url: "SMC-institute#OPD",
-        },
-      ],
+      name: "Gallary",
+      url: "gallary",
+      // subLinks: [
+      //   {
+      //     name: "24×7 Emergency Trauma Services",
+      //     url: "SMC-institute#Emergency",
+      //   },
+      //   {
+      //     name: "Peadiatric Orthopaedics",
+      //     url: "SMC-institute#Peadiatric",
+      //   },
+      //   {
+      //     name: "Physiotherapy & Rehabilitation",
+      //     url: "SMC-institute#Physiotherapy",
+      //   },
+      //   {
+      //     name: "General Orthopaedics",
+      //     url: "SMC-institute#General",
+      //   },
+      //   {
+      //     name: "Research And Academics",
+      //     url: "SMC-institute#Research",
+      //   },
+      //   {
+      //     name: "Orthotics & Prosthetics Workshop",
+      //     url: "SMC-institute#Workshop",
+      //   },
+      //   {
+      //     name: "Dual Energy X-Ray Absorptiometry",
+      //     url: "SMC-institute#X-Ray",
+      //   },
+      //   {
+      //     name: "Postgraduate Education",
+      //     url: "SMC-institute#Postgraduate",
+      //   },
+      //   {
+      //     name: "Robotics & AI",
+      //     url: "SMC-institute#Robotics",
+      //   },
+      //   {
+      //     name: "Specialised OPDs",
+      //     url: "SMC-institute#OPD",
+      //   },
+      // ],
     },
     {
       name: "Contact",
@@ -382,7 +544,7 @@ const Navbar2 = () => {
               </div>
 
               <div className="header-btn d-inline-flex">
-                <Link to="/contact#Appointment" className="btn-default">
+                <Link to="tel:011-69269888" className="btn-default">
                   <span>Appointment</span>
                 </Link>
               </div>
@@ -433,7 +595,7 @@ const Navbar2 = () => {
                   <Link
                     class="nav-link"
                     to="/about"
-                    title="About Mrityunjay Hospital Meerut"
+                    title="About Mrityunjay Hospital"
                     tabindex="-1"
                   >
                     About
@@ -493,7 +655,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="dr-shachindra-shekhar.html"
-                          title="Senior Orthopedic Doctor Meerut"
+                          title="Senior Orthopedic Doctor"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -504,7 +666,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="dr-shubhankar-shekhar.html"
-                          title="Best Orthopedic Doctor in Meerut | Dr. Shubhankar Shekhar – Joint &amp; Fracture Specialist"
+                          title="Best Orthopedic Doctor | Dr. Shubhankar Shekhar – Joint &amp; Fracture Specialist"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -576,7 +738,7 @@ const Navbar2 = () => {
                   <Link
                     class="nav-link"
                     href="specialties.html"
-                    title="Best orthopedic treatments in Meerut"
+                    title="Best orthopedic treatments"
                     tabindex="-1"
                   >
                     Specialties
@@ -600,7 +762,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="shoulder-department.html"
-                        title="Shoulder treatment and surgery Meerut"
+                        title="Shoulder treatment and surgery"
                         tabindex="-1"
                       >
                         Shoulder Department
@@ -617,7 +779,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="shoulder-department.html#Instability"
-                          title="Shoulder Instability treatment Meerut"
+                          title="Shoulder Instability treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -628,7 +790,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="shoulder-department.html#Rotator"
-                          title="Rotator cuff tear treatment Meerut"
+                          title="Rotator cuff tear treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -639,7 +801,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="shoulder-department.html#Frozen"
-                          title="Frozen shoulder treatment Meerut"
+                          title="Frozen shoulder treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -659,7 +821,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="hand-microvascular-department.html"
-                        title="Hand &amp; Microvascular treatment Meerut"
+                        title="Hand &amp; Microvascular treatment"
                         tabindex="-1"
                       >
                         Hand &amp; Microvascular Department
@@ -676,7 +838,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="hand-microvascular-department.html#Elbow"
-                          title="Elbow instability treatment Meerut"
+                          title="Elbow instability treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -687,7 +849,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="hand-microvascular-department.html#Inflammatory"
-                          title="Inflammatory pathologies treatment Meerut"
+                          title="Inflammatory pathologies treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -707,7 +869,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="hip-department.html"
-                        title="Hip Treatment &amp; Surgery Meerut"
+                        title="Hip Treatment &amp; Surgery"
                         tabindex="-1"
                       >
                         Hip Department
@@ -724,7 +886,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="hip-department.html#Trauma"
-                          title="Hip surgery Meerut"
+                          title="Hip surgery"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -735,7 +897,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="hip-department.html#Injuries"
-                          title="Hip Labral injuries treatment Meerut"
+                          title="Hip Labral injuries treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -746,7 +908,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="hip-department.html#Replacement"
-                          title="Hip Replacement surgery Meerut"
+                          title="Hip Replacement surgery"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -757,7 +919,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="hip-department.html#DAA"
-                          title="Direct Anterior Approach (DAA) Hip Replacement Meerut"
+                          title="Direct Anterior Approach (DAA) Hip Replacement"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -777,7 +939,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="knee-department.html"
-                        title="Advanced Knee Treatment/Surgery Meerut"
+                        title="Advanced Knee Treatment/Surgery"
                         tabindex="-1"
                       >
                         Knee Department
@@ -794,7 +956,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="knee-department.html#Instability"
-                          title="Knee instability/pain treatment Meerut"
+                          title="Knee instability/pain treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -805,7 +967,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="knee-department.html#Replacement"
-                          title="Partial and Total Knee Replacement Surgery Meerut"
+                          title="Partial and Total Knee Replacement Surgery"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -825,7 +987,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="spine-department.html"
-                        title="Spine Treatment Meerut"
+                        title="Spine Treatment"
                         tabindex="-1"
                       >
                         Spine Department
@@ -842,7 +1004,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="spine-department.html#Degenerative"
-                          title="Degenerative spine/Disc disease treatment Meerut"
+                          title="Degenerative spine/Disc disease treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -862,7 +1024,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="foot-ankle-department.html"
-                        title="Foot &amp; Ankle Treatment Meerut"
+                        title="Foot &amp; Ankle Treatment"
                         tabindex="-1"
                       >
                         Foot And Ankle Department
@@ -879,7 +1041,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="foot-ankle-department.html#Arthroscopy"
-                          title="Ankle arthroscopy Meerut"
+                          title="Ankle arthroscopy"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -890,7 +1052,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="foot-ankle-department.html#Heel"
-                          title="Foot and heel pain treatment Meerut"
+                          title="Foot and heel pain treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -901,7 +1063,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="foot-ankle-department.html#Fractures"
-                          title="Foot and ankle fractures surgery Meerut"
+                          title="Foot and ankle fractures surgery"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -921,7 +1083,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="arthroscopy.html"
-                        title="Arthroscopy Meerut"
+                        title="Arthroscopy"
                         tabindex="-1"
                       >
                         Arthroscopy
@@ -938,7 +1100,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="arthroscopy.html#Injuries"
-                          title="Sports injuries treatment Meerut"
+                          title="Sports injuries treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -958,7 +1120,7 @@ const Navbar2 = () => {
                       <Link
                         class="nav-link"
                         href="rheumatology.html"
-                        title="Rheumatology Treatment Meerut"
+                        title="Rheumatology Treatment"
                         tabindex="-1"
                       >
                         Rheumatology
@@ -975,7 +1137,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="rheumatology.html#Arthritis"
-                          title="Arthritis Treatment Meerut"
+                          title="Arthritis Treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -986,7 +1148,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="rheumatology.html#Osteoarthritis"
-                          title="Osteoarthritis Treatment Meerut"
+                          title="Osteoarthritis Treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -997,7 +1159,7 @@ const Navbar2 = () => {
                         <Link
                           class="nav-link"
                           href="rheumatology.html#Tendinitis"
-                          title="Tendinitis Treatment Meerut"
+                          title="Tendinitis Treatment"
                           role="menuitem"
                           tabindex="-1"
                         >
@@ -1019,7 +1181,7 @@ const Navbar2 = () => {
                   <Link
                     class="nav-link"
                     href="procedures.html"
-                    title="Orthopaedic Procedures Meerut"
+                    title="Orthopaedic Procedures"
                     tabindex="-1"
                   >
                     Procedures
@@ -1118,7 +1280,7 @@ const Navbar2 = () => {
                 <Link
                   class="nav-link"
                   href="infra-equipment.html"
-                  title="Orthopedic infrastructure Meerut"
+                  title="Orthopedic infrastructure"
                   role="menuitem"
                   tabindex="-1"
                 >
@@ -1187,7 +1349,7 @@ const Navbar2 = () => {
                   <Link
                     class="nav-link"
                     href="MOH-institute.html"
-                    title="Orthopaedic Training &amp; Research Meerut"
+                    title="Orthopaedic Training &amp; Research"
                     tabindex="-1"
                   >
                     MOH Institute
@@ -1306,7 +1468,7 @@ const Navbar2 = () => {
                 <Link
                   class="nav-link"
                   href="contact.html"
-                  title="Contact best orthopaedic hospital Meerut"
+                  title="Contact best orthopaedic hospital"
                   role="menuitem"
                   tabindex="-1"
                 >

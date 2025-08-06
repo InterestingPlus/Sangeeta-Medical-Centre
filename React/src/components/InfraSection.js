@@ -360,7 +360,7 @@ const InfraSection = () => {
                 </div>
               </div>
 
-              <div class="swiper-slide">
+              {/* <div class="swiper-slide">
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
@@ -395,9 +395,9 @@ const InfraSection = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div class="swiper-slide">
+              {/* <div class="swiper-slide">
                 <div class="blog-item">
                   <div class="post-featured-image">
                     <figure>
@@ -430,7 +430,7 @@ const InfraSection = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div class="swiper-slide">
                 <div class="blog-item">

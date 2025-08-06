@@ -18,15 +18,20 @@ const About = () => {
               <div className="page-about-content">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Legacy & Milestones
+                    Our Journey & Legacy
                   </h2>
                   <p>
-                    Sangeeta Medical Centre has stood as a pillar of trust and
-                    excellence in Orthopedic and Gynecological care for over 35
-                    years.
+                    Established over 35 years ago, Sangeeta Ortho and Gynae
+                    Medical Center has become a trusted name in orthopedic and
+                    gynecological care in Rajasthan.
+                  </p>
+                  <p>
+                    Founded with the vision of providing ethical, compassionate,
+                    and expert medical services, our center has treated
+                    thousands of patients with dedication and excellence.
                   </p>
 
-                  <div className="custom-list mt-4">
+                  {/* <div className="custom-list mt-4">
                     <ul>
                       <li>
                         <strong>1980s–90s:</strong> Dr. Sangeeta Jindal
@@ -48,12 +53,12 @@ const About = () => {
                         and infertility support.
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
-                  <p>
+                  {/* <p>
                     Today, the center continues to lead with integrity,
                     compassion, and commitment to evolving medical excellence.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -98,30 +103,34 @@ const About = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Ethical Practice
+                    Ethical Medical Practices
                   </h2>
                   <p>
-                    Ethics is not just a policy at MOH—it’s a way of practice.
-                    We ensure transparency at every step of the treatment
-                    process—from diagnosis and investigation to surgery and
-                    post-operative care.
+                    At our core lies a commitment to ethical, transparent, and
+                    patient-first practices.
+                  </p>
+                  <p>
+                    We believe in honest diagnosis, evidence-based treatments,
+                    and ensuring that every patient is fully informed and
+                    comfortable with their care journey. Integrity and empathy
+                    guide all our decisions.
                   </p>
 
-                  <div className="custom-list mt-4">
+                  {/* <div className="custom-list mt-4">
                     <ul>
                       <li>No unnecessary investigations or surgeries</li>
                       <li>Second-opinion friendly approach</li>
                       <li>Respect for patient consent and understanding</li>
                       <li>Clear financial counseling before treatment</li>
                     </ul>
-                  </div>
+                  </div> */}
 
-                  <p>
+                  {/* <p>
                     Our belief is simple: "If it's not necessary, we don't do
                     it." Patients at MOH can be confident that every treatment
                     is done for the right reasons, by the right hands, and in
                     the right way.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -160,9 +169,8 @@ const About = () => {
                   <div className="therapy-process-item-content">
                     <h3>Our Vision</h3>
                     <p>
-                      To be North India’s most trusted orthopedic care provider,
-                      combining compassionate care with global surgical
-                      excellence.
+                      To be the most trusted and patient-centric orthopedic and
+                      gynecological center in the region.
                     </p>
                   </div>
                 </div>
@@ -184,9 +192,21 @@ const About = () => {
                   <div className="therapy-process-item-content">
                     <h3>Our Mission</h3>
                     <p>
-                      Providing advanced orthopedic care with dignity, safety,
-                      transparency, and mentorship, driven by evolving
-                      evidence-based practices.
+                      <ul>
+                        <li>
+                          Provide world-class treatment using the latest medical
+                          advancements.
+                        </li>
+
+                        <li>
+                          Maintain a warm, supportive environment for every
+                          patient.
+                        </li>
+
+                        <li>
+                          Educate the community on preventive care and wellness.
+                        </li>
+                      </ul>
                     </p>
                   </div>
                 </div>
@@ -219,14 +239,19 @@ const About = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Award & Recognition
+                    Awards & Recognitions
                   </h2>
                   <p>
-                    Mrityunjay Orthopedic Hospital and its team have been widely
-                    acknowledged for clinical brilliance and ethical conduct:
+                    Over the decades, Sangeeta Medical has received numerous
+                    honors from medical associations, local organizations, and
+                    government bodies for its contribution to healthcare.
+                  </p>
+                  <p>
+                    Our doctors are regularly invited for expert talks and panel
+                    discussions.
                   </p>
 
-                  <div className="custom-list mt-4">
+                  {/* <div className="custom-list mt-4">
                     <ul>
                       <li>
                         Invited globally for medical workshops and joint
@@ -242,13 +267,13 @@ const About = () => {
                         post-surgical outcomes and communication.
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
-                  <p>
+                  {/* <p>
                     Our recognitions are a reflection of our genuine dedication
                     to improving lives—not just awards, but responsibilities we
                     carry with pride.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -265,17 +290,21 @@ const About = () => {
               <div className="page-about-content">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Work with us
+                    Careers at Sangeeta Medical
                   </h2>
                   <p>
-                    MOH is more than a workplace—it's a movement toward better
-                    orthopedic care. We are looking for passionate professionals
-                    who want to make a difference. Whether you're a surgeon,
-                    physiotherapist, nurse, or support staff—if you have
-                    integrity, compassion, and a desire to grow, we welcome you.
+                    Looking to join a team of passionate healthcare
+                    professionals?
                   </p>
 
-                  <div className="custom-list mt-4">
+                  <p>
+                    We offer opportunities for doctors, nurses, lab technicians,
+                    and administrative staff. With ongoing training and a
+                    supportive environment, Sangeeta Medical is a great place to
+                    grow your career in healthcare.
+                  </p>
+
+                  {/* <div className="custom-list mt-4">
                     <ul>
                       <li>
                         Supportive work environment with learning opportunities
@@ -288,14 +317,14 @@ const About = () => {
                         Transparent HR policies and ethical code of conduct
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
-                  <p>
+                  {/* <p>
                     Interested candidates can email their resume to:{" "}
                     <a href="mailto:mrityunjayhospital@gmail.com">
                       mrityunjayhospital@gmail.com
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -326,7 +355,7 @@ const About = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/about/brand.jpg"
+                    src="https://www.mrityunjayhospital.com/images/about/brand.jpg"
                     alt="Brand"
                     loading="lazy"
                   />
@@ -340,16 +369,16 @@ const About = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    The Brand
+                    Our Brand Identity
                   </h2>
                   <p>
-                    Mrityunjay Orthopedic Hospital isn’t just known for
-                    surgeries—it’s known for stories of restored mobility,
-                    regained independence, and healed lives. Our brand
-                    represents:
+                    The Sangeeta Medical brand stands for trust, care, and
+                    excellence. Our logo symbolizes healing, our name inspires
+                    reassurance, and our work reflects years of medical
+                    expertise blended with compassion.
                   </p>
 
-                  <div className="custom-list mt-4">
+                  {/* <div className="custom-list mt-4">
                     <ul>
                       <li>Trust across generations</li>
                       <li>
@@ -364,13 +393,13 @@ const About = () => {
                         A name that stands for safety, honesty, and innovation
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
-                  <p>
+                  {/* <p>
                     As we transition from tradition to transformation, the MOH
                     brand continues to be rooted in values, driven by results,
                     and respected by the community.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -387,16 +416,18 @@ const About = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Privacy Policy
+                    Privacy Policy{" "}
                   </h2>
                   <p>
-                    At Sangeeta Medical Centre, protecting your privacy is not
-                    just a policy— it’s our professional and moral
-                    responsibility. We follow strict standards to ensure that
-                    your health data is handled with utmost care.
+                    We respect your privacy. All patient data is kept
+                    confidential and used solely for treatment and follow-ups.
+                  </p>
+                  <p>
+                    Our systems are compliant with national medical privacy laws
+                    to ensure your information is always secure.
                   </p>
 
-                  <div className="custom-list mt-4">
+                  {/* <div className="custom-list mt-4">
                     <ul>
                       <li>
                         Patient records are securely stored and accessible only
@@ -412,13 +443,13 @@ const About = () => {
                         our systems are protected by secure technologies.
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
-                  <p>
+                  {/* <p>
                     Your trust is our strength. We’re committed to respecting
                     your privacy at every stage of your healthcare journey with
                     us.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -427,7 +458,7 @@ const About = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/about/privacy-policy.jpg"
+                    src="https://www.mrityunjayhospital.com/images/about/privacy-policy.jpg"
                     alt="Sangeeta Medical Centre Privacy Policy"
                     loading="lazy"
                   />

@@ -37,14 +37,14 @@ const SliderSection = () => {
                   data-wow-delay="0.5s"
                 >
                   <Link
-                    to="/specialties"
+                    to="/contact"
                     title="Best orthopedic treatments in Meerut"
                     class="btn-default"
                   >
-                    <span>explore services</span>
+                    <span>make contact</span>
                   </Link>
                   <Link
-                    to="/contact#Appointment"
+                    to="tel:011-69269888"
                     class="btn-default btn-highlighted"
                   >
                     <span>book appointment</span>

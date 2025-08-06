@@ -20,7 +20,8 @@ app.listen(port, () => {
 });
 
 app.post("/send-email", (req, res) => {
-  const { name, email, message, selectedDoctor, contact } = req.body;
+  const { name, email, message, contact } = req.body;
+  const to = "sangeetmedicalcenter@gmail.com";
 
   console.log("New Request:", req.body);
 
@@ -34,7 +35,7 @@ app.post("/send-email", (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: selectedDoctor,
+    to,
     subject: "New Appointment Booking",
     text: `Name: ${name}\nEmail: ${email}\nContact: ${contact}\nMessage: ${message}`,
   };

@@ -54,10 +54,10 @@
 //                     style={{ marginRight: "10px", color: "#FFD700" }}
 //                   />
 //                   <Link
-//                     to="mailto:sangeetamedicalcentermeerut@gmail.com"
+//                     to="mailto:sangeetamedicalcenter@gmail.com"
 //                     style={{ color: "#fff", textDecoration: "none" }}
 //                   >
-//                     sangeetamedicalcentermeerut@gmail.com
+//                     sangeetamedicalcenter@gmail.com
 //                   </Link>
 //                 </li>
 //                 <li style={{ marginBottom: "15px" }}>
@@ -68,7 +68,7 @@
 //                   <span style={{ color: "#fff" }}>
 //                     A-14, Mawana Rd, Radha Garden, Ganga Nagar,
 //                     <br />
-//                     Meerut, Uttar Pradesh 250001
+//                     , Uttar Pradesh 250001
 //                   </span>
 //                 </li>
 //               </ul>
@@ -195,23 +195,20 @@ const Footer = () => {
                       <NavLink to="/">home</NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        to="about"
-                        title="About Mrityunjay Hospital Meerut"
-                      >
+                      <NavLink to="about" title="About Mrityunjay Hospital ">
                         about
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
                         to="contact"
-                        title="Contact best orthopaedic hospital Meerut"
+                        title="Contact best orthopaedic hospital "
                       >
                         contact
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="contact#Appointment">appointment</NavLink>
+                      <Link to="tel:011-69269888">appointment</Link>
                     </li>
                   </ul>
                 </div>
@@ -220,28 +217,25 @@ const Footer = () => {
                   <h3>usefull links</h3>
                   <ul>
                     <li>
-                      <NavLink to="about#Doctors">doctors</NavLink>
+                      <NavLink to="/about#doctors">doctors</NavLink>
                     </li>
                     <li>
                       <NavLink
                         to="specialties"
-                        title="Best orthopedic treatments in Meerut"
+                        title="Best orthopedic treatments in "
                       >
                         specialties
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        to="procedures"
-                        title="Orthopaedic Procedures Meerut"
-                      >
+                      <NavLink to="procedures" title="Orthopaedic Procedures ">
                         procedures
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
                         to="infra-equipment"
-                        title="Orthopedic infrastructure Meerut"
+                        title="Orthopedic infrastructure "
                       >
                         infra & equip
                       </NavLink>
@@ -251,10 +245,10 @@ const Footer = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="SMC-institute"
-                        title="Orthopaedic Training & Research Meerut"
+                        to="gallary"
+                        title="Orthopaedic Training & Research "
                       >
-                        SMC institute
+                        Gallary
                       </NavLink>
                     </li>
                   </ul>
@@ -265,34 +259,90 @@ const Footer = () => {
                   <ul>
                     <li>
                       <Link
-                        to="https://www.facebook.com/profile.php?id=61574519750197"
+                        to="https://www.facebook.com/profile.php?id=61569655910297"
                         target="_blank"
                       >
-                        <i className="fa-brands fa-facebook-f"></i>
+                        {/* <i className="fa-brands fa-facebook-f"></i> */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                          style={{ width: "15px" }}
+                        >
+                          <path d="M80 299.3l0 212.7 116 0 0-212.7 86.5 0 18-97.8-104.5 0 0-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4 .4 37 1.2l0-88.7C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4l0 42.1-66 0 0 97.8 66 0z" />
+                        </svg>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="https://www.instagram.com/drshubhankarshekhar"
+                        to="https://www.instagram.com/drramanjindal_orthopedic"
                         target="_blank"
                       >
-                        <i className="fa-brands fa-instagram"></i>
+                        {/* <i className="fa-brands fa-instagram"></i> */}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 640 640"
+                          style={{ width: "30px" }}
+                        >
+                          <path d="M320.3 205C256.8 204.8 205.2 256.2 205 319.7C204.8 383.2 256.2 434.8 319.7 435C383.2 435.2 434.8 383.8 435 320.3C435.2 256.8 383.8 205.2 320.3 205zM319.7 245.4C360.9 245.2 394.4 278.5 394.6 319.7C394.8 360.9 361.5 394.4 320.3 394.6C279.1 394.8 245.6 361.5 245.4 320.3C245.2 279.1 278.5 245.6 319.7 245.4zM413.1 200.3C413.1 185.5 425.1 173.5 439.9 173.5C454.7 173.5 466.7 185.5 466.7 200.3C466.7 215.1 454.7 227.1 439.9 227.1C425.1 227.1 413.1 215.1 413.1 200.3zM542.8 227.5C541.1 191.6 532.9 159.8 506.6 133.6C480.4 107.4 448.6 99.2 412.7 97.4C375.7 95.3 264.8 95.3 227.8 97.4C192 99.1 160.2 107.3 133.9 133.5C107.6 159.7 99.5 191.5 97.7 227.4C95.6 264.4 95.6 375.3 97.7 412.3C99.4 448.2 107.6 480 133.9 506.2C160.2 532.4 191.9 540.6 227.8 542.4C264.8 544.5 375.7 544.5 412.7 542.4C448.6 540.7 480.4 532.5 506.6 506.2C532.8 480 541 448.2 542.8 412.3C544.9 375.3 544.9 264.5 542.8 227.5zM495 452C487.2 471.6 472.1 486.7 452.4 494.6C422.9 506.3 352.9 503.6 320.3 503.6C287.7 503.6 217.6 506.2 188.2 494.6C168.6 486.8 153.5 471.7 145.6 452C133.9 422.5 136.6 352.5 136.6 319.9C136.6 287.3 134 217.2 145.6 187.8C153.4 168.2 168.5 153.1 188.2 145.2C217.7 133.5 287.7 136.2 320.3 136.2C352.9 136.2 423 133.6 452.4 145.2C472 153 487.1 168.1 495 187.8C506.7 217.3 504 287.3 504 319.9C504 352.5 506.7 422.6 495 452z" />
+                        </svg>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="https://www.youtube.com/channel/UCQfZiGwRQ_YP0zJ-QAJ3SIg"
+                        to="https://www.youtube.com/@DrManishaChaudhary.meerut"
                         target="_blank"
                       >
-                        <i className="fa-brands fa-youtube"></i>
+                        {" "}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 640 640"
+                          style={{ width: "30px", color: "red" }}
+                        >
+                          <path d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z" />
+                        </svg>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="https://www.linkedin.com/in/shubhankar-shekhar-a7306a15a/"
+                        to="https://www.facebook.com/Drmanishachaudharymeerut"
                         target="_blank"
                       >
-                        <i className="fa-brands fa-linkedin-in"></i>
+                        {" "}
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                          style={{ width: "15px" }}
+                        >
+                          <path d="M80 299.3l0 212.7 116 0 0-212.7 86.5 0 18-97.8-104.5 0 0-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4 .4 37 1.2l0-88.7C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4l0 42.1-66 0 0 97.8 66 0z" />
+                        </svg>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="https://www.instagram.com/drmanisha_gynaec"
+                        target="_blank"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 640 640"
+                          style={{ width: "30px" }}
+                        >
+                          <path d="M320.3 205C256.8 204.8 205.2 256.2 205 319.7C204.8 383.2 256.2 434.8 319.7 435C383.2 435.2 434.8 383.8 435 320.3C435.2 256.8 383.8 205.2 320.3 205zM319.7 245.4C360.9 245.2 394.4 278.5 394.6 319.7C394.8 360.9 361.5 394.4 320.3 394.6C279.1 394.8 245.6 361.5 245.4 320.3C245.2 279.1 278.5 245.6 319.7 245.4zM413.1 200.3C413.1 185.5 425.1 173.5 439.9 173.5C454.7 173.5 466.7 185.5 466.7 200.3C466.7 215.1 454.7 227.1 439.9 227.1C425.1 227.1 413.1 215.1 413.1 200.3zM542.8 227.5C541.1 191.6 532.9 159.8 506.6 133.6C480.4 107.4 448.6 99.2 412.7 97.4C375.7 95.3 264.8 95.3 227.8 97.4C192 99.1 160.2 107.3 133.9 133.5C107.6 159.7 99.5 191.5 97.7 227.4C95.6 264.4 95.6 375.3 97.7 412.3C99.4 448.2 107.6 480 133.9 506.2C160.2 532.4 191.9 540.6 227.8 542.4C264.8 544.5 375.7 544.5 412.7 542.4C448.6 540.7 480.4 532.5 506.6 506.2C532.8 480 541 448.2 542.8 412.3C544.9 375.3 544.9 264.5 542.8 227.5zM495 452C487.2 471.6 472.1 486.7 452.4 494.6C422.9 506.3 352.9 503.6 320.3 503.6C287.7 503.6 217.6 506.2 188.2 494.6C168.6 486.8 153.5 471.7 145.6 452C133.9 422.5 136.6 352.5 136.6 319.9C136.6 287.3 134 217.2 145.6 187.8C153.4 168.2 168.5 153.1 188.2 145.2C217.7 133.5 287.7 136.2 320.3 136.2C352.9 136.2 423 133.6 452.4 145.2C472 153 487.1 168.1 495 187.8C506.7 217.3 504 287.3 504 319.9C504 352.5 506.7 422.6 495 452z" />
+                        </svg>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="https://www.youtube.com/@DrManishaChaudhary.meerut"
+                        target="_blank"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 576 512"
+                          style={{ width: "25px" }}
+                        >
+                          <path d="M549.7 124.1C543.5 100.4 524.9 81.8 501.4 75.5 458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5C51.2 81.8 32.7 100.4 26.4 124.1 15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8 42.6 11.5 213.4 11.5 213.4 11.5s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6l0-162.4 142.7 81.2-142.7 81.2z" />
+                        </svg>
                       </Link>
                     </li>
                   </ul>
@@ -307,7 +357,7 @@ const Footer = () => {
                       </div>
                       <div className="footer-info-box-content">
                         <p>
-                          (+91) <a href="tel:+919837054400">9837054400</a>
+                          <a href="tel:011-69269888">011-69269888</a>
                         </p>
                       </div>
                     </div>
@@ -343,13 +393,16 @@ const Footer = () => {
                       </div>
                       <div className="footer-info-box-content">
                         <p>
-                          <Link href="mailto:drmanishachaudharyobg@gmail.com">
+                          <Link to="mailto:sangeetmedicalcenter@gmail.com">
+                            sangeetmedicalcenter@gmail.com
+                          </Link>
+                          {/* <Link to="mailto:drmanishachaudharyobg@gmail.com">
                             drmanishachaudharyobg@gmail.com
                           </Link>
                           <br />
-                          <NavLink href="mailto:drjindalraman@gmail.com">
+                          <Link to="mailto:drjindalraman@gmail.com">
                             drjindalraman@gmail.com
-                          </NavLink>
+                          </Link> */}
                         </p>
                       </div>
                     </div>
@@ -369,7 +422,7 @@ const Footer = () => {
                           target="_blank"
                           className="color-secondary"
                         >
-                          Prudent Branding, Meerut
+                          Prudent Branding,
                         </Link>
                       </li>
                     </ul>

@@ -4,7 +4,7 @@
   flex-direction: column;
   padding: 2rem;
 
-  background: #720e18;
+  background: var(--primary-color);
 }
 .section-title h1.heading {
   text-align: center;
@@ -37,7 +37,7 @@
     gap: 0.5rem;
 
     span {
-      background: #720e18;
+      background: var(--primary-color);
       border-radius: 10px;
       padding: 0.3rem 1rem;
       color: #fff;
@@ -54,7 +54,7 @@
 }
 .blog-card h3 a {
   text-decoration: none;
-  color: #720e18;
+  color: var(--primary-color);
 }
 .blog-card h3 a:hover {
   text-decoration: underline;

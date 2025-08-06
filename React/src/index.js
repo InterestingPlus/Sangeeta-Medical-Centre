@@ -14,12 +14,12 @@ import Doctor from "./pages/Doctor";
 import Contact from "./pages/Contact";
 import Procedures from "./pages/Procedures";
 import InfraEquipment from "./pages/InfraEquipment";
-import SMCInstitute from "./pages/SMCInstitute";
 import Patients from "./pages/Patients";
 import ScrollToHashElement from "./components/ScrollToHashElement";
 import InPatients from "./components/InPatients";
 import BlogPage from "./components/BlogSection";
 import Blog from "./pages/Blog";
+import Gallary from "./pages/Gallary";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -43,7 +43,7 @@ root.render(
 
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/infra-equipment" element={<InfraEquipment />} />
-          <Route path="/SMC-institute" element={<SMCInstitute />} />
+          <Route path="/gallary" element={<Gallary />} />
           <Route path="/patients" element={<Patients />} />
           <Route path="/international-patients" element={<InPatients />} />
         </Route>

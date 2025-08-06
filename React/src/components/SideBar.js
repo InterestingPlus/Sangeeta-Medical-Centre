@@ -32,7 +32,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/shoulder-department#Instability"
-                        title="Shoulder Instability treatment Meerut"
+                        title="Shoulder Instability treatment"
                       >
                         Shoulder Instability
                       </Link>
@@ -40,7 +40,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/shoulder-department#Rotator"
-                        title="Rotator cuff tear treatment Meerut"
+                        title="Rotator cuff tear treatment"
                       >
                         Rotator cuff tear
                       </Link>
@@ -48,7 +48,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/shoulder-department#Frozen"
-                        title="Frozen shoulder treatment Meerut"
+                        title="Frozen shoulder treatment"
                       >
                         Frozen shoulder
                       </Link>
@@ -82,7 +82,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/hand-microvascular-department#Elbow"
-                        title="Elbow instability treatment Meerut"
+                        title="Elbow instability treatment"
                       >
                         Elbow instability
                       </Link>
@@ -90,7 +90,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/hand-microvascular-department#Inflammatory"
-                        title="Inflammatory pathologies treatment Meerut"
+                        title="Inflammatory pathologies treatment"
                       >
                         Inflammatory pathologies
                       </Link>
@@ -124,7 +124,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/hip-department#Trauma"
-                        title="Hip surgery Meerut"
+                        title="Hip surgery"
                       >
                         Hip trauma
                       </Link>
@@ -132,7 +132,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/hip-department#Injuries"
-                        title="Hip Labral injuries treatment Meerut"
+                        title="Hip Labral injuries treatment"
                       >
                         Labral injuries
                       </Link>
@@ -140,7 +140,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/hip-department#Replacement"
-                        title="Hip Replacement surgery Meerut"
+                        title="Hip Replacement surgery"
                       >
                         Hip Replacement
                       </Link>
@@ -148,7 +148,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/hip-department#DAA"
-                        title="Direct Anterior Approach (DAA) Hip Replacement Meerut"
+                        title="Direct Anterior Approach (DAA) Hip Replacement"
                       >
                         DAA Hip Replacement
                       </Link>
@@ -182,7 +182,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/knee-department#Instability"
-                        title="Knee instability/pain treatment Meerut"
+                        title="Knee instability/pain treatment"
                       >
                         Knee instability/pain
                       </Link>
@@ -190,7 +190,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/knee-department#Replacement"
-                        title="Partial and Total Knee Replacement Surgery Meerut"
+                        title="Partial and Total Knee Replacement Surgery"
                       >
                         Knee Replacement (Partial/Total)
                       </Link>
@@ -224,7 +224,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/spine-department#Degenerative"
-                        title="Degenerative spine/Disc disease treatment Meerut"
+                        title="Degenerative spine/Disc disease treatment"
                       >
                         Degenerative spine/Disc disease
                       </Link>
@@ -258,7 +258,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/foot-ankle-department#Arthroscopy"
-                        title="Ankle arthroscopy Meerut"
+                        title="Ankle arthroscopy"
                       >
                         Ankle arthroscopy
                       </Link>
@@ -266,7 +266,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/foot-ankle-department#Heel"
-                        title="Foot and heel pain treatment Meerut"
+                        title="Foot and heel pain treatment"
                       >
                         Foot and heel pain
                       </Link>
@@ -274,7 +274,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/foot-ankle-department#Fractures"
-                        title="Foot and ankle fractures surgery Meerut"
+                        title="Foot and ankle fractures surgery"
                       >
                         Foot and ankle fractures
                       </Link>
@@ -308,7 +308,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/arthroscopy#Injuries"
-                        title="Sports injuries treatment Meerut"
+                        title="Sports injuries treatment"
                       >
                         Sports injuries
                       </Link>
@@ -342,7 +342,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/rheumatology#Arthritis"
-                        title="Arthritis Treatment Meerut"
+                        title="Arthritis Treatment"
                       >
                         Arthritis
                       </Link>
@@ -350,7 +350,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/rheumatology#Osteoarthritis"
-                        title="Osteoarthritis Treatment Meerut"
+                        title="Osteoarthritis Treatment"
                       >
                         Osteoarthritis
                       </Link>
@@ -358,7 +358,7 @@ const SideBar = () => {
                     <li>
                       <Link
                         to="/specialties/rheumatology#Tendinitis"
-                        title="Tendinitis Treatment Meerut"
+                        title="Tendinitis Treatment"
                       >
                         Tendinitis
                       </Link>
@@ -380,7 +380,7 @@ const SideBar = () => {
           </ul>
           <div className="working-hours-btn">
             {" "}
-            <Link to="/contact#Appointment" className="btn-default">
+            <Link to="tel:011-69269888" className="btn-default">
               <span>make an appointment</span>
             </Link>{" "}
           </div>

@@ -54,13 +54,13 @@ const DoctorsSection = () => {
 
   return (
     <>
-      <div className="therapist-team bg-radius-section">
+      <div className="therapist-team bg-radius-section" id="doctors">
         <div className="container">
           <div className="row section-row text-center">
             <div className="col-lg-12">
               <div className="section-title mb-0">
                 <h2 className="text-anime-style-3" data-cursor="-opaque">
-                  Our dedicated & experienced doctors
+                  Meet Our Doctors
                 </h2>
               </div>
             </div>

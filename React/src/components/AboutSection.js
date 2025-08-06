@@ -224,23 +224,38 @@ const About = () => {
                     marginBottom: "10px",
                   }}
                 >
-                  Trusted OB-GYN Care in Meerut
+                  About Sangeeta Medical Center (SMC)
                 </h1>
                 <h2 class="text-anime-style-3" data-cursor="-opaque">
-                  About Sangeeta Medical Centre
+                  Best Ortho & Gynae Hospital in meerut
                 </h2>
                 <p class="wow fadeInUp" data-wow-delay="0.25s">
-                  With over 35 years of excellence, Sangeeta Medical Centre, led
-                  by Dr. Manisha Chaudhary, has been a beacon of women's health
-                  in Meerut. Known for compassionate and personalized care, we
-                  provide complete OB-GYN solutions—from consultations and
-                  birthing support to advanced treatments and surgical
-                  procedures.
+                  Sangeeta Medical Center (SMC) has been a trusted name in
+                  Orthopedic and Gynecological care in Sri Ganganagar for over
+                  35 years. Founded by the highly respected Dr. Raman Jindal
+                  (Orthopedic Surgeon) and Dr. Sangeeta Jindal (Senior
+                  Gynecologist), the center started as a small clinic with a big
+                  mission: to provide ethical, expert, and compassionate care to
+                  every patient.
                   <br />
                   <br />
-                  Our mission is to ensure every woman receives expert,
-                  empathetic, and effective care, backed by modern medical
-                  technologies and heartfelt dedication.
+                  Over the years, SMC has evolved into a state-of-the-art
+                  medical facility, blending legacy with modern advancements.
+                  Now, with the dynamic and dedicated Dr. Manisha joining the
+                  team, the center continues to grow stronger—offering a modern
+                  approach to women's health, adolescent care, fertility
+                  treatment, and painless delivery.
+                  <br />
+                  With expertise spanning joint replacement, spine care,
+                  fracture management, pregnancy care, laparoscopic surgeries,
+                  infertility treatments, and more, SMC stands at the forefront
+                  of healthcare in the region.
+                  <br />
+                  <br />
+                  Conveniently located in the heart of Sri Ganganagar, near
+                  Nehru Park, Sangeeta Medical Center is not just a
+                  hospital—it’s a legacy of trust, care, and healing, passed on
+                  through generations.
                 </p>
               </div>
 

@@ -1,0 +1,94 @@
+import { isSpan$1 as isSpan } from "../_chunks-es/util.slice-blocks.js";
+import { blockOffsetToSpanSelectionPoint, getBlockStartPoint, getSelectionEndPoint, getSelectionStartPoint, getTextBlockText, isKeyedSegment, sliceBlocks, spanSelectionPointToBlockOffset } from "../_chunks-es/util.slice-blocks.js";
+import { blockOffsetToBlockSelectionPoint, blockOffsetToSelectionPoint, blockOffsetsToSelection, childSelectionPointToBlockOffset } from "../_chunks-es/util.child-selection-point-to-block-offset.js";
+import { isEqualSelectionPoints } from "../_chunks-es/util.is-selection-collapsed.js";
+import { getBlockEndPoint, isEmptyTextBlock, isSelectionCollapsed } from "../_chunks-es/util.is-selection-collapsed.js";
+import { isTextBlock, mergeTextBlocks } from "../_chunks-es/util.merge-text-blocks.js";
+import { sliceTextBlock } from "../_chunks-es/util.slice-text-block.js";
+import { selectionPointToBlockOffset } from "../_chunks-es/util.slice-text-block.js";
+function isEqualSelections(a, b) {
+  return !a && !b ? !0 : !a || !b ? !1 : isEqualSelectionPoints(a.anchor, b.anchor) && isEqualSelectionPoints(a.focus, b.focus);
+}
+function reverseSelection(selection) {
+  return selection && (selection.backward ? {
+    anchor: selection.focus,
+    focus: selection.anchor,
+    backward: !1
+  } : {
+    anchor: selection.focus,
+    focus: selection.anchor,
+    backward: !0
+  });
+}
+function splitTextBlock({
+  context,
+  block,
+  point
+}) {
+  const firstChild = block.children.at(0), lastChild = block.children.at(block.children.length - 1);
+  if (!firstChild || !lastChild)
+    return;
+  const before = sliceTextBlock({
+    context: {
+      schema: context.schema,
+      selection: {
+        anchor: {
+          path: [{
+            _key: block._key
+          }, "children", {
+            _key: firstChild._key
+          }],
+          offset: 0
+        },
+        focus: point
+      }
+    },
+    block
+  }), after = sliceTextBlock({
+    context: {
+      schema: context.schema,
+      selection: {
+        anchor: point,
+        focus: {
+          path: [{
+            _key: block._key
+          }, "children", {
+            _key: lastChild._key
+          }],
+          offset: isSpan(context, lastChild) ? lastChild.text.length : 0
+        }
+      }
+    },
+    block
+  });
+  return {
+    before,
+    after
+  };
+}
+export {
+  blockOffsetToBlockSelectionPoint,
+  blockOffsetToSelectionPoint,
+  blockOffsetToSpanSelectionPoint,
+  blockOffsetsToSelection,
+  childSelectionPointToBlockOffset,
+  getBlockEndPoint,
+  getBlockStartPoint,
+  getSelectionEndPoint,
+  getSelectionStartPoint,
+  getTextBlockText,
+  isEmptyTextBlock,
+  isEqualSelectionPoints,
+  isEqualSelections,
+  isKeyedSegment,
+  isSelectionCollapsed,
+  isSpan,
+  isTextBlock,
+  mergeTextBlocks,
+  reverseSelection,
+  selectionPointToBlockOffset,
+  sliceBlocks,
+  spanSelectionPointToBlockOffset,
+  splitTextBlock
+};
+//# sourceMappingURL=index.js.map

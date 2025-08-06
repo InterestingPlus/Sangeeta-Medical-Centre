@@ -49,11 +49,11 @@ const BookApointment = () => {
             <div className="contact-us-form">
               <div className="section-title mb-4 text-center">
                 <h2 className="text-anime-style-3" data-cursor="-opaque">
-                  Book an Appointment
+                  Send Us a Message
                 </h2>
                 <p className="mt-2">
-                  Call or message us to schedule an OPD or surgical consultation
-                  with Dr. Shubhankar Shekhar.
+                  {/* Call or message us to schedule an OPD or surgical consultation
+                  with Dr. Shubhankar Shekhar. */}
                 </p>
               </div>
               <form
@@ -102,8 +102,7 @@ const BookApointment = () => {
                   </div>
 
                   {/* Select Doctor Start */}
-
-                  <div className="form-group col-md-6 mb-4">
+                  {/* <div className="form-group col-md-6 mb-4">
                     <div
                       className="tesla-select-wrapper"
                       style={{ position: "relative" }}
@@ -130,8 +129,7 @@ const BookApointment = () => {
                           </option>
                         ))}
                       </select>
-
-                      {/* Custom dropdown icon */}
+ 
                       <span
                         style={{
                           position: "absolute",
@@ -146,7 +144,7 @@ const BookApointment = () => {
 
                       <div className="help-block with-errors"></div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* Select Doctor End */}
 
                   <div className="form-group col-md-12 mb-4">

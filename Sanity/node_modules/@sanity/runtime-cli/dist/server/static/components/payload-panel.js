@@ -1,0 +1,49 @@
+/* globals customElements document */
+import {sanityCodeMirrorTheme} from './codemirror-theme.js'
+
+import {EditorView, basicSetup, json} from '../vendor/vendor.bundle.js'
+import {ApiBaseElement} from './api-base.js'
+
+const template = `<div class="gutter-gradient relative h-100 max-h-100 y-scroll border-top border-top-none-l">
+    <div class="bg gutter-gradient sticky top-0 right-0 left-0 z-100">
+      <div class="flex items-center space-between" style="padding: 8px 20px 8px 48px;">
+      <h2 class="config-label mar-t-0 mar-b-0">Document</h2>
+  </div>
+    <hr class='hr-border' style='margin-left: 31px; ' />
+    </div>
+    <div id="payload" name="payload" class='max-h-100 min-h-0'></div>
+</div>
+`
+class PayloadPanel extends ApiBaseElement {
+  updatePayload = ({document}) => {
+    if (!document) return
+
+    const transaction = this.api.store.payload.state.update({
+      changes: {
+        from: 0,
+        insert: JSON.stringify(document, null, 2),
+        to: this.api.store.payload.state.doc.length,
+      },
+    })
+    this.api.store.payload.dispatch(transaction)
+  }
+  connectedCallback() {
+    this.innerHTML = template
+    this.payload = this.querySelector('#payload')
+
+    this.api.store.payload = new EditorView({
+      doc: '\n\n\n\n',
+      extensions: [basicSetup, json(), sanityCodeMirrorTheme],
+      parent: this.payload,
+    })
+
+    this.api.subscribe(this.updatePayload, ['document'])
+  }
+  disconnectedCallback() {
+    if (this.api) {
+      this.api.unsubscribe(this.updatePayload)
+    }
+  }
+}
+
+customElements.define('payload-panel', PayloadPanel)

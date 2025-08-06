@@ -138,7 +138,7 @@ const Doctor = () => {
                       </div>
 
                       <div className="section-btn">
-                        <Link to="/contact#Appointment" className="btn-default">
+                        <Link to="tel:011-69269888" className="btn-default">
                           <span>make an appointment</span>
                         </Link>
                       </div>
