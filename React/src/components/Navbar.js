@@ -473,7 +473,11 @@ const Navbar2 = () => {
 
             <div className="collapse navbar-collapse main-menu">
               <div className="nav-menu-wrapper">
-                <ul className="navbar-nav mr-auto" id="menu">
+                <ul
+                  className="navbar-nav mr-auto"
+                  id="menu"
+                  style={{ listStyle: "none" }}
+                >
                   {navigations.map((navigation, index) => (
                     <li className="nav-item submenu" key={index}>
                       <NavLink
@@ -493,7 +497,7 @@ const Navbar2 = () => {
                       </NavLink>
 
                       {navigation.subLinks && (
-                        <ul className="sub-menu">
+                        <ul className="sub-menu" style={{ listStyle: "none" }}>
                           {navigation.subLinks.map((sublink, subIndex) => (
                             <li className="nav-item" key={subIndex}>
                               <NavLink
@@ -519,7 +523,10 @@ const Navbar2 = () => {
                               </NavLink>
 
                               {Array.isArray(sublink.subLink) && (
-                                <ul className="sub-menu">
+                                <ul
+                                  className="sub-menu"
+                                  style={{ listStyle: "none" }}
+                                >
                                   {sublink.subLink.map(
                                     (sublink2, innerIndex) => (
                                       <li className="nav-item" key={innerIndex}>

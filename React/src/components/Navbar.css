@@ -13,13 +13,15 @@
 
 .main-header .header-sticky .navbar-nav .nav-item .nav-link:hover,
 .main-header .header-sticky .navbar-nav .nav-item .nav-link:focus {
-  color: #f7941d;
+  /* color: #f7941d; */
+  color: var(--accent-color);
 }
 
 /* Styles for sub-menus if you have them */
 .main-header .header-sticky .navbar-nav .sub-menu {
   color: #fff !important;
-  background: #720e18;
+  /* background: #720e18; */
+  background: var(--primary-color);
 }
 
 .main-header .header-sticky .navbar-nav .sub-menu .nav-item .nav-link {
