@@ -25,7 +25,8 @@ const Contact = () => {
                 </div>
                 <h3 className="fs-4 mt-3">
                   We’re here to help you with compassionate care and expert
-                  medical solutions.
+                  medical solutions. Reach out to us to book an appointment or
+                  for any health-related queries.
                 </h3>
                 <p className="mt-2">
                   Reach out to us to book an appointment or for any

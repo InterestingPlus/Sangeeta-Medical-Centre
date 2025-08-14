@@ -6,7 +6,7 @@ const About = () => {
     <>
       <BreadCrumb
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
-        title="About Sangeeta Medical Centre"
+        title="About Sangeeta Ortho and Gynae Medical Center"
         page="About"
       />
 
@@ -21,14 +21,24 @@ const About = () => {
                     Our Journey & Legacy
                   </h2>
                   <p>
-                    Established over 35 years ago, Sangeeta Ortho and Gynae
-                    Medical Center has become a trusted name in orthopedic and
-                    gynecological care in Rajasthan.
+                    Sangeeta Medical Center began with a simple yet powerful
+                    vision – to provide compassionate, reliable, and advanced
+                    healthcare to our community. Founded by dedicated medical
+                    professionals, we have grown from a small clinic into a
+                    trusted multi-specialty center, offering excellence in
+                    Gynecology, Orthopedics, and General Medicine.
                   </p>
                   <p>
-                    Founded with the vision of providing ethical, compassionate,
-                    and expert medical services, our center has treated
-                    thousands of patients with dedication and excellence.
+                    Over the years, we have touched countless lives, combining
+                    medical expertise with a personal touch that makes every
+                    patient feel cared for and respected. Our legacy is built on
+                    trust, ethical practice, and an unwavering commitment to
+                    improving health outcomes.
+                  </p>
+                  <p>
+                    Today, Sangeeta Medical Center stands as a beacon of hope
+                    and healing – a place where tradition meets innovation, and
+                    every patient’s well-being comes first.
                   </p>
 
                   {/* <div className="custom-list mt-4">
@@ -67,7 +77,7 @@ const About = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/about/sangeeta-legacy.jpg"
+                    src="images/about/DSC_0106.jpg"
                     alt="Sangeeta Medical Centre Legacy"
                     loading="lazy"
                   />
@@ -81,63 +91,7 @@ const About = () => {
       </div>
       {/* Legacy Section End */}
 
-      {/* Ethical Section Start */}
-      <div className="page-about-us bg-radius-section2 bg-light" id="Ethical">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
-              <div className="how-work-image-box-2 rounded-4">
-                <div className="how-work-img-2">
-                  <img
-                    src="images/about/ethical-practice.jpg"
-                    alt="Ethical Practice"
-                    loading="lazy"
-                  />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-7">
-              <div className="page-about-content-left">
-                <div className="section-title mb-0">
-                  <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Ethical Medical Practices
-                  </h2>
-                  <p>
-                    At our core lies a commitment to ethical, transparent, and
-                    patient-first practices.
-                  </p>
-                  <p>
-                    We believe in honest diagnosis, evidence-based treatments,
-                    and ensuring that every patient is fully informed and
-                    comfortable with their care journey. Integrity and empathy
-                    guide all our decisions.
-                  </p>
-
-                  {/* <div className="custom-list mt-4">
-                    <ul>
-                      <li>No unnecessary investigations or surgeries</li>
-                      <li>Second-opinion friendly approach</li>
-                      <li>Respect for patient consent and understanding</li>
-                      <li>Clear financial counseling before treatment</li>
-                    </ul>
-                  </div> */}
-
-                  {/* <p>
-                    Our belief is simple: "If it's not necessary, we don't do
-                    it." Patients at MOH can be confident that every treatment
-                    is done for the right reasons, by the right hands, and in
-                    the right way.
-                  </p> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Ethical Section End */}
+     
 
       {/* Doctors Section Start */}
       <DoctorsSection />
@@ -476,3 +430,67 @@ const About = () => {
 };
 
 export default About;
+
+
+
+
+
+
+//  {/* Ethical Section Start */}
+      
+//       <div className="page-about-us bg-radius-section2 bg-light" id="Ethical">
+//         <div className="container">
+//           <div className="row align-items-center">
+//             <div className="col-lg-5">
+//               <div className="how-work-image-box-2 rounded-4">
+//                 <div className="how-work-img-2">
+//                   <img
+//                     src="images/about/ethical-practice.jpg"
+//                     alt="Ethical Practice"
+//                     loading="lazy"
+//                   />
+//                   {/* <figure className="image-anime reveal">
+//                   </figure> */}
+//                 </div>
+//               </div>
+//             </div>
+
+//             <div className="col-lg-7">
+//               <div className="page-about-content-left">
+//                 <div className="section-title mb-0">
+//                   <h2 className="text-anime-style-3" data-cursor="-opaque">
+//                     Ethical Medical Practices
+//                   </h2>
+//                   <p>
+//                     At our core lies a commitment to ethical, transparent, and
+//                     patient-first practices.
+//                   </p>
+//                   <p>
+//                     We believe in honest diagnosis, evidence-based treatments,
+//                     and ensuring that every patient is fully informed and
+//                     comfortable with their care journey. Integrity and empathy
+//                     guide all our decisions.
+//                   </p>
+
+//                   {/* <div className="custom-list mt-4">
+//                     <ul>
+//                       <li>No unnecessary investigations or surgeries</li>
+//                       <li>Second-opinion friendly approach</li>
+//                       <li>Respect for patient consent and understanding</li>
+//                       <li>Clear financial counseling before treatment</li>
+//                     </ul>
+//                   </div> */}
+
+//                   {/* <p>
+//                     Our belief is simple: "If it's not necessary, we don't do
+//                     it." Patients at MOH can be confident that every treatment
+//                     is done for the right reasons, by the right hands, and in
+//                     the right way.
+//                   </p> */}
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       {/* Ethical Section End */}

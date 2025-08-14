@@ -18,15 +18,15 @@ const Navbar = () => {
       url: "about",
       subLinks: [
         {
-          name: "Legacy & Milestones",
+          name: "Our Journey & Legacy",
           url: "about#Legacy",
         },
+        // {
+        //   name: "Ethical Practice",
+        //   url: "about#Ethical",
+        // },
         {
-          name: "Ethical Practice",
-          url: "about#Ethical",
-        },
-        {
-          name: "Our Doctors",
+          name: "Meet Our Doctors",
           url: "about#Doctors",
           subLink: doctors,
         },
@@ -465,8 +465,8 @@ const Navbar = () => {
           <div className="container">
             <Link className="navbar-brand" to="/">
               <img
-                src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
-                alt="Mrityunjay Orthopaedic Hospital Logo"
+                src="images/LOGO.png"
+                alt="Sangeeta Ortho And Gyane Centre Logo"
                 style={{ width: "200px" }}
               />
             </Link>
