@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./WhyChooseSection.css"
 const WhyChooseSection = () => {
   const CircularCheckBox = () => {
     return (

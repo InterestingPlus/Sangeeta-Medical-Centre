@@ -4,7 +4,7 @@ import "./Navbar.css";
 import doctorData from "../pages/Doctor.json";
 import { useState } from "react";
 
-const Navbar2 = () => {
+const Navbar = () => {
   const doctors = doctorData?.map((doc) => {
     return {
       name: doc.name,
@@ -491,7 +491,6 @@ const Navbar2 = () => {
                             className="dropdown"
                             style={{ fontSize: "0.75rem", marginLeft: "4px" }}
                           >
-                            <i class="fa-solid fa-angle-left"></i>
                           </span>
                         )}
                       </NavLink>
@@ -1490,4 +1489,4 @@ const Navbar2 = () => {
   );
 };
 
-export default Navbar2;
+export default Navbar;
