@@ -1,0 +1,97 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. Raman Jindal",
+      "designation": "Orthopedic Doctor",
+      "education": "MBBS, MS Orthopedics, Fellowship in Joint Replacement Surgery",
+      "description": "Dr. Raman Jindal is a highly experienced and trusted orthopedic doctor in Meerut, known for advanced care.",
+      "hospital": "Sangeeta Ortho and Gynae Center",
+      "location": "Meerut",
+      "experienceYears": "20",
+      "position": "Chief Orthopedic Surgeon",
+      "email": "raman.jindal@example.com",
+      "phone": "9897654321",
+      "timings": ["Mon - Fri: 10 AM - 5 PM", "Sat: 10 AM - 2 PM"],
+      "emergency": "24 Hours",
+      "legacy": [
+        "Over 20 years of surgical excellence.",
+        "Treated thousands of trauma and joint cases.",
+        "Known for compassionate patient care."
+      ],
+      "expertise": [
+        "Joint Replacement – Hip & Knee",
+        "Sports Injury Treatment – ACL, PCL, Meniscus",
+        "Fracture & Trauma Management"
+      ],
+      "callToAction": "Book your appointment with Dr. Raman Jindal today for expert orthopedic care.",
+      "profileImage": "/images/doctors/Raman-Jindal.jpg",
+      "contactInfo": {
+        "address": "Sangeeta Ortho and Gynae Center, Meerut",
+        "phone": "9897654321",
+        "email": "raman.jindal@example.com"
+      }
+    },
+    {
+      "name": "Dr. Sangeeta Jindal",
+      "designation": "Gynecologist",
+      "education": "MBBS, MD Obstetrics & Gynecology",
+      "description": "Experienced gynecologist with specialization in women’s health and pregnancy care.",
+      "hospital": "Sangeeta Medical Centre",
+      "location": "Meerut",
+      "experienceYears": "35",
+      "position": "Senior Consultant",
+      "email": "sangeeta.jindal@example.com",
+      "phone": "9876543210",
+      "timings": ["Mon - Fri: 9 AM - 4 PM", "Sat: 9 AM - 12 PM"],
+      "emergency": "24 Hours",
+      "legacy": [
+        "35+ years of dedication to women's health.",
+        "Trusted by thousands of patients.",
+        "Pioneer in maternity care."
+      ],
+      "expertise": [
+        "Normal & High-Risk Pregnancy",
+        "Infertility Counseling",
+        "Gynecological Surgeries"
+      ],
+      "callToAction": "Schedule your consultation with Dr. Sangeeta Jindal for personalized maternity care.",
+      "profileImage": "/images/doctors/Sangeeta-Jindal.jpg",
+      "contactInfo": {
+        "address": "Sangeeta Medical Centre, Meerut",
+        "phone": "9876543210",
+        "email": "sangeeta.jindal@example.com"
+      }
+    },
+    {
+      "name": "Dr. Manisha Chaudhary",
+      "designation": "Gynecologist",
+      "education": "M.S. Obstetrics & Gynecology",
+      "description": "Specializing in advanced gynecological surgeries and women’s health.",
+      "hospital": "Sangeeta Medical Centre",
+      "location": "Meerut",
+      "experienceYears": "15",
+      "position": "Consultant Gynecologist",
+      "email": "manisha.chaudhary@example.com",
+      "phone": "9123456789",
+      "timings": ["Mon - Fri: 10 AM - 6 PM"],
+      "emergency": "24 Hours",
+      "legacy": [
+        "15 years in gynecological care.",
+        "Expert in minimally invasive surgeries.",
+        "Compassionate patient support."
+      ],
+      "expertise": [
+        "Laparoscopic Surgeries",
+        "Infertility Treatment",
+        "PCOS & Menstrual Disorders"
+      ],
+      "callToAction": "Contact Dr. Manisha Chaudhary for comprehensive women’s healthcare solutions.",
+      "profileImage": "/images/doctors/Manisha-Chaudhary.jpg",
+      "contactInfo": {
+        "address": "Sangeeta Medical Centre, Meerut",
+        "phone": "9123456789",
+        "email": "manisha.chaudhary@example.com"
+      }
+    }
+  ]
+}

@@ -8,7 +8,8 @@ const SliderSection = () => {
         <div class="hero-slider-image">
           <img
             // src="images/slider/1.jpg"
-            src="images/Home-image.png"
+              src="https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250319-WA0003.jpg"
+            // src="images/Home-image.png"
             alt="Legacy of Healing. Excellence in Every Specialty."
             loading="lazy"
           />

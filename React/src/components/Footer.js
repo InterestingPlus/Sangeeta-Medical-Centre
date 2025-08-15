@@ -350,15 +350,6 @@ const Footer = () => {
           {/* Bottom Row: Copyright & Brand */}
           <div className="footer-bottom-row">
             <p>Copyright 2025 Sangeeta Medical Centre</p>
-            <p>
-              Brand managed By -{" "}
-              <Link
-                to="https://prudentprints.com/branding/agency/portfolio.html"
-                target="_blank"
-              >
-                Prudent Branding
-              </Link>
-            </p>
           </div>
         </div>
       </footer>

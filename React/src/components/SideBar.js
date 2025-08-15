@@ -389,7 +389,7 @@ const SideBar = () => {
         <div className="sidebar-cta-box">
           <div className="sidebar-cta-image">
             <img
-              src="images/contact-treatment.jpg"
+              src="/images/contact-treatment.jpg"
               alt="Contact Sangeeta Medical Centre"
               loading="lazy"
             />
@@ -400,7 +400,7 @@ const SideBar = () => {
           <div className="sidebar-cta-item">
             <div className="icon-box">
               <img
-                src="images/svg-icons/cta-icon-phone.svg"
+                src="/images/svg-icons/cta-icon-phone.svg"
                 alt="CTA Phone Icon"
               />
               {/* <figure>

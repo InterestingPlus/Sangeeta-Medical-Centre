@@ -93,6 +93,7 @@ const WhyChooseSection = () => {
             </div>
             <div className="col-lg-6">
               {/* Image or illustration if needed */}
+              <img src="images/" alt="" />
             </div>
           </div>
         </div>

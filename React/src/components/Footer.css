@@ -1,13 +1,14 @@
+/* ===== FOOTER TOP ROW ===== */
 .footer-top-row {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
+  flex-wrap: wrap; /* allow wrap for smaller screens */
   gap: 30px;
 }
 
 .footer-links {
-  flex: 1; /* Equal width for all sections */
+  flex: 1;
   min-width: 200px;
 }
 
@@ -16,14 +17,14 @@
   text-transform: capitalize;
 }
 
-.footer-top-row ul,
-.footer-contact-box {
+.footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-top-row ul li {
+.footer-links ul li {
+  display: block;
   margin-bottom: 10px;
 }
 
@@ -31,16 +32,41 @@
   color: #fff;
   text-decoration: none;
 }
-
 .footer-links a:hover {
   text-decoration: underline;
 }
 
-/* Align icons & text in Help and Support section */
-.footer-info-box {
+/* ===== SOCIAL LINKS ===== */
+.footer-links.social-links {
+  text-align: center; /* default desktop/tablet center */
+}
+
+.footer-links.social-links ul {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: center; /* center on desktop/tablet */
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== HELP & SUPPORT ===== */
+.footer-contact-details {
+  text-align: left;
+  padding-left: 0;
+}
+
+.footer-contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.footer-info-box {
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 8px;
   margin-bottom: 10px;
 }
 
@@ -49,19 +75,17 @@
   height: 20px;
 }
 
-.footer-info-box-content p {
-  margin: 0;
-}
-
-/* Footer bottom row */
+/* ===== FOOTER BOTTOM ROW ===== */
 .footer-bottom-row {
   width: 100%;
   border-top: 1px solid #333;
   margin-top: 30px;
   padding-top: 15px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
   color: #ccc;
   font-size: 14px;
 }
@@ -70,81 +94,31 @@
   color: #f7941d;
   text-decoration: none;
 }
-
 .footer-bottom-row a:hover {
   text-decoration: underline;
 }
 
-/* Responsive */
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+
+/* Tablet: Show 2 columns per row */
 @media (max-width: 1024px) {
   .footer-top-row {
     flex-wrap: wrap;
-    gap: 20px;
+  }
+  .footer-links {
+    flex: 0 0 calc(50% - 15px); /* 2 columns per row */
   }
 }
 
+/* Mobile: Stack 1 column and move social to left */
 @media (max-width: 768px) {
-  .footer-top-row {
-    flex-direction: column;
+  .footer-links {
+    flex: 0 0 100%; /* full width */
   }
-  .footer-bottom-row {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
+  .footer-links.social-links {
+    text-align: left; /* heading left on mobile */
   }
-}
-
-
-.footer-top-row {
-  display: flex;
-  justify-content: space-between; /* Space between all four sections */
-  align-items: flex-start;
-  flex-wrap: nowrap; /* Keep them in one row */
-  gap: 30px;
-}
-
-.footer-links {
-  flex: 1; /* Equal width for all footer sections */
-  min-width: 200px; /* Prevent collapsing too much */
-}
-
-/* Make Help & Support also behave like other columns */
-.footer-contact-details {
-  flex: 1;
-}
-
-/* Align Help & Support inner content neatly */
-.footer-contact-box {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-/* Contact info row alignment */
-.footer-info-box {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.footer-info-box img {
-  width: 20px;
-  height: 20px;
-}
-
-.footer-info-box-content {
-  flex: 1;
-}
-
-/* Responsive: Stack on smaller devices */
-@media (max-width: 1024px) {
-  .footer-top-row {
-    flex-wrap: wrap; /* Wrap to next line only if not enough space */
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-top-row {
-    flex-direction: column;
+  .footer-links.social-links ul {
+    justify-content: flex-start; /* icons left on mobile */
   }
 }
