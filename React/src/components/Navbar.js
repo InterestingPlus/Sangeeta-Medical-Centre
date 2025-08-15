@@ -96,7 +96,7 @@ const Navbar = () => {
       subLinks: [
         {
           name: "Orthopedic Department",
-          url: "/specialties/orthopedic",
+          // url: "/specialties/orthopedic",
           subLink: [
             {
               name: "Fracture Management",
@@ -138,7 +138,7 @@ const Navbar = () => {
         },
         {
           name: "Gynecologist Department",
-          url: "/specialties/gynecologist",
+          // url: "/specialties/gynecologist",
           subLink: [
             {
               name: "Normal & High-Risk Pregnancy Care",
