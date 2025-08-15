@@ -802,19 +802,41 @@
 
 
 
-import React from "react";
+
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import BreadCrumb from "../components/BreadCrumb";
 import SideBar from "../components/SideBar";
-import specialtiesData from "../pages/specialties.json"; // ✅ Import JSON
+import specialtiesData from "../pages/specialties.json"; // Import JSON
+
+// New component to display image nicely
+const SpecialtyImageCard = ({ title, imageUrl }) => {
+  return (
+    <div className="mt-4 border rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img
+        src={imageUrl}
+        alt={title}
+        className="w-full h-auto object-cover"
+      />
+      <div className="p-3 bg-white">
+        <h4 className="text-gray-800 font-semibold text-lg">{title}</h4>
+      </div>
+    </div>
+  );
+};
 
 const Specialty = () => {
   const { name } = useParams();
+  const [specialty, setSpecialty] = useState(null);
 
-  // Find the specialty by slug
-  const specialty = specialtiesData.specialties.find(
-    (item) => item.slug === name
-  );
+  useEffect(() => {
+    if (name) {
+      const foundSpecialty = specialtiesData.specialties.find(
+        (item) => item.slug === name
+      );
+      setSpecialty(foundSpecialty || null);
+    }
+  }, [name]);
 
   if (!specialty) {
     return (
@@ -830,45 +852,42 @@ const Specialty = () => {
   return (
     <>
       <BreadCrumb
-        image="https://via.placeholder.com/1200x400?text=Specialty+Banner"
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
         title={specialty.name}
         page={`Specialties / ${specialty.name}`}
       />
 
+      {/* Section Start */}
       <div className="page-service-single bg-radius-section">
         <div className="container">
           <div className="row">
             <SideBar />
+
             <div className="col-lg-8">
               <div className="service-single-content">
                 <div className="service-entry">
-                  <h2>{specialty.name}</h2>
-                  <p className="text-lg font-semibold mb-4">
-                    Treated by {specialty.doctor}
-                  </p>
-
-                  {specialty.description.map((para, index) => (
-                    <p key={index} className="text-gray-700 my-2 leading-relaxed">
-                      {para}
-                    </p>
-                  ))}
-
+                  <h2 className="text-anime-style-3">{specialty.name}</h2>
+                  <h4 className="text-lg font-semibold mb-3">{specialty.doctor}</h4>
+                    {/* Image from JSON link */}
                   {specialty.link && (
-                    <a
-                      href={specialty.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-                    >
-                      View More Details
-                    </a>
+                    <SpecialtyImageCard title={specialty.name} imageUrl={specialty.link} />
                   )}
+                  {/* Description */}
+                  {specialty.description &&
+                    specialty.description.map((para, idx) => (
+                      <p key={idx} className="text-gray-700 leading-relaxed my-2">
+                        {para}
+                      </p>
+                    ))}
+
+                
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {/* Section End */}
     </>
   );
 };

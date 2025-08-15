@@ -263,7 +263,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
     alt: "Arthoscopy",
     icon: "/images/icons/arthoscopy.png",
-    link: "arthroscopy",
+    link: "arthroscopy-&-sports-injury-treatment",
     title: "Arthroscopy Meerut",
   },
   {
@@ -281,7 +281,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
     alt: "Knee Replacement",
     icon: "/images/icons/knee.png",
-    link: "knee-replacement",
+    link: "knee-replacement-surgery",
     title: "Advanced Knee Treatment",
   },
   {
@@ -290,7 +290,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
     alt: "Hip Joint Replacement",
     icon: "/images/icons/hip.png",
-    link: "hip-joint-replacement",
+    link: "hip-replacement-surgery",
     title: "Hip Joint Replacement Surgery",
   },
   {
@@ -308,7 +308,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sports.webp",
     alt: "Sports Injury Treatment",
     icon: "/images/icons/foot.png",
-    link: "sports-injury-treatment",
+    link: "arthroscopy-&-sports-injury-treatment",
     title: "Sports Injury & Rehabilitation",
   },
   {

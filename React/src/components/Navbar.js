@@ -105,10 +105,6 @@ const doctors = doctorData.doctors?.map((doc) => ({
               name: "Orthopedic Emergencies & Trauma Care",
               url: "specialties/orthopedic-emergencies-&-trauma-care",
             },
-            {
-              name: "Geriatric Bone Health",
-              url: "specialties/geriatric-bone-health",
-            },
           ],
         },
         {
