@@ -304,7 +304,7 @@
 //                         loading="lazy"
 //                       />
 //   <figure className="image-anime reveal">
-//                                     </figure> 
+//                                     </figure>
 //                     </div>
 //                     <h3 className="fs-3">Shoulder Instability</h3>
 //                     <p>
@@ -539,7 +539,7 @@
 //                               loading="lazy"
 //                             />
 //                            <figure className="image-anime reveal">
-//                                                 </figure>  
+//                                                 </figure>
 //                           </div>
 //                         </div>
 //                       </div>
@@ -627,7 +627,6 @@
 // };
 
 // export default Specialty;
-
 
 // // import React, { useEffect, useState } from "react";
 // // import { Link, useParams } from "react-router-dom";
@@ -800,9 +799,6 @@
 
 // // export default Specialty;
 
-
-
-
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import BreadCrumb from "../components/BreadCrumb";
@@ -813,11 +809,7 @@ import specialtiesData from "../pages/specialties.json"; // Import JSON
 const SpecialtyImageCard = ({ title, imageUrl }) => {
   return (
     <div className="mt-4 border rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-      <img
-        src={imageUrl}
-        alt={title}
-        className="w-full h-auto object-cover"
-      />
+      <img src={imageUrl} alt={title} className="w-full h-auto object-cover" />
       <div className="p-3 bg-white">
         <h4 className="text-gray-800 font-semibold text-lg">{title}</h4>
       </div>
@@ -825,16 +817,190 @@ const SpecialtyImageCard = ({ title, imageUrl }) => {
   );
 };
 
+const specialtyData = [
+  {
+    name: "Arthroscopy & Sports Injury Treatment",
+    slug: "arthroscopy-sports-injury-treatment",
+    doctor: "Dr. Raman Jindal",
+    link: "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg", // Leave empty as per request
+    description: [
+      "Sports injuries can happen to anyone — athletes, fitness enthusiasts, or even during daily activities. Dr. Raman Jindal, a trusted orthopedic doctor in Meerut, offers advanced arthroscopy and sports injury treatments to repair damaged joints, ligaments, and cartilage. Considered among the best orthopedic doctors in Meerut, he specializes in treating ACL/PCL tears, meniscus injuries, rotator cuff tears, and other sports-related conditions.",
+      "Using minimally invasive arthroscopic surgery, Dr. Raman Jindal ensures faster recovery, less scarring, and reduced post-operative pain. His comprehensive approach includes accurate diagnosis, targeted surgical repair, and tailored rehabilitation programs.",
+      "When patients search for an orthopedic doctor near me for sports injury care, they often choose Dr. Raman Jindal for his expertise and excellent patient outcomes. Whether it’s restoring an athlete’s performance or helping someone return to an active lifestyle, his orthopedic skills deliver reliable results.",
+      "If you need an orthopedic doctor Meerut for sports injury management, Dr. Raman Jindal is committed to getting you back on your feet with advanced, effective, and safe treatments.",
+    ],
+  },
+  {
+    name: "Spine & Back Pain Treatment",
+    slug: "spine-back-pain-treatment",
+    doctor: "Dr. Raman Jindal",
+    link: "/images/specialties/Spine & Back Pain Treatment.jpg", // Leave empty as per request
+    description: [
+      "Back pain is one of the most common health issues, affecting people of all ages. Dr. Raman Jindal, a skilled orthopedic doctor in Meerut, provides specialized treatment for spine disorders and chronic back pain. Recognized as one of the best orthopedic doctors in Meerut, he offers both non-surgical and surgical solutions for conditions such as slipped discs, sciatica, spinal stenosis, and degenerative spine disease.",
+      "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses modern diagnostic tools to pinpoint the cause of pain and develop a personalized treatment plan. His approach may include physiotherapy, pain management, and minimally invasive spine surgery to relieve symptoms and restore mobility.",
+      "Patients searching for an orthopedic doctor near me for spine problems rely on Dr. Raman Jindal for his accurate diagnosis and effective treatment methods.",
+      "If you’re suffering from persistent back pain and looking for an orthopedic doctor Meerut, Dr. Raman Jindal offers expert care that focuses on lasting relief and improved quality of life.",
+    ],
+  },
+  {
+    name: "Joint Pain & Arthritis Management",
+    slug: "joint-pain-arthritis-management",
+    doctor: "Dr. Raman Jindal",
+    link: "/images/specialties/Joint Pain & Arthritis Managementjpg.jpg", // Leave empty as per request
+    description: [
+      "Joint pain caused by arthritis can limit daily activities and affect overall quality of life. Dr. Raman Jindal, a renowned orthopedic doctor in Meerut, specializes in the diagnosis and treatment of osteoarthritis, rheumatoid arthritis, gout, and other degenerative joint conditions. Widely recognized as one of the best orthopedic doctors in Meerut, he offers personalized treatment plans to reduce pain, improve mobility, and prevent further joint damage.",
+      "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses advanced orthopedic methods such as targeted medications, joint injections, physiotherapy, and surgical interventions when necessary. His approach focuses on preserving natural joint function for as long as possible, delaying or eliminating the need for surgery.",
+      "Patients searching for an orthopedic doctor near me trust Dr. Raman Jindal for his comprehensive arthritis care, which includes lifestyle advice, exercise plans, and long-term management strategies.",
+      "If you’re experiencing stiffness, swelling, or chronic joint pain and are looking for an orthopedic doctor Meerut, Dr. Raman Jindal provides expert care to help you regain mobility and live pain-free.",
+    ],
+  },
+  {
+    name: "Orthopedic Emergencies & Trauma Care",
+    slug: "orthopedic-emergencies-trauma-care",
+    doctor: "Dr. Raman Jindal",
+    link: "/images/specialties/Orthopedic Emergencies & Trauma Care.jpg", // Leave empty as per request
+    description: [
+      "Accidents, falls, and sports injuries can cause severe orthopedic trauma that needs urgent medical attention. Dr. Raman Jindal, a trusted orthopedic doctor in Meerut, offers emergency orthopedic and trauma care for fractures, dislocations, ligament tears, and bone injuries. Recognized as one of the best orthopedic doctors in Meerut, he is known for his quick response, accurate diagnosis, and effective treatment in critical situations.",
+      "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses advanced orthopedic equipment and surgical methods to stabilize injuries, prevent complications, and promote healing. He is available for urgent care and ensures patients receive immediate attention during emergencies.",
+      "People searching for an orthopedic doctor near me in emergency situations rely on Dr. Raman Jindal for his experience and dedication.",
+      "If you need an orthopedic doctor Meerut for urgent orthopedic care, Dr. Raman Jindal delivers timely, skilled, and life-changing treatment.",
+      "Families searching for an orthopedic doctor near me to care for aging loved ones trust Dr. Raman Jindal for his compassionate approach and commitment to improving quality of life.",
+      "If you’re looking for an orthopedic doctor Meerut who understands the unique needs of older adults, Dr. Raman Jindal provides expert care that keeps bones strong and movement pain-free.",
+    ],
+  },
+  {
+    name: "Normal & High-Risk Pregnancy Care",
+    slug: "normal-high-risk-pregnancy-care",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Normal-&-High-Risk-Delivery.jpg",
+    description: [
+      "Dr. Manisha Chaudhary, M.S. (OBG), is known as one of the best gynecologists in Meerut for complete pregnancy care. She provides expert management for normal and high-risk pregnancies, ensuring safe delivery and healthy outcomes for both mother and baby.",
+      "From the first trimester to postnatal recovery, Dr. Chaudhary offers personalized care, regular check-ups, and advanced monitoring. High-risk conditions such as gestational diabetes, high blood pressure, multiple pregnancies, and previous miscarriages are handled with extra attention and medical expertise.",
+      "At Sangeeta Medical Centre, expectant mothers receive nutritional guidance, lifestyle counseling, and emotional support for a healthy pregnancy journey. Dr. Chaudhary’s focus is on safe childbirth — whether through normal delivery or cesarean section — always prioritizing the well-being of the patient.",
+      "📍 Location: Sangeeta Medical Centre, Ganga Nagar, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Book your consultation today with a gynecologist near you for complete pregnancy care.",
+    ],
+  },
+  {
+    name: "Laparoscopic (Keyhole) Surgeries",
+    slug: "laparoscopic-surgeries",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Laparoscopic-Gynecological-Surgeries.jpg",
+    description: [
+      "Specializing in laparoscopic gynecological surgeries, Dr. Manisha Chaudhary offers women advanced treatment with minimal pain, faster recovery, and small scars.",
+      "She performs laparoscopic hysterectomy, myomectomy, ovarian cyst removal, endometriosis treatment, and ectopic pregnancy surgery at Sangeeta Medical Centre. Using precision technology, she ensures minimal tissue damage and a quicker return to daily life.",
+      "Patients benefit from shorter hospital stays, less post-operative discomfort, reduced infection risk, and better cosmetic results compared to traditional open surgery.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 If you’re seeking laparoscopic surgery in Meerut, schedule an appointment with Dr. Chaudhary today.",
+    ],
+  },
+  {
+    name: "Infertility Treatments (IVF, IUI, etc.)",
+    slug: "infertility-treatments",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Infertility-Procedures.jpg",
+    description: [
+      "Infertility can be emotionally challenging, but with the right guidance, solutions are possible. Dr. Manisha Chaudhary, one of the best gynecologists in Meerut, offers personalized infertility treatments including IUI, IVF guidance, ovulation induction, and hormonal therapy.",
+      "At Sangeeta Medical Centre, every couple receives a comprehensive fertility evaluation to identify the root cause of infertility. Dr. Chaudhary then designs a treatment plan that maximizes the chances of conception while keeping emotional well-being in focus.",
+      "Her expertise covers male and female infertility, polycystic ovary syndrome (PCOS), irregular ovulation, blocked tubes, and other reproductive health concerns.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Take the first step toward parenthood — consult a trusted gynecologist near you for fertility solutions.",
+    ],
+  },
+  {
+    name: "Menstrual Disorders Treatment",
+    slug: "menstrual-disorders-treatment",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Menstrual-Disorder-Management.jpg",
+    description: [
+      "Menstrual problems like irregular cycles, heavy bleeding, and severe cramps can affect daily life. Dr. Manisha Chaudhary provides expert diagnosis and treatment for menstrual disorders to restore hormonal balance and improve quality of life.",
+      "She treats conditions like PCOS, endometriosis, fibroids, thyroid-related cycle issues, and abnormal uterine bleeding. At Sangeeta Medical Centre, advanced diagnostics like ultrasound and hormonal testing help pinpoint the cause, enabling targeted treatment.",
+      "Whether the solution involves medication, lifestyle adjustments, or minimally invasive procedures, Dr. Chaudhary ensures a personalized approach for long-term relief.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Get help from a gynecologist near you to manage menstrual problems effectively.",
+    ],
+  },
+  {
+    name: "PCOS/PCOD Management",
+    slug: "pcos-pcod-management",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/PCODPCOS-Hormonal-Treatment.jpg",
+    description: [
+      "Polycystic Ovary Syndrome (PCOS) and Polycystic Ovary Disease (PCOD) are common yet complex hormonal disorders. Dr. Manisha Chaudhary is experienced in creating comprehensive PCOS/PCOD treatment plans focusing on symptom relief and long-term health.",
+      "Her management approach includes lifestyle modification, diet planning, hormonal regulation, fertility guidance, and metabolic health monitoring. Early diagnosis helps prevent complications like infertility, diabetes, and cardiovascular risks.",
+      "At Sangeeta Medical Centre, patients receive complete care combining medical treatment with wellness counseling.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Consult the best gynecologist in Meerut for effective PCOS/PCOD management.",
+    ],
+  },
+  {
+    name: "Adolescent & Menopausal Health",
+    slug: "adolescent-menopausal-health",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Adolescent-&-Menopausal-Care.jpg",
+    description: [
+      "Women’s health needs change with age. Dr. Manisha Chaudhary offers dedicated care for adolescent girls and women experiencing menopause.",
+      "For adolescents, she provides counseling on menstrual health, nutrition, and reproductive health education. For menopausal women, she offers solutions for hot flashes, mood changes, bone health, and hormonal balance.",
+      "Her compassionate approach ensures that women feel supported, informed, and confident about their health at every stage of life.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Book a consultation with a gynecologist near you for age-specific women’s healthcare.",
+    ],
+  },
+  {
+    name: "Painless Delivery Options",
+    slug: "painless-delivery-options",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/painless-delivery.png",
+    description: [
+      "Dr. Manisha Chaudhary specializes in painless delivery techniques to make childbirth safer and more comfortable.",
+      "Using modern pain relief methods such as epidural anesthesia, she helps mothers experience a positive delivery process without unnecessary discomfort. Every birth plan is customized according to the patient’s medical history and preferences.",
+      "Her focus is on safe delivery for both mother and baby while maintaining a calm and supportive environment.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Choose painless delivery in Meerut with a trusted gynecologist by your side.",
+    ],
+  },
+  {
+    name: "Cancer Screening & Prevention",
+    slug: "cancer-screening-prevention",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/cancer-screening-test-article.jpg",
+    description: [
+      "Early detection is the key to preventing and successfully treating gynecological cancers. Dr. Manisha Chaudhary offers regular cervical cancer screening (Pap smear), HPV testing, breast exams, and ovarian cancer check-ups.",
+      "She educates women about risk factors and promotes regular screenings for early diagnosis. At Sangeeta Medical Centre, advanced diagnostic tools ensure accuracy and safety.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Schedule your cancer screening in Meerut with the best gynecologist near you.",
+    ],
+  },
+  {
+    name: "Contraception & Family Planning",
+    slug: "contraception-family-planning",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Family-Planning-&-Contraception.jpg",
+    description: [
+      "Family planning is a vital part of women’s healthcare. Dr. Manisha Chaudhary provides counseling on birth control methods, permanent sterilization, and natural planning techniques.",
+      "She tailors each recommendation to the patient’s health, lifestyle, and family goals. Safe and effective options include oral contraceptives, IUD insertion, implants, and surgical methods.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Discuss family planning in Meerut with a caring and experienced gynecologist.",
+    ],
+  },
+  {
+    name: "Gynecological Ultrasound & Diagnostics",
+    slug: "gynecological-ultrasound-diagnostics",
+    doctor: "Dr. Manisha Chaudhary",
+    link: "/images/procedures/gyneco/Gynecological-Ultrasound-&-Diagnostics.jpg",
+    description: [
+      "Accurate diagnosis leads to effective treatment. Dr. Manisha Chaudhary offers gynecological ultrasound and diagnostic services to detect conditions like fibroids, ovarian cysts, endometriosis, and pregnancy-related complications.",
+      "At Sangeeta Medical Centre, advanced imaging ensures detailed results with minimal discomfort. These diagnostics form the foundation for precise treatment planning in all areas of gynecology.",
+      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Visit a gynecologist near you for expert diagnostic and imaging services.",
+    ],
+  },
+];
+
 const Specialty = () => {
   const { name } = useParams();
   const [specialty, setSpecialty] = useState(null);
 
   useEffect(() => {
     if (name) {
-      const foundSpecialty = specialtiesData.specialties.find(
-        (item) => item.slug === name
-      );
-      setSpecialty(foundSpecialty || null);
+      const staticData = specialtyData.find((item) => item.slug === name);
+      if (staticData) setSpecialty(staticData);
+      else {
+        const foundSpecialty = specialtiesData.specialties.find(
+          (item) => item.slug === name
+        );
+        setSpecialty(foundSpecialty);
+      }
     }
   }, [name]);
 
@@ -867,20 +1033,26 @@ const Specialty = () => {
               <div className="service-single-content">
                 <div className="service-entry">
                   <h2 className="text-anime-style-3">{specialty.name}</h2>
-                  <h4 className="text-lg font-semibold mb-3">{specialty.doctor}</h4>
-                    {/* Image from JSON link */}
+                  <h4 className="text-lg font-semibold mb-3">
+                    {specialty.doctor}
+                  </h4>
+                  {/* Image from JSON link */}
                   {specialty.link && (
-                    <SpecialtyImageCard title={specialty.name} imageUrl={specialty.link} />
+                    <SpecialtyImageCard
+                      title={specialty.name}
+                      imageUrl={specialty.link}
+                    />
                   )}
                   {/* Description */}
                   {specialty.description &&
                     specialty.description.map((para, idx) => (
-                      <p key={idx} className="text-gray-700 leading-relaxed my-2">
+                      <p
+                        key={idx}
+                        className="text-gray-700 leading-relaxed my-2"
+                      >
                         {para}
                       </p>
                     ))}
-
-                
                 </div>
               </div>
             </div>
