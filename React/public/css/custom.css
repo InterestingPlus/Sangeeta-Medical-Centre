@@ -1495,7 +1495,7 @@ header.main-header .header-sticky.active {
     ),
     url(../images/about/DSC_0106.jpg);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: left center;
   background-size: auto;
   padding: 100px 0;
   overflow: hidden;

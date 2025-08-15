@@ -20,6 +20,9 @@ import InPatients from "./components/InPatients";
 import BlogPage from "./components/BlogSection";
 import Blog from "./pages/Blog";
 import Gallary from "./pages/Gallary";
+import OrthopaedicProcedures from "./pages/OrthopadicProcedures";
+import Gynecology from "./pages/GynecologicalProcesses";
+import Orthopaedic from "./pages/OrthopadicProcedures";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -42,6 +45,8 @@ root.render(
           <Route path="/blog/:slug" element={<Blog />} />
 
           <Route path="/procedures" element={<Procedures />} />
+          <Route path="/procedures/orthopedics" element={<Orthopaedic />} />
+          <Route path="/procedures/gynecology" element={<Gynecology />} />
           <Route path="/infra-equipment" element={<InfraEquipment />} />
           <Route path="/gallary" element={<Gallary />} />
           <Route path="/patients" element={<Patients />} />

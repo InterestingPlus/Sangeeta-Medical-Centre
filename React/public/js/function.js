@@ -42,7 +42,7 @@
             setHeaderHeight();
             var headerHeight = $('header .header-sticky').outerHeight()
             $("header .header-sticky").toggleClass("hide", (fromTop > headerHeight + 100));
-            $("header .header-sticky").toggleClass("active", (fromTop > 600));
+            $("header .header-sticky").toggleClass("active", (fromTop > 200));
         });
     }
 

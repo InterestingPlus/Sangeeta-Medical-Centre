@@ -332,7 +332,7 @@ const SpecialtiesSection = () => {
                   </div>
                   <div className="service-body d-flex justify-content-between align-items-center">
                     <div className="service-content">
-                      <h4>{specialty.name}</h4>
+                      <h4 style={{color: 'white'}}>{specialty.name}</h4>
                       <p>{specialty.title}</p>
                     </div>
                     <div className="service-btn">
