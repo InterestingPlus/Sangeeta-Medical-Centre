@@ -1,5 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
+import ImageGallery from "../components/ImageGallary";
 
 const InfraEquipment = () => {
   return (
@@ -42,6 +43,8 @@ const InfraEquipment = () => {
               </div>
             </div>
           </div>
+
+          <ImageGallery header={true}/>
 
           <div class="row align-items-center mt-4 mb-4">
             <div class="col-lg-12">

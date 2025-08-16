@@ -1,4 +1,5 @@
 import BreadCrumb from "../components/BreadCrumb";
+import ImageGallery from "../components/ImageGallary";
 
 const Gallary = () => {
   return (
@@ -79,6 +80,8 @@ const Gallary = () => {
         </div>
       </div>
       {/* Gallary Section End */}
+
+      <ImageGallery/>
     </>
   );
 };
