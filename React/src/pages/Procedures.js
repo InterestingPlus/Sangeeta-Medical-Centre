@@ -14,7 +14,7 @@ const Procedures = () => {
       {/* Section Start */}
       <div className="page-about-us ptb60" id="Legacy">
         <div className="container">
-          <div className="row align-items-center">
+          {/* <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="page-about-content">
                 <div className="section-title mb-0">
@@ -28,7 +28,7 @@ const Procedures = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/joint-replacement-surgery.jpg"
+                    src="images/procedures/Joint Replacement Surgery.jpg"
                     alt="Joint Replacement Surgery (Robotic & Muscle-Sparing) Meerut"
                     loading="lazy"
                   />
@@ -56,14 +56,36 @@ const Procedures = () => {
                     Joint Replacement Surgery (Robotic & Muscle-Sparing)
                   </h2>
                   <p className="mt-3">
-                    At the forefront of orthopedic innovation, Dr. Shubhankar
-                    Shekhar performs joint replacements using robotic navigation
-                    and muscle-sparing techniques — methods practiced by only a
-                    select group of global surgeons. These procedures, whether
-                    knee or hip, are tailored to the patient’s unique anatomy,
-                    ensuring:
+                    Joint replacement surgery has evolved significantly with the
+                    advent of robotics. Dr. Raman Jindal, a highly experienced
+                    orthopedic doctor in Meerut, offers knee and hip replacement
+                    surgeries for unmatched accuracy, minimal pain, and faster
+                    recovery. Recognized as one of the best orthopedic doctors
+                    in Meerut, he uses advanced robotic-assisted systems to
+                    ensure precise implant positioning and longer-lasting
+                    results.
                   </p>
-
+                  <p className="mt-3">
+                    At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal
+                    combines his orthopedic expertise with cutting-edge
+                    technology to create customized surgical plans for each
+                    patient. The system allows for better alignment, improved
+                    joint movement, and reduced post-surgical complications
+                    compared to traditional methods.
+                  </p>
+                  <p className="mt-3">
+                    Patients searching for an orthopedic doctor near me choose
+                    Dr. Raman Jindal for joint replacements because of the
+                    quicker recovery times, shorter hospital stays, and enhanced
+                    post-operative outcomes.
+                  </p>
+                  <p className="mt-3">
+                    If you are suffering from severe arthritis or joint
+                    degeneration and are looking for an orthopedic doctor Meerut
+                    who offers the most advanced treatment, Dr. Raman Jindal’s
+                    joint replacement surgery is the future of pain-free
+                    mobility.
+                  </p>
                   <div className="custom-list mt-3">
                     <ul>
                       <li>

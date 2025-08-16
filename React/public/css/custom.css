@@ -1487,7 +1487,7 @@ header.main-header .header-sticky.active {
   color: var(--white-color);
 }
 
-.quality-treatment {
+/* .quality-treatment {
   background: linear-gradient(
       90deg,
       var(--secondary-color) 50%,
@@ -1499,8 +1499,31 @@ header.main-header .header-sticky.active {
   background-size: auto;
   padding: 100px 0;
   overflow: hidden;
+} */
+
+
+
+.quality-treatment {
+  background: 
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.8) 0%,   /* strong at left */
+      rgba(255, 255, 255, 0.5) 40%, /* softer in middle */
+      rgba(255, 255, 255, 0) 100%   /* fully transparent at right */
+    ),
+    url(../images/about/DSC_0106.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover; /* better for full section */
+  padding: 100px 0;
+  overflow: hidden;
 }
 
+
+
+
+/* 
+/* 
 .quality-treatment::before {
   content: "";
   position: absolute;
@@ -1510,7 +1533,7 @@ header.main-header .header-sticky.active {
     right no-repeat;
   width: 100%;
   height: 100%;
-}
+} */ */
 
 .quality-treatment::after {
   content: "";
@@ -1520,8 +1543,7 @@ header.main-header .header-sticky.active {
   transform: translateX(99%);
   background: var(--secondary-color);
   border-radius: 0 0 200px;
-  width: 200px;
-  height: 100%;
+ 
 }
 
 .quality-treatment-content {

@@ -828,6 +828,7 @@ const specialtyData = [
       "Using minimally invasive arthroscopic surgery, Dr. Raman Jindal ensures faster recovery, less scarring, and reduced post-operative pain. His comprehensive approach includes accurate diagnosis, targeted surgical repair, and tailored rehabilitation programs.",
       "When patients search for an orthopedic doctor near me for sports injury care, they often choose Dr. Raman Jindal for his expertise and excellent patient outcomes. Whether it’s restoring an athlete’s performance or helping someone return to an active lifestyle, his orthopedic skills deliver reliable results.",
       "If you need an orthopedic doctor Meerut for sports injury management, Dr. Raman Jindal is committed to getting you back on your feet with advanced, effective, and safe treatments.",
+      
     ],
   },
   {
@@ -877,7 +878,10 @@ const specialtyData = [
       "Dr. Manisha Chaudhary, M.S. (OBG), is known as one of the best gynecologists in Meerut for complete pregnancy care. She provides expert management for normal and high-risk pregnancies, ensuring safe delivery and healthy outcomes for both mother and baby.",
       "From the first trimester to postnatal recovery, Dr. Chaudhary offers personalized care, regular check-ups, and advanced monitoring. High-risk conditions such as gestational diabetes, high blood pressure, multiple pregnancies, and previous miscarriages are handled with extra attention and medical expertise.",
       "At Sangeeta Medical Centre, expectant mothers receive nutritional guidance, lifestyle counseling, and emotional support for a healthy pregnancy journey. Dr. Chaudhary’s focus is on safe childbirth — whether through normal delivery or cesarean section — always prioritizing the well-being of the patient.",
-      "📍 Location: Sangeeta Medical Centre, Ganga Nagar, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Book your consultation today with a gynecologist near you for complete pregnancy care.",
+      "📍 Location: Sangeeta Medical Centre, Ganga Nagar, Meerut",
+      " 📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Book your consultation today with a gynecologist near you for complete pregnancy care.",
+      
     ],
   },
   {
@@ -889,7 +893,9 @@ const specialtyData = [
       "Specializing in laparoscopic gynecological surgeries, Dr. Manisha Chaudhary offers women advanced treatment with minimal pain, faster recovery, and small scars.",
       "She performs laparoscopic hysterectomy, myomectomy, ovarian cyst removal, endometriosis treatment, and ectopic pregnancy surgery at Sangeeta Medical Centre. Using precision technology, she ensures minimal tissue damage and a quicker return to daily life.",
       "Patients benefit from shorter hospital stays, less post-operative discomfort, reduced infection risk, and better cosmetic results compared to traditional open surgery.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 If you’re seeking laparoscopic surgery in Meerut, schedule an appointment with Dr. Chaudhary today.",
+      "📍 Location: Sangeeta Medical Centre, Meerut ",
+      "📞 Contact: 011-69269888, +91 79705 86243 ",
+      "If you’re seeking laparoscopic surgery in Meerut, schedule an appointment with Dr. Chaudhary today.",
     ],
   },
   {
@@ -901,7 +907,10 @@ const specialtyData = [
       "Infertility can be emotionally challenging, but with the right guidance, solutions are possible. Dr. Manisha Chaudhary, one of the best gynecologists in Meerut, offers personalized infertility treatments including IUI, IVF guidance, ovulation induction, and hormonal therapy.",
       "At Sangeeta Medical Centre, every couple receives a comprehensive fertility evaluation to identify the root cause of infertility. Dr. Chaudhary then designs a treatment plan that maximizes the chances of conception while keeping emotional well-being in focus.",
       "Her expertise covers male and female infertility, polycystic ovary syndrome (PCOS), irregular ovulation, blocked tubes, and other reproductive health concerns.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Take the first step toward parenthood — consult a trusted gynecologist near you for fertility solutions.",
+      "📍 Location: Sangeeta Medical Centre, Meerut",
+      " 📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Take the first step toward parenthood — consult a trusted gynecologist near you for fertility solutions.",
+      
     ],
   },
   {
@@ -913,7 +922,10 @@ const specialtyData = [
       "Menstrual problems like irregular cycles, heavy bleeding, and severe cramps can affect daily life. Dr. Manisha Chaudhary provides expert diagnosis and treatment for menstrual disorders to restore hormonal balance and improve quality of life.",
       "She treats conditions like PCOS, endometriosis, fibroids, thyroid-related cycle issues, and abnormal uterine bleeding. At Sangeeta Medical Centre, advanced diagnostics like ultrasound and hormonal testing help pinpoint the cause, enabling targeted treatment.",
       "Whether the solution involves medication, lifestyle adjustments, or minimally invasive procedures, Dr. Chaudhary ensures a personalized approach for long-term relief.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Get help from a gynecologist near you to manage menstrual problems effectively.",
+      "📍 Location: Sangeeta Medical Centre, Meerut",
+      " 📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Get help from a gynecologist near you to manage menstrual problems effectively.",
+     
     ],
   },
   {
@@ -925,7 +937,10 @@ const specialtyData = [
       "Polycystic Ovary Syndrome (PCOS) and Polycystic Ovary Disease (PCOD) are common yet complex hormonal disorders. Dr. Manisha Chaudhary is experienced in creating comprehensive PCOS/PCOD treatment plans focusing on symptom relief and long-term health.",
       "Her management approach includes lifestyle modification, diet planning, hormonal regulation, fertility guidance, and metabolic health monitoring. Early diagnosis helps prevent complications like infertility, diabetes, and cardiovascular risks.",
       "At Sangeeta Medical Centre, patients receive complete care combining medical treatment with wellness counseling.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Consult the best gynecologist in Meerut for effective PCOS/PCOD management.",
+      "📍 Location: Sangeeta Medical Centre, Meerut ",
+      "📞 Contact: 011-69269888, +91 79705 86243",
+      " Consult the best gynecologist in Meerut for effective PCOS/PCOD management.",
+     
     ],
   },
   {
@@ -937,7 +952,10 @@ const specialtyData = [
       "Women’s health needs change with age. Dr. Manisha Chaudhary offers dedicated care for adolescent girls and women experiencing menopause.",
       "For adolescents, she provides counseling on menstrual health, nutrition, and reproductive health education. For menopausal women, she offers solutions for hot flashes, mood changes, bone health, and hormonal balance.",
       "Her compassionate approach ensures that women feel supported, informed, and confident about their health at every stage of life.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Book a consultation with a gynecologist near you for age-specific women’s healthcare.",
+      "📍 Location: Sangeeta Medical Centre, Meerut",
+      " 📞 Contact: 011-69269888, +91 79705 86243",
+      " Book a consultation with a gynecologist near you for age-specific women’s healthcare.",
+ 
     ],
   },
   {
@@ -949,7 +967,10 @@ const specialtyData = [
       "Dr. Manisha Chaudhary specializes in painless delivery techniques to make childbirth safer and more comfortable.",
       "Using modern pain relief methods such as epidural anesthesia, she helps mothers experience a positive delivery process without unnecessary discomfort. Every birth plan is customized according to the patient’s medical history and preferences.",
       "Her focus is on safe delivery for both mother and baby while maintaining a calm and supportive environment.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Choose painless delivery in Meerut with a trusted gynecologist by your side.",
+      "📍 Location: Sangeeta Medical Centre, Meerut ",
+      "📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Choose painless delivery in Meerut with a trusted gynecologist by your side.",
+      
     ],
   },
   {
@@ -960,7 +981,10 @@ const specialtyData = [
     description: [
       "Early detection is the key to preventing and successfully treating gynecological cancers. Dr. Manisha Chaudhary offers regular cervical cancer screening (Pap smear), HPV testing, breast exams, and ovarian cancer check-ups.",
       "She educates women about risk factors and promotes regular screenings for early diagnosis. At Sangeeta Medical Centre, advanced diagnostic tools ensure accuracy and safety.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Schedule your cancer screening in Meerut with the best gynecologist near you.",
+      "📍 Location: Sangeeta Medical Centre, Meerut",
+      " 📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Schedule your cancer screening in Meerut with the best gynecologist near you.",
+      
     ],
   },
   {
@@ -971,7 +995,10 @@ const specialtyData = [
     description: [
       "Family planning is a vital part of women’s healthcare. Dr. Manisha Chaudhary provides counseling on birth control methods, permanent sterilization, and natural planning techniques.",
       "She tailors each recommendation to the patient’s health, lifestyle, and family goals. Safe and effective options include oral contraceptives, IUD insertion, implants, and surgical methods.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Discuss family planning in Meerut with a caring and experienced gynecologist.",
+      "📍 Location: Sangeeta Medical Centre, Meerut ",
+      "📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Discuss family planning in Meerut with a caring and experienced gynecologist.",
+     
     ],
   },
   {
@@ -982,7 +1009,10 @@ const specialtyData = [
     description: [
       "Accurate diagnosis leads to effective treatment. Dr. Manisha Chaudhary offers gynecological ultrasound and diagnostic services to detect conditions like fibroids, ovarian cysts, endometriosis, and pregnancy-related complications.",
       "At Sangeeta Medical Centre, advanced imaging ensures detailed results with minimal discomfort. These diagnostics form the foundation for precise treatment planning in all areas of gynecology.",
-      "📍 Location: Sangeeta Medical Centre, Meerut 📞 Contact: 011-69269888, +91 79705 86243 Visit a gynecologist near you for expert diagnostic and imaging services.",
+      "📍 Location: Sangeeta Medical Centre, Meerut ",
+      "📞 Contact: 011-69269888, +91 79705 86243 ",
+      "Visit a gynecologist near you for expert diagnostic and imaging services.",
+      
     ],
   },
 ];

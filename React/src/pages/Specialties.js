@@ -276,12 +276,12 @@ const localSpecialties = [
     title: "Advanced Fracture Treatment",
   },
   {
-    name: "Knee Replacement",
+    name: "Hip Replacement Surgery",
     image:
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
     alt: "Knee Replacement",
     icon: "/images/icons/knee.png",
-    link: "knee-replacement-surgery",
+    link: "hip-replacement-surgery",
     title: "Advanced Knee Treatment",
   },
   {
@@ -317,7 +317,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-5-1.webp",
     alt: "Infertility Treatment",
     icon: "/images/icons/arthoscopy.png",
-    link: "infertility-treatment",
+    link:"infertility-treatments",
     title: "Comprehensive Infertility Treatment",
   },
   {
@@ -326,7 +326,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
     alt: "High-Risk Pregnancy",
     icon: "/images/icons/rheumatology.png",
-    link: "high-risk-pregnancy",
+    link: "normal-high-risk-pregnancy-care",
     title: "High-Risk Pregnancy Care",
   },
 ];

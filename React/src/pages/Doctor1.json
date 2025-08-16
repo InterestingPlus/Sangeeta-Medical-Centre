@@ -4,7 +4,7 @@
       "name": "Dr. Raman Jindal",
       "designation": "Orthopedic Doctor",
       "education": "MBBS, MS Orthopedics, Fellowship in Joint Replacement Surgery",
-      "description": "Dr. Raman Jindal is a highly experienced and trusted orthopedic doctor in Meerut, known for advanced care.",
+      "description": "Dr. Raman Jindal (MBBS, MS Orthopedics, Fellowship in Joint Replacement Surgery) is a highly experienced and trusted orthopedic doctor in Meerut, known for delivering advanced and compassionate orthopedic care. With years of expertise in fracture management, joint replacement, sports injury treatment, arthritis care, and minimally invasive orthopedic surgeries, Dr. Jindal is committed to restoring mobility and improving the quality of life for his patients. He practices at Sangeeta Ortho and Gynae Center, one of the leading orthopedic facilities in Meerut, equipped with modern diagnostic tools, advanced operation theaters, and a dedicated rehabilitation unit. Dr. Jindal’s patient-first approach, precise diagnosis, and customized treatment plans make him widely regarded as the best orthopedic doctor in Meerut.",
       "hospital": "Sangeeta Ortho and Gynae Center",
       "location": "Meerut",
       "experienceYears": "20",
@@ -19,11 +19,15 @@
         "Known for compassionate patient care."
       ],
       "expertise": [
-        "Joint Replacement – Hip & Knee",
-        "Sports Injury Treatment – ACL, PCL, Meniscus",
-        "Fracture & Trauma Management"
+        "Joint Replacement Surgery – Hip & Knee",
+        "Sports Injury Treatment – ACL, PCL, Meniscus, Rotator Cuff",
+        "Fracture & Trauma Management",
+        "Arthritis & Osteoporosis Care",
+        "Pediatric Orthopedics – Clubfoot & Growth Disorders",
+        "Spine & Back Pain Management",
+        "Minimally Invasive Orthopedic Surgery"
       ],
-      "callToAction": "Book your appointment with Dr. Raman Jindal today for expert orthopedic care.",
+      "callToAction": "Book your appointment with Dr. Raman Jindal today for expert orthopedic care and take the first step towards a pain-free life.",
       "profileImage": "/images/doctors/Raman-Jindal.jpg",
       "contactInfo": {
         "address": "Sangeeta Ortho and Gynae Center, Meerut",
@@ -35,7 +39,7 @@
       "name": "Dr. Sangeeta Jindal",
       "designation": "Gynecologist",
       "education": "MBBS, MD Obstetrics & Gynecology",
-      "description": "Experienced gynecologist with specialization in women’s health and pregnancy care.",
+      "description": "Dr. Sangeeta Jindal, founder and head consultant at Sangeeta Medical Centre, is a highly experienced obstetrician and gynecologist in Meerut with over 35 years of dedicated service in women’s healthcare. Known for her compassionate approach and deep medical expertise, she has guided thousands of women through safe pregnancies, successful deliveries, and advanced gynecological treatments.",
       "hospital": "Sangeeta Medical Centre",
       "location": "Meerut",
       "experienceYears": "35",
@@ -50,11 +54,14 @@
         "Pioneer in maternity care."
       ],
       "expertise": [
-        "Normal & High-Risk Pregnancy",
+        "Normal & High-Risk Pregnancy Care",
+        "Painless Normal Delivery",
+        "Gynecological Surgery",
+        "Menstrual Disorder Treatment",
         "Infertility Counseling",
-        "Gynecological Surgeries"
+        "Preventive Women’s Health Check-ups"
       ],
-      "callToAction": "Schedule your consultation with Dr. Sangeeta Jindal for personalized maternity care.",
+      "callToAction": "Schedule your consultation with Dr. Sangeeta Jindal for personalized maternity care and the best gynecological and maternity care with warmth and professionalism.",
       "profileImage": "/images/doctors/Sangeeta-Jindal.jpg",
       "contactInfo": {
         "address": "Sangeeta Medical Centre, Meerut",
@@ -66,7 +73,7 @@
       "name": "Dr. Manisha Chaudhary",
       "designation": "Gynecologist",
       "education": "M.S. Obstetrics & Gynecology",
-      "description": "Specializing in advanced gynecological surgeries and women’s health.",
+      "description": "Dr. Manisha Chaudhary, M.S. (Obstetrics & Gynecology), is a highly respected gynecologist in Meerut with years of expertise in providing compassionate and advanced women’s healthcare. Known as one of the best gynecologists in Meerut, she specializes in normal and high-risk pregnancy care, infertility treatment, and laparoscopic gynecological surgeries.",
       "hospital": "Sangeeta Medical Centre",
       "location": "Meerut",
       "experienceYears": "15",
@@ -81,11 +88,15 @@
         "Compassionate patient support."
       ],
       "expertise": [
-        "Laparoscopic Surgeries",
-        "Infertility Treatment",
-        "PCOS & Menstrual Disorders"
+        "Normal Delivery & Cesarean Section",
+        "High-Risk Pregnancy Management",
+        "Infertility Treatments & IVF Guidance",
+        "Laparoscopic Surgeries (Hysterectomy, Myomectomy, Ovarian Cyst Removal)",
+        "Menstrual Disorders & PCOS/PCOD Management",
+        "Antenatal & Postnatal Care",
+        "Family Planning & Contraceptive Counseling"
       ],
-      "callToAction": "Contact Dr. Manisha Chaudhary for comprehensive women’s healthcare solutions.",
+      "callToAction": "Contact Dr. Manisha Chaudhary for comprehensive women’s healthcare solutions and the highest standards of patient safety.",
       "profileImage": "/images/doctors/Manisha-Chaudhary.jpg",
       "contactInfo": {
         "address": "Sangeeta Medical Centre, Meerut",

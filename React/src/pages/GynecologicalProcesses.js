@@ -2,8 +2,47 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 
 const Gynecology = () => {
+  const CircularCheckBox = () => {
+    return (
+     <svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  style={{ paddingRight: "8px" }}  // adjust padding as needed
+>
+  <circle cx="12" cy="12" r="12" fill="#f7941d" />
+  <path
+    d="M9.00001 12.5L11 14.5L15 10.5"
+    stroke="white"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>
+
+    );
+  };
   return (
     <>
+      <style>
+        {`
+    .custom-list ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .custom-list ul li::before {
+      display: none !important;
+      content: none !important;
+    }
+      .icon-padding-right {
+  padding-right: 8px; /* or margin-right: 8px; */
+  display: inline-block; /* ensures padding/margin applies properly */
+}
+  `}
+      </style>
+
       <BreadCrumb
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
         title="Gynecological Procedures Meerut"
@@ -21,7 +60,8 @@ const Gynecology = () => {
                     Gynecological & Obstetric Procedures
                   </h2>
                   <p className="mt-2">
-                    Dr. Charu Chaudhary provides a full spectrum of care for women at every stage of life.
+                    Doctor provides a full spectrum of care for women at every
+                    stage of life.
                   </p>
                 </div>
               </div>
@@ -52,7 +92,11 @@ const Gynecology = () => {
                     Normal & High-Risk Delivery
                   </h2>
                   <p className="mt-3">
-                    Expert pregnancy care from the first trimester to postnatal recovery. Dr. Chaudhary specializes in safe childbirth, including the management of high-risk pregnancies caused by conditions like gestational diabetes, hypertension, and multiple pregnancies.
+                    Expert pregnancy care from the first trimester to postnatal
+                    recovery. Dr. Chaudhary specializes in safe childbirth,
+                    including the management of high-risk pregnancies caused by
+                    conditions like gestational diabetes, hypertension, and
+                    multiple pregnancies.
                   </p>
                 </div>
               </div>
@@ -71,20 +115,24 @@ const Gynecology = () => {
                     Laparoscopic Gynecological Surgeries
                   </h2>
                   <p className="mt-3">
-                    Minimally invasive surgeries for faster recovery and minimal scarring. Dr. Chaudhary performs a range of laparoscopic procedures including:
+                    Minimally invasive surgeries for faster recovery and minimal
+                    scarring. Dr. Chaudhary performs a range of laparoscopic
+                    procedures including:
                   </p>
                   <div className="custom-list mt-3">
                     <ul>
-                      <li>
+                       <li>  <CircularCheckBox/>
+                       
                         <strong>Ovarian cyst removal</strong>
                       </li>
-                      <li>
+                       <li>  <CircularCheckBox/>
+                          
                         <strong>Fibroid removal (Myomectomy)</strong>
                       </li>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>Hysterectomy (Uterus removal)</strong>
                       </li>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>Endometriosis treatment</strong>
                       </li>
                     </ul>
@@ -108,7 +156,10 @@ const Gynecology = () => {
         </div>
       </div>
 
-      <div className="page-about-us bg-radius-section2 bg-light" id="infertility">
+      <div
+        className="page-about-us bg-radius-section2 bg-light"
+        id="infertility"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -130,18 +181,21 @@ const Gynecology = () => {
                     Infertility Procedures
                   </h2>
                   <p className="mt-3">
-                    Dr. Chaudhary offers personalized fertility solutions, helping couples navigate their journey to parenthood. Services include:
+                    Dr. Chaudhary offers personalized fertility solutions,
+                    helping couples navigate their journey to parenthood.
+                    Services include:
                   </p>
                   <div className="custom-list mt-3">
                     <ul>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>Ovulation induction</strong>
                       </li>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>IUI (Intrauterine Insemination)</strong>
                       </li>
-                      <li>
-                        <strong>IVF (In-Vitro Fertilization)</strong> referrals with specialist coordination
+                       <li>  <CircularCheckBox/>
+                        <strong>IVF (In-Vitro Fertilization)</strong> referrals
+                        with specialist coordination
                       </li>
                     </ul>
                   </div>
@@ -162,17 +216,19 @@ const Gynecology = () => {
                     Menstrual Disorder Management
                   </h2>
                   <p className="mt-3">
-                    Comprehensive treatment for a variety of menstrual issues, helping patients regain comfort and regularity. Dr. Chaudhary provides care for:
+                    Comprehensive treatment for a variety of menstrual issues,
+                    helping patients regain comfort and regularity. Dr.
+                    Chaudhary provides care for:
                   </p>
                   <div className="custom-list mt-3">
                     <ul>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>Irregular or missed periods</strong>
                       </li>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>Heavy menstrual bleeding</strong>
                       </li>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>PCOD/PCOS</strong>-related cycle issues
                       </li>
                     </ul>
@@ -218,7 +274,9 @@ const Gynecology = () => {
                     PCOD/PCOS Hormonal Treatment
                   </h2>
                   <p className="mt-3">
-                    A comprehensive approach to PCOD/PCOS combining medical treatment with guidance on diet and lifestyle changes to restore hormonal balance and improve fertility.
+                    A comprehensive approach to PCOD/PCOS combining medical
+                    treatment with guidance on diet and lifestyle changes to
+                    restore hormonal balance and improve fertility.
                   </p>
                 </div>
               </div>
@@ -237,15 +295,17 @@ const Gynecology = () => {
                     Adolescent & Menopausal Care
                   </h2>
                   <p className="mt-3">
-                    Specialized care tailored to the unique needs of women at different life stages. Services include support for:
+                    Specialized care tailored to the unique needs of women at
+                    different life stages. Services include support for:
                   </p>
                   <div className="custom-list mt-3">
                     <ul>
-                      <li>
+                       <li>  <CircularCheckBox/>
                         <strong>Teenage menstrual and hormonal health</strong>
                       </li>
-                      <li>
-                        <strong>Menopause-related symptoms</strong> such as hot flashes, mood swings, and bone health issues
+                       <li>  <CircularCheckBox/>
+                        <strong>Menopause-related symptoms such as hot
+                        flashes, mood swings, and bone health issues</strong> 
                       </li>
                     </ul>
                   </div>
@@ -268,7 +328,10 @@ const Gynecology = () => {
         </div>
       </div>
 
-      <div className="page-about-us bg-radius-section2 bg-light" id="painless-delivery">
+      <div
+        className="page-about-us bg-radius-section2 bg-light"
+        id="painless-delivery"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -290,7 +353,9 @@ const Gynecology = () => {
                     Painless Delivery Options
                   </h2>
                   <p className="mt-3">
-                    Dr. Chaudhary offers advanced pain relief methods, including <strong>epidural anesthesia</strong>, to ensure a comfortable and positive birthing experience.
+                    Dr. Chaudhary offers advanced pain relief methods, including{" "}
+                    <strong>epidural anesthesia</strong>, to ensure a
+                    comfortable and positive birthing experience.
                   </p>
                 </div>
               </div>
@@ -309,7 +374,10 @@ const Gynecology = () => {
                     Family Planning & Contraception
                   </h2>
                   <p className="mt-3">
-                    Providing confidential and comprehensive guidance on safe and effective birth control methods, including <strong>IUD insertion</strong>, oral contraceptives, and permanent sterilization.
+                    Providing confidential and comprehensive guidance on safe
+                    and effective birth control methods, including{" "}
+                    <strong>IUD insertion</strong>, oral contraceptives, and
+                    permanent sterilization.
                   </p>
                 </div>
               </div>
@@ -330,7 +398,10 @@ const Gynecology = () => {
         </div>
       </div>
 
-      <div className="page-about-us bg-radius-section2 bg-light" id="diagnostics">
+      <div
+        className="page-about-us bg-radius-section2 bg-light"
+        id="diagnostics"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -352,7 +423,9 @@ const Gynecology = () => {
                     Gynecological Ultrasound & Diagnostics
                   </h2>
                   <p className="mt-3">
-                    Dr. Chaudhary's clinic is equipped with in-house ultrasound and diagnostic services for accurate monitoring of pregnancy progress and swift detection of gynecological conditions.
+                    Dr. Chaudhary's clinic is equipped with in-house ultrasound
+                    and diagnostic services for accurate monitoring of pregnancy
+                    progress and swift detection of gynecological conditions.
                   </p>
                 </div>
               </div>
