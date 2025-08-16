@@ -146,10 +146,10 @@ const Testimonials = ({ category }) => {
       className=" bg-radius-section2 bg-light"
        style={{margin: "50px 0 0 0"}}
     >
-      <h2 className="section-title container capitalize">
+      <h2 className="section-title container capitalize" style={{marginBottom: "0"}}>
         {category === "ortho" ? "Orthopedic" : "Gynecological"}
       </h2>
-      <div className="container">
+      <div className="container" >
         <div className="row">
           {testimonials?.map((item) => (
             <div className="col-lg-4" key={item.id}>
