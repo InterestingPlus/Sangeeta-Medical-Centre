@@ -420,7 +420,9 @@ html {
 #loading-icon {
   position: absolute;
   top: 50%;
-  max-width: 66px;
+  max-width: 70px;
+  height: 60px;
+  width: 60px;
 }
 
 @keyframes rotate-loading {

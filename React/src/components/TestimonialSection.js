@@ -104,7 +104,7 @@ const TestimonialSection = () => {
                   and futuristic technology.
                 </p>
                 <Link
-                  to="https://g.page/r/CZa_uGf0aqFLEBM/review"
+                  to="https://www.google.com/search?sca_esv=340802fe2459afeb&rlz=1C1CHBF_enIN1142IN1142&sxsrf=AE3TifNo7NeSBdubcQv1Hnl1rLnKLJ4j6g:1755329189224&kgmid=/g/11qpp4j3qs&q=Sangeeta+Medical+Center+-+Dr.+Sangeeta+Jindal,+Best+Gynecologist+in+Meerut,+Normal+Delivery+%26+Maternity+Hospital+Services.&shndl=30&shem=lcuae,lstuoe3,uaasie&source=sh/x/loc/uni/m1/1&kgs=e96cda2444b3be99&utm_source=lcuae,lstuoe3,uaasie,sh/x/loc/uni/m1/1"
                   target="_blank"
                 >
                   <img

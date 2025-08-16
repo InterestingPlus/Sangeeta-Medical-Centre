@@ -2,6 +2,7 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Testimonials from "./Testimonials";
 
+
 const Patients = () => {
   return (
     <>
@@ -130,135 +131,10 @@ const Patients = () => {
         </div>
       </div>
 
+      <Testimonials category="ortho" />
       <Testimonials />
 
-      <div class="page-about-us bg-radius-section2" id="Stories">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-title mb-0">
-                  <h2 class="text-anime-style-3" data-cursor="-opaque">
-                    Patient Stories
-                  </h2>
-                </div>
-              </div>
-
-              <div class="col-lg-3">
-                <div class="testimonial-item p-0 mt-4">
-                  <iframe
-                    width="100%"
-                    height="220"
-                    src="https://www.youtube.com/embed/ygUHZGVudGlzdA%3D%3D"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                  ></iframe>
-                  <div class="testimonial-body mt-3">
-                    <div class="author-content">
-                      <h3>Shalini, 55</h3>
-                    </div>
-                  </div>
-                  <div class="testimonial-header m-0">
-                    <div class="testimonial-content">
-                      <p>
-                        Knee replacement patient dancing again after 20 years of
-                        stiffness.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3">
-                <div class="testimonial-item p-0 mt-4">
-                  <iframe
-                    width="100%"
-                    height="220"
-                    src="https://www.youtube.com/embed/ygUHZGVudGlzdA%3D%3D"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                  ></iframe>
-                  <div class="testimonial-body mt-3">
-                    <div class="author-content">
-                      <h3>Jaswant Singh, 71</h3>
-                    </div>
-                  </div>
-                  <div class="testimonial-header m-0">
-                    <div class="testimonial-content">
-                      <p>
-                        Hip fracture recovered with walking frame in 5 days
-                        post-surgery.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3">
-                <div class="testimonial-item p-0 mt-4">
-                  <iframe
-                    width="100%"
-                    height="220"
-                    src="https://www.youtube.com/embed/ygUHZGVudGlzdA%3D%3D"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                  ></iframe>
-                  <div class="testimonial-body mt-3">
-                    <div class="author-content">
-                      <h3>Zubair, 19</h3>
-                    </div>
-                  </div>
-                  <div class="testimonial-header m-0">
-                    <div class="testimonial-content">
-                      <p>
-                        Sports injury, ACL tear repaired arthroscopically, back
-                        on the cricket field.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3">
-                <div class="testimonial-item p-0 mt-4">
-                  <iframe
-                    width="100%"
-                    height="220"
-                    src="https://www.youtube.com/embed/ygUHZGVudGlzdA%3D%3D"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                  ></iframe>
-                  <div class="testimonial-body mt-3">
-                    <div class="author-content">
-                      <h3>Poonam, 34</h3>
-                    </div>
-                  </div>
-                  <div class="testimonial-header m-0">
-                    <div class="testimonial-content">
-                      <p>
-                        Spine surgery under kyphoplasty, walked same evening.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+  
       <div class="page-about-us bg-radius-section2 bg-light ptb60 pb60">
         <div class="container">
           <div class="row align-items-center">
