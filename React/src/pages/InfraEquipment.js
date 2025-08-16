@@ -5,6 +5,13 @@ import ImageGallery from "../components/ImageGallary";
 const InfraEquipment = () => {
   return (
     <>
+    <style>{`
+  .accordion-button::after {
+    display: none !important;
+    content: none !important;
+  }
+`}</style>
+
       <BreadCrumb
         // image="images/breadcrumb.jpg"
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
@@ -60,6 +67,7 @@ const InfraEquipment = () => {
                       aria-controls="faq1"
                     >
                       Ultrasound Machine
+                      
                     </button>
                   </h2>
                   <div
@@ -674,166 +682,9 @@ const InfraEquipment = () => {
                   </div>
                 </div>
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faqhead4">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq4"
-                      aria-expanded="false"
-                      aria-controls="faq4"
-                    >
-                      Joint Replacement Equipment
-                    </button>
-                  </h2>
-                  <div
-                    id="faq4"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="faqhead4"
-                    data-bs-parent="#accordion2"
-                  >
-                    <div class="accordion-body">
-                      <div class="row">
-                        <div class="col-lg-8">
-                          <p>
-                            We use latest-generation joint replacement
-                            instruments for hip, knee, and shoulder surgeries.
-                          </p>
+            
 
-                          <ul>
-                            <li>
-                              Benefits: Accurate implant positioning, proper
-                              joint alignment, and long-lasting results.
-                            </li>
-                            <li>
-                              Outcome: Restored mobility, reduced pain, and
-                              improved quality of life.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="how-work-image-box-2 rounded-4">
-                            <div class="how-work-img-2">
-                              <img
-                                src="images/infra-equip/4joint-replacement-equipment.jpg"
-                                alt="Joint Replacement Equipment"
-                                loading="lazy"
-                              />
-                              {/* <figure class="image-anime reveal">
-                              </figure> */}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faqhead5">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq5"
-                      aria-expanded="false"
-                      aria-controls="faq5"
-                    >
-                      Dedicated Orthopaedic OT
-                    </button>
-                  </h2>
-                  <div
-                    id="faq5"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="faqhead5"
-                    data-bs-parent="#accordion2"
-                  >
-                    <div class="accordion-body">
-                      <div class="row">
-                        <div class="col-lg-8">
-                          <p>
-                            Our Dedicated Orthopedic Operating Theater is
-                            equipped with laminar airflow, HEPA filtration, and
-                            specialized lighting.
-                          </p>
-
-                          <ul>
-                            <li>
-                              Benefits: Reduced infection risk, seamless
-                              surgical workflow, and enhanced precision.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="how-work-image-box-2 rounded-4">
-                            <div class="how-work-img-2">
-                              <img
-                                src="images/infra-equip/5dedicated-orthopaedic-OT.jpg"
-                                alt="Orthopaedic OT"
-                                loading="lazy"
-                              />
-                              {/* <figure class="image-anime reveal">
-                              </figure> */}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faqhead6">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq6"
-                      aria-expanded="false"
-                      aria-controls="faq6"
-                    >
-                      Specialized Orthopedic ICU
-                    </button>
-                  </h2>
-                  <div
-                    id="faq6"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="faqhead6"
-                    data-bs-parent="#accordion2"
-                  >
-                    <div class="accordion-body">
-                      <div class="row">
-                        <div class="col-lg-8">
-                          <p>
-                            Post-surgical orthopedic patients receive
-                            round-the-clock care in our Specialized ICU with
-                            advanced monitoring systems.
-                          </p>
-                          <ul>
-                            <li>
-                              Benefits: Early complication detection, rapid
-                              intervention, and specialized recovery protocols.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="how-work-image-box-2 rounded-4">
-                            <div class="how-work-img-2">
-                              <img
-                                src="images/infra-equip/6specialized-ICU.jpg"
-                                alt="Specialized ICU"
-                                loading="lazy"
-                              />
-                              {/* <figure class="image-anime reveal">
-                              </figure> */}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+           
 
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="faqhead8">
@@ -888,65 +739,7 @@ const InfraEquipment = () => {
                   </div>
                 </div>
 
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="faqhead11">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq11"
-                      aria-expanded="false"
-                      aria-controls="faq11"
-                    >
-                      DEXA Scan
-                    </button>
-                  </h2>
-                  <div
-                    id="faq11"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="faqhead11"
-                    data-bs-parent="#accordion2"
-                  >
-                    <div class="accordion-body">
-                      <div class="row">
-                        <div class="col-lg-8">
-                          <p>
-                            The DEXA (Dual-Energy X-ray Absorptiometry) system
-                            by GE at Sangeeta Orthopedic Hospital, Meerut
-                            provides precise bone density measurements, crucial
-                            for diagnosing osteoporosis and monitoring bone
-                            health. Under Dr. Shubhankar Shekhar’s guidance,
-                            this tool supports preoperative planning and
-                            postoperative assessment, especially in elderly or
-                            high-risk patients.
-                          </p>
 
-                          <p class="mt-3">
-                            By detecting early signs of bone loss, DEXA allows
-                            for proactive treatments that strengthen bones and
-                            reduce fracture risk. The integration of this
-                            advanced diagnostic technology ensures
-                            comprehensive, preventive orthopedic care for every
-                            patient at the hospital.
-                          </p>
-                        </div>
-                        <div class="col-lg-4">
-                          <div class="how-work-image-box-2 rounded-4">
-                            <div class="how-work-img-2">
-                              <img
-                                src="images/infra-equip/11DEXA-scan.jpg"
-                                alt="DEXA"
-                                loading="lazy"
-                              />
-                              {/* <figure class="image-anime reveal">
-                              </figure> */}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="faqhead12">
@@ -1379,11 +1172,6 @@ const InfraEquipment = () => {
             </div>
           </div>
 
-          <p>
-            At Sangeeta Orthopedic Hospital, every piece of equipment is not
-            just a machine — it’s a tool of trust in the hands of Dr. Shubhankar
-            Shekhar, one of India’s finest orthopedic surgeons.
-          </p>
         </div>
       </div>
       {/* Section Start */}
@@ -1632,3 +1420,232 @@ export default InfraEquipment;
 //                 </div>
 //               </div>
 //             </div>
+
+
+
+
+
+                // <div class="accordion-item">
+                //   <h2 class="accordion-header" id="faqhead5">
+                //     <button
+                //       class="accordion-button collapsed"
+                //       type="button"
+                //       data-bs-toggle="collapse"
+                //       data-bs-target="#faq5"
+                //       aria-expanded="false"
+                //       aria-controls="faq5"
+                //     >
+                //       Dedicated Orthopaedic OT
+                //     </button>
+                //   </h2>
+                //   <div
+                //     id="faq5"
+                //     class="accordion-collapse collapse"
+                //     aria-labelledby="faqhead5"
+                //     data-bs-parent="#accordion2"
+                //   >
+                //     <div class="accordion-body">
+                //       <div class="row">
+                //         <div class="col-lg-8">
+                //           <p>
+                //             Our Dedicated Orthopedic Operating Theater is
+                //             equipped with laminar airflow, HEPA filtration, and
+                //             specialized lighting.
+                //           </p>
+
+                //           <ul>
+                //             <li>
+                //               Benefits: Reduced infection risk, seamless
+                //               surgical workflow, and enhanced precision.
+                //             </li>
+                //           </ul>
+                //         </div>
+                //         <div class="col-lg-4">
+                //           <div class="how-work-image-box-2 rounded-4">
+                //             <div class="how-work-img-2">
+                //               <img
+                //                 src="images/infra-equip/5dedicated-orthopaedic-OT.jpg"
+                //                 alt="Orthopaedic OT"
+                //                 loading="lazy"
+                //               />
+                //               {/* <figure class="image-anime reveal">
+                //               </figure> */}
+                //             </div>
+                //           </div>
+                //         </div>
+                //       </div>
+                //     </div>
+                //   </div>
+                // </div>
+
+
+                //      <div class="accordion-item">
+                //   <h2 class="accordion-header" id="faqhead6">
+                //     <button
+                //       class="accordion-button collapsed"
+                //       type="button"
+                //       data-bs-toggle="collapse"
+                //       data-bs-target="#faq6"
+                //       aria-expanded="false"
+                //       aria-controls="faq6"
+                //     >
+                //       Specialized Orthopedic ICU
+                //     </button>
+                //   </h2>
+                //   <div
+                //     id="faq6"
+                //     class="accordion-collapse collapse"
+                //     aria-labelledby="faqhead6"
+                //     data-bs-parent="#accordion2"
+                //   >
+                //     <div class="accordion-body">
+                //       <div class="row">
+                //         <div class="col-lg-8">
+                //           <p>
+                //             Post-surgical orthopedic patients receive
+                //             round-the-clock care in our Specialized ICU with
+                //             advanced monitoring systems.
+                //           </p>
+                //           <ul>
+                //             <li>
+                //               Benefits: Early complication detection, rapid
+                //               intervention, and specialized recovery protocols.
+                //             </li>
+                //           </ul>
+                //         </div>
+                //         <div class="col-lg-4">
+                //           <div class="how-work-image-box-2 rounded-4">
+                //             <div class="how-work-img-2">
+                //               <img
+                //                 src="images/infra-equip/6specialized-ICU.jpg"
+                //                 alt="Specialized ICU"
+                //                 loading="lazy"
+                //               />
+                //               {/* <figure class="image-anime reveal">
+                //               </figure> */}
+                //             </div>
+                //           </div>
+                //         </div>
+                //       </div>
+                //     </div>
+                //   </div>
+                // </div>
+
+
+
+                //     <div class="accordion-item">
+                //   <h2 class="accordion-header" id="faqhead4">
+                //     <button
+                //       class="accordion-button collapsed"
+                //       type="button"
+                //       data-bs-toggle="collapse"
+                //       data-bs-target="#faq4"
+                //       aria-expanded="false"
+                //       aria-controls="faq4"
+                //     >
+                //       Joint Replacement Equipment
+                //     </button>
+                //   </h2>
+                //   <div
+                //     id="faq4"
+                //     class="accordion-collapse collapse"
+                //     aria-labelledby="faqhead4"
+                //     data-bs-parent="#accordion2"
+                //   >
+                //     <div class="accordion-body">
+                //       <div class="row">
+                //         <div class="col-lg-8">
+                //           <p>
+                //             We use latest-generation joint replacement
+                //             instruments for hip, knee, and shoulder surgeries.
+                //           </p>
+
+                //           <ul>
+                //             <li>
+                //               Benefits: Accurate implant positioning, proper
+                //               joint alignment, and long-lasting results.
+                //             </li>
+                //             <li>
+                //               Outcome: Restored mobility, reduced pain, and
+                //               improved quality of life.
+                //             </li>
+                //           </ul>
+                //         </div>
+                //         <div class="col-lg-4">
+                //           <div class="how-work-image-box-2 rounded-4">
+                //             <div class="how-work-img-2">
+                //               <img
+                //                 src="images/infra-equip/4joint-replacement-equipment.jpg"
+                //                 alt="Joint Replacement Equipment"
+                //                 loading="lazy"
+                //               />
+                //               {/* <figure class="image-anime reveal">
+                //               </figure> */}
+                //             </div>
+                //           </div>
+                //         </div>
+                //       </div>
+                //     </div>
+                //   </div>
+                // </div>
+
+
+                //   <div class="accordion-item">
+                //   <h2 class="accordion-header" id="faqhead11">
+                //     <button
+                //       class="accordion-button collapsed"
+                //       type="button"
+                //       data-bs-toggle="collapse"
+                //       data-bs-target="#faq11"
+                //       aria-expanded="false"
+                //       aria-controls="faq11"
+                //     >
+                //       DEXA Scan
+                //     </button>
+                //   </h2>
+                //   <div
+                //     id="faq11"
+                //     class="accordion-collapse collapse"
+                //     aria-labelledby="faqhead11"
+                //     data-bs-parent="#accordion2"
+                //   >
+                //     <div class="accordion-body">
+                //       <div class="row">
+                //         <div class="col-lg-8">
+                //           <p>
+                //             The DEXA (Dual-Energy X-ray Absorptiometry) system
+                //             by GE at Mrityunjay Orthopedic Hospital, Meerut
+                //             provides precise bone density measurements, crucial
+                //             for diagnosing osteoporosis and monitoring bone
+                //             health. Under Dr. Shubhankar Shekhar’s guidance,
+                //             this tool supports preoperative planning and
+                //             postoperative assessment, especially in elderly or
+                //             high-risk patients.
+                //           </p>
+
+                //           <p class="mt-3">
+                //             By detecting early signs of bone loss, DEXA allows
+                //             for proactive treatments that strengthen bones and
+                //             reduce fracture risk. The integration of this
+                //             advanced diagnostic technology ensures
+                //             comprehensive, preventive orthopedic care for every
+                //             patient at the hospital.
+                //           </p>
+                //         </div>
+                //         <div class="col-lg-4">
+                //           <div class="how-work-image-box-2 rounded-4">
+                //             <div class="how-work-img-2">
+                //               <img
+                //                 src="images/infra-equip/11DEXA-scan.jpg"
+                //                 alt="DEXA"
+                //                 loading="lazy"
+                //               />
+                //               {/* <figure class="image-anime reveal">
+                //               </figure> */}
+                //             </div>
+                //           </div>
+                //         </div>
+                //       </div>
+                //     </div>
+                //   </div>
+                // </div>

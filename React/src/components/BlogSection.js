@@ -87,6 +87,8 @@ const BlogPage = () => {
         setLoading(true);
         // Using the actual client.fetch assuming it's correctly configured
         const data = await client.fetch(blogQuery);
+        console.log("blogQuery: ",data);
+        
         setBlogPosts(data);
         setError(null);
       } catch (err) {
