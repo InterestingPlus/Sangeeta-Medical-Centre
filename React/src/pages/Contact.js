@@ -183,13 +183,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="google-map-iframe">
-                <iframe
-                  src="https://www.google.com/maps/place/Sangeeta+Medical+Center+-+Dr.+Sangeeta+Jindal,+Best+Gynecologist+in+Meerut,+Normal+Delivery+%26+Maternity+Hospital+Services./@29.0053747,77.7021116,13z/data=!4m6!3m5!1s0x390c653b089702bf:0x428a31f3b650ca21!8m2!3d29.005381!4d77.7433971!16s%2Fg%2F11qpp4j3qs?entry=ttu&g_ep=EgoyMDI1MDgwMy4wIKXMDSoASAFQAw%3D%3D"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  title="SangeetaMedicalCentre"
-                ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57138.7983549971!2d77.7021116!3d29.0053747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c653b089702bf%3A0x428a31f3b650ca21!2sSangeeta%20Medical%20Center%20-%20Dr.%20Sangeeta%20Jindal%2C%20Best%20Gynecologist%20in%20Meerut%2C%20Normal%20Delivery%20%26%20Maternity%20Hospital%20Services.!5e1!3m2!1sen!2sin!4v1755342844108!5m2!1sen!2sin" width="600" height="450"  style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@
 
 .footer-links {
   flex: 1;
-  min-width: 200px;
+  min-width: 150px;
 }
 
 .footer-top-row h3 {
@@ -43,7 +43,7 @@
 
 .footer-links.social-links ul {
   display: flex;
-  justify-content: center; /* center on desktop/tablet */
+  /* justify-content: center; center on desktop/tablet */
   gap: 15px;
   list-style: none;
   padding: 0;

@@ -586,7 +586,7 @@ html {
 
 .topbar-social-links ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
   transition: 0.3s ease-in-out;
 }
 
@@ -616,7 +616,7 @@ html {
 }
 
 .topbar-social-links ul li a i {
-  font-size: 20px;
+  font-size: 10px;
   color: inherit;
 }
 
