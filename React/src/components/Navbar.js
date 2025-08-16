@@ -193,11 +193,11 @@ const Navbar = () => {
           url: "/procedures/orthopedics",
           subLink: [
             {
-              name: "Robotic Joint Replacement Surgery",
+              name: "Joint Replacement Surgery ",
               url: "/procedures/orthopedics#Joint",
             },
             {
-              name: "Trauma & Fracture Surgery",
+              name: " Trauma & Fracture Surgery",
               url: "/procedures/orthopedics#Trauma",
             },
             {
@@ -209,20 +209,8 @@ const Navbar = () => {
               url: "/procedures/orthopedics#Pediatric",
             },
             {
-              name: "Kyphoplasty",
-              url: "/procedures/orthopedics#Kyphoplasty",
-            },
-            {
-              name: "Disc Replacement Surgery",
-              url: "/procedures/orthopedics#Disc",
-            },
-            {
-              name: "Major Spine Surgeries",
-              url: "/procedures/orthopedics#Major",
-            },
-            {
               name: "Direct Anterior Hip Replacement",
-              url: "/procedures/orthopedics#DAA",
+              url: "/procedures/orthopedics#Kyphoplasty",
             },
           ],
         },
