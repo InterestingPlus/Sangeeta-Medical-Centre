@@ -144,7 +144,7 @@ const Testimonials = ({ category }) => {
     <div
       id={category === "ortho" ? "orthopedic" : "gynecological"}
       className=" bg-radius-section2 bg-light"
-       style={{margin: "50px 0 0 0"}}
+       style={{ padding: "150px 0 0 0" }}
     >
       <h2 className="section-title container capitalize" style={{marginBottom: "0"}}>
         {category === "ortho" ? "Orthopedic" : "Gynecological"}
