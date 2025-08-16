@@ -30,9 +30,9 @@ const WhyChooseSection = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
-              <div className="quality-treatment-content">
+              <div className="quality-treatment-content" style={{color: 'black'}}>
                 <div className="section-title">
-                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque"  style={{color: 'black'}}>
                     Why Choose Us
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="0.25s">
@@ -46,35 +46,35 @@ const WhyChooseSection = () => {
                   data-wow-delay="0.5s"
                 >
                   <ul>
-                    <li>
+                    <li  style={{color: 'black'}}>
                       <CircularCheckBox /> <strong>Expert Care</strong>:
                       Specialized gynecological and orthopedic services.
                     </li>
 
-                    <li>
+                    <li  style={{color: 'black'}}>
                       <CircularCheckBox />{" "}
                       <strong>Personalized Approach</strong>: Tailored treatment
                       plans with compassion.
                     </li>
 
-                    <li>
+                    <li  style={{color: 'black'}}>
                       <CircularCheckBox /> <strong>Advanced Technology</strong>:
                       Utilization of the latest medical techniques.
                     </li>
 
-                    <li>
+                    <li  style={{color: 'black'}}>
                       <CircularCheckBox />{" "}
                       <strong>Comprehensive Services</strong>: A full range of
                       women's health care.
                     </li>
 
-                    <li>
+                    <li  style={{color: 'black'}}>
                       <CircularCheckBox />{" "}
                       <strong>Patient‑Centric Environment</strong>: Comfortable
                       and supportive atmosphere.
                     </li>
 
-                    <li>
+                    <li  style={{color: 'black'}}>
                       <CircularCheckBox /> <strong>Proven Track Record</strong>:
                       Over 35+ years of excellence in healthcare.
                     </li>
