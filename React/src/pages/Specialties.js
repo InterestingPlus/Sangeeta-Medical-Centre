@@ -299,7 +299,7 @@ const localSpecialties = [
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/cccccc.webp",
     alt: "Complex Trauma Surgery",
     icon: "/images/icons/spine.png",
-    link: "complex-trauma-surgery",
+    link: "orthopedic-emergencies-trauma-care",
     title: "Complex Trauma Surgery",
   },
   {

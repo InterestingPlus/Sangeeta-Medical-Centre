@@ -2,8 +2,46 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 
 const Procedures = () => {
+    const CircularCheckBox = () => {
+    return (
+     <svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  style={{ paddingRight: "8px" }}  // adjust padding as needed
+>
+  <circle cx="12" cy="12" r="12" fill="#f7941d" />
+  <path
+    d="M9.00001 12.5L11 14.5L15 10.5"
+    stroke="white"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>
+
+    );
+  };
   return (
     <>
+    <style>
+        {`
+    .custom-list ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .custom-list ul li::before {
+      display: none !important;
+      content: none !important;
+    }
+      .icon-padding-right {
+  padding-right: 8px; /* or margin-right: 8px; */
+  display: inline-block; /* ensures padding/margin applies properly */
+}
+  `}
+      </style>
       <BreadCrumb
         // image="images/breadcrumb.jpg"
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
@@ -14,12 +52,12 @@ const Procedures = () => {
       {/* Section Start */}
       <div className="page-about-us ptb60" id="Legacy">
         <div className="container">
-          {/* <div className="row align-items-center">
+          <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="page-about-content">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Procedures Performed by Dr. Shubhankar Shekhar
+                    Procedures 
                   </h2>
                   <p className="mt-2">
                     Every procedure is not just a surgery, but a benchmark of
@@ -28,7 +66,7 @@ const Procedures = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
 
@@ -39,7 +77,7 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/Joint Replacement Surgery.jpg"
+                    src="/images/procedures/Joint Replacement Surgery.jpg"
                     alt="Joint Replacement Surgery (Robotic & Muscle-Sparing) Meerut"
                     loading="lazy"
                   />
@@ -53,7 +91,7 @@ const Procedures = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Joint Replacement Surgery (Robotic & Muscle-Sparing)
+                    Joint Replacement Surgery – Dr. Raman Jindal
                   </h2>
                   <p className="mt-3">
                     Joint replacement surgery has evolved significantly with the
@@ -86,7 +124,8 @@ const Procedures = () => {
                     joint replacement surgery is the future of pain-free
                     mobility.
                   </p>
-                  <div className="custom-list mt-3">
+
+                  {/* <div className="custom-list mt-3">
                     <ul>
                       <li>
                         <strong>Micron-level implant alignment</strong> using
@@ -113,7 +152,7 @@ const Procedures = () => {
                     This technique is particularly valuable for younger, active
                     patients and those seeking a faster, safer return to normal
                     life.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -131,14 +170,35 @@ const Procedures = () => {
                     Trauma & Fracture Surgery
                   </h2>
                   <p className="mt-3">
-                    Trauma is unpredictable — and demands not just surgical
-                    repair, but restoration of full function. Dr. Shubhankar’s
-                    extensive training in polytrauma management ensures patients
-                    with complex, multi-bone injuries are treated with speed,
-                    precision, and foresight.
+                    Accidents and injuries can cause complex fractures that
+                    require immediate expert care. Dr. Raman Jindal, a trusted
+                    orthopedic doctor in Meerut, specializes in trauma and
+                    fracture surgery for patients of all ages. Known as one of
+                    the best orthopedic doctors in Meerut, he provides emergency
+                    care for fractures, dislocations, ligament injuries, and
+                    multiple trauma cases.
+                  </p>
+                  <p className="mt-3">
+                    At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses
+                    advanced orthopedic surgical methods such as internal
+                    fixation, external fixation, and minimally invasive fracture
+                    repair to stabilize injuries and promote fast healing. His
+                    expertise ensures proper bone alignment, reduced pain, and
+                    prevention of long-term complications
+                  </p>
+                  <p className="mt-3">
+                    People searching for an orthopedic doctor near me during
+                    emergencies trust Dr. Raman Jindal for his quick response,
+                    accurate diagnosis, and effective surgical intervention.
+                  </p>
+                  <p className="mt-3">
+                    If you are looking for an orthopedic doctor Meerut for
+                    accident-related bone injuries, Dr. Raman Jindal offers
+                    life-saving orthopedic trauma care with precision and
+                    compassion.
                   </p>
 
-                  <div className="custom-list mt-3">
+                  {/* <div className="custom-list mt-3">
                     <ul>
                       <li>
                         <strong>
@@ -160,7 +220,7 @@ const Procedures = () => {
                   <p className="mt-3">
                     His trauma care is rooted in restoring life — not just
                     stabilizing bones.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -169,7 +229,7 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/trauma-fracture-surgery.jpg"
+                    src="/images/procedures/Trauma & Fracture Surgery.jpg"
                     alt="Trauma & Fracture Surgery Meerut"
                     loading="lazy"
                   />
@@ -192,7 +252,7 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/arthroscopic-surgery.jpg"
+                    src="/images/procedures/Arthroscopic Surgery.jpeg"
                     alt="Arthroscopic Surgery (Keyhole Precision) Meerut"
                     loading="lazy"
                   />
@@ -206,16 +266,23 @@ const Procedures = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Arthroscopic Surgery (Keyhole Precision)
+                   Arthroscopic Surgery – Dr. Raman Jindal
                   </h2>
                   <p className="mt-3">
-                    Arthroscopy allows for surgical accuracy without surgical
-                    trauma. Dr. Shubhankar is widely recognized for his advanced
-                    arthroscopic procedures across knee, shoulder, hip, and
-                    ankle joints.
+                   Arthroscopic surgery is a minimally invasive orthopedic technique that uses a small camera and instruments to treat joint problems. Dr. Raman Jindal, a leading orthopedic doctor in Meerut, is an expert in arthroscopic procedures for knees and shoulders, including ACL/PCL reconstruction, meniscus repair, and shoulder arthroscopy.
                   </p>
+                  <p className="mt-3">
+                   As one of the best orthopedic doctors in Meerut, Dr. Raman Jindal ensures smaller incisions, faster recovery, and minimal post-operative pain for his patients. Arthroscopy allows him to diagnose and treat joint problems with precision, preserving healthy tissue and restoring mobility.
+                    </p>
+                  <p className="mt-3">
+                   Patients searching for an orthopedic doctor near me for sports injuries or ligament tears often choose Dr. Raman Jindal for his skill in arthroscopic surgery and successful rehabilitation programs.
+                    </p>
+                  <p className="mt-3">
+                   If you are looking for an orthopedic doctor Meerut who can offer advanced, minimally invasive joint care, Dr. Raman Jindal provides world-class arthroscopic treatments.
 
-                  <div className="custom-list mt-3">
+                    </p>
+
+                  {/* <div className="custom-list mt-3">
                     <ul>
                       <li>
                         <strong>ACL/PCL reconstruction</strong>, rotator cuff
@@ -235,7 +302,7 @@ const Procedures = () => {
                   <p className="mt-3">
                     Every movement matters — arthroscopy at MOH ensures they
                     return stronger.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -250,18 +317,27 @@ const Procedures = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Pediatric Orthopedic Surgery
+                   Pediatric Orthopedic – Dr. Raman Jindal
                   </h2>
                   <p className="mt-3">
-                    Children’s bones are growing — which means every correction
-                    must be timed and tailored precisely.
+                  Children’s bone and joint problems need specialized, gentle care. Dr. Raman Jindal, a trusted orthopedic doctor in Meerut, provides advanced pediatric orthopedic treatments for conditions such as clubfoot correction (CTEV), limb deformities, and growth-related orthopedic conditions.
+
+                  </p>
+                  <p className="mt-3">
+                  As one of the best orthopedic doctors in Meerut, Dr. Raman Jindal ensures accurate diagnosis, child-friendly treatment methods, and long-term correction of bone and joint issues. His expertise in pediatric orthopedics helps children achieve normal growth and pain-free movement.
+
+                  </p>
+                  <p className="mt-3">
+                  Parents searching online for an orthopedic doctor near me prefer Dr. Raman Jindal for his compassionate approach, safe techniques, and high success rate in treating young patients.
+
+                  </p>
+                  <p className="mt-3">
+                  If you need an orthopedic doctor Meerut for your child’s bone or joint care, Dr. Raman Jindal offers trusted, specialized, and effective pediatric orthopedic solutions.
+
                   </p>
 
-                  <p className="mt-3">
-                    Dr. Shubhankar offers specialized pediatric orthopedic care
-                    for:
-                  </p>
-                  <div className="custom-list mt-3">
+                 
+                  {/* <div className="custom-list mt-3">
                     <ul>
                       <li>
                         <strong>Congenital deformities</strong> (clubfoot, DDH)
@@ -280,8 +356,8 @@ const Procedures = () => {
                   <p className="mt-3">
                     He approaches pediatric cases with clinical maturity and
                     human sensitivity, ensuring parents feel informed and
-                    involved.
-                  </p>
+                    involved. 
+                  </p>*/}
                 </div>
               </div>
             </div>
@@ -290,7 +366,7 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/pediatric-orthopedic-surgery.jpg"
+                    src="/images/procedures/Pediatric Orthopedic Surgery.jpg"
                     alt="Pediatric Orthopedic Surgery Meerut"
                     loading="lazy"
                   />
@@ -313,7 +389,7 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/kyphoplasty.jpg"
+                    src="/images/procedures/Direct Anterior Hip Replacement .jpg"
                     alt="Kyphoplasty Treatment Meerut"
                     loading="lazy"
                   />
@@ -327,17 +403,30 @@ const Procedures = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Kyphoplasty
+                    Direct Anterior Hip Replacement – Dr. Raman Jindal
+
                   </h2>
                   <p className="mt-3">
-                    For elderly patients or those with fragile bones, vertebral
-                    compression fractures can be debilitating.
+                   The direct anterior hip replacement is a modern, muscle-sparing technique that offers faster recovery and less pain after surgery. Dr. Raman Jindal, a top orthopedic doctor in Meerut, specializes in this approach to help patients walk within days and resume normal activities quickly.
+
+                   
+                  </p>
+                  <p className="mt-3">
+                   Known as one of the best orthopedic doctors in Meerut, Dr. Raman Jindal uses advanced implants and precise surgical techniques to ensure natural joint movement and long-term durability. This method reduces the risk of dislocation, minimizes scarring, and shortens hospital stays.
+
+                  </p>
+                  <p className="mt-3">
+                   Patients searching for an orthopedic doctor near me for hip replacement choose Dr. Raman Jindal for his expertise and commitment to patient comfort.
+
+
+                  </p>
+                  <p className="mt-3">
+                   If you are looking for an orthopedic doctor Meerut offering advanced hip replacement options, Dr. Raman Jindal’s direct anterior hip replacement delivers exceptional results.
+
+
                   </p>
 
-                  <p className="mt-3">
-                    Kyphoplasty — a minimally invasive cement stabilization
-                    technique — is performed by Dr. Shubhankar to:
-                  </p>
+{/*                   
                   <div className="custom-list mt-3">
                     <ul>
                       <li>
@@ -358,6 +447,40 @@ const Procedures = () => {
                   <p className="mt-3">
                     It’s a game-changer for patients who cannot tolerate major
                     spine surgeries.
+                  </p> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div className="page-about-us bg-radius-section2 bg-light" id="delivery">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/Normal-&-High-Risk-Delivery.jpg"
+                    alt="Normal & High-Risk Delivery Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    Normal & High-Risk Delivery
+                  </h2>
+                  <p className="mt-3">
+                    Expert pregnancy care from the first trimester to postnatal
+                    recovery. Dr. Chaudhary specializes in safe childbirth,
+                    including the management of high-risk pregnancies caused by
+                    conditions like gestational diabetes, hypertension, and
+                    multiple pregnancies.
                   </p>
                 </div>
               </div>
@@ -366,44 +489,279 @@ const Procedures = () => {
         </div>
       </div>
 
-      <div className="page-about-us bg-radius-section2" id="Disc">
+      <div className="page-about-us bg-radius-section2" id="laparoscopic">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Disc Replacement Surgery
+                    Laparoscopic Gynecological Surgeries
                   </h2>
                   <p className="mt-3">
-                    Unlike spinal fusion, disc replacement preserves motion and
-                    spine health in patients with degenerative disc disease.
-                  </p>
-
-                  <p className="mt-3">
-                    Performed only by highly trained specialists like Dr.
-                    Shubhankar, this surgery involves:
+                    Minimally invasive surgeries for faster recovery and minimal
+                    scarring. Dr. Chaudhary performs a range of laparoscopic
+                    procedures including:
                   </p>
                   <div className="custom-list mt-3">
                     <ul>
-                      <li>
-                        Replacing the damaged disc with a{" "}
-                        <strong>motion-preserving artificial implant</strong>
+                       <li>  <CircularCheckBox/>
+                       
+                        <strong>Ovarian cyst removal</strong>
                       </li>
-                      <li>
-                        Shorter hospital stays and reduced adjacent segment
-                        degeneration
+                       <li>  <CircularCheckBox/>
+                          
+                        <strong>Fibroid removal (Myomectomy)</strong>
                       </li>
-                      <li>
-                        Ideal for <strong>younger patients</strong> with high
-                        spinal activity demand
+                       <li>  <CircularCheckBox/>
+                        <strong>Hysterectomy (Uterus removal)</strong>
+                      </li>
+                       <li>  <CircularCheckBox/>
+                        <strong>Endometriosis treatment</strong>
                       </li>
                     </ul>
                   </div>
+                </div>
+              </div>
+            </div>
 
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/Laparoscopic-Gynecological-Surgeries.jpg"
+                    alt="Laparoscopic Gynecological Surgeries Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="page-about-us bg-radius-section2 bg-light"
+        id="infertility"
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/Infertility-Procedures.jpg"
+                    alt="Infertility Procedures Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    Infertility Procedures
+                  </h2>
                   <p className="mt-3">
-                    This is not just about removing pain — it’s about protecting
-                    the future of the spine.
+                    Dr. Chaudhary offers personalized fertility solutions,
+                    helping couples navigate their journey to parenthood.
+                    Services include:
+                  </p>
+                  <div className="custom-list mt-3">
+                    <ul>
+                       <li>  <CircularCheckBox/>
+                        <strong>Ovulation induction</strong>
+                      </li>
+                       <li>  <CircularCheckBox/>
+                        <strong>IUI (Intrauterine Insemination)</strong>
+                      </li>
+                       <li>  <CircularCheckBox/>
+                        <strong>IVF (In-Vitro Fertilization)</strong> referrals
+                        with specialist coordination
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="page-about-us bg-radius-section2" id="menstrual">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    Menstrual Disorder Management
+                  </h2>
+                  <p className="mt-3">
+                    Comprehensive treatment for a variety of menstrual issues,
+                    helping patients regain comfort and regularity. Dr.
+                    Chaudhary provides care for:
+                  </p>
+                  <div className="custom-list mt-3">
+                    <ul>
+                       <li>  <CircularCheckBox/>
+                        <strong>Irregular or missed periods</strong>
+                      </li>
+                       <li>  <CircularCheckBox/>
+                        <strong>Heavy menstrual bleeding</strong>
+                      </li>
+                       <li>  <CircularCheckBox/>
+                        <strong>PCOD/PCOS</strong>-related cycle issues
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/Menstrual-Disorder-Management.jpg"
+                    alt="Menstrual Disorder Management Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="page-about-us bg-radius-section2 bg-light" id="PCOD">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/PCODPCOS-Hormonal-Treatment.jpg"
+                    alt="PCOD/PCOS Hormonal Treatment Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    PCOD/PCOS Hormonal Treatment
+                  </h2>
+                  <p className="mt-3">
+                    A comprehensive approach to PCOD/PCOS combining medical
+                    treatment with guidance on diet and lifestyle changes to
+                    restore hormonal balance and improve fertility.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="page-about-us bg-radius-section2" id="adolescent">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    Adolescent & Menopausal Care
+                  </h2>
+                  <p className="mt-3">
+                    Specialized care tailored to the unique needs of women at
+                    different life stages. Services include support for:
+                  </p>
+                  <div className="custom-list mt-3">
+                    <ul>
+                       <li>  <CircularCheckBox/>
+                        <strong>Teenage menstrual and hormonal health</strong>
+                      </li>
+                       <li>  <CircularCheckBox/>
+                        <strong>Menopause-related symptoms such as hot
+                        flashes, mood swings, and bone health issues</strong> 
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/Adolescent-&-Menopausal-Care.jpg"
+                    alt="Adolescent & Menopausal Care Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="page-about-us bg-radius-section2 bg-light"
+        id="painless-delivery"
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <div className="how-work-image-box-2 rounded-4">
+                <div className="how-work-img-2">
+                  <img
+                    src="/images/procedures/gyneco/painless-delivery.png"
+                    alt="Painless Delivery Options Meerut"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    Painless Delivery Options
+                  </h2>
+                  <p className="mt-3">
+                    Dr. Chaudhary offers advanced pain relief methods, including{" "}
+                    <strong>epidural anesthesia</strong>, to ensure a
+                    comfortable and positive birthing experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="page-about-us bg-radius-section2" id="family-planning">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <div className="page-about-content-left">
+                <div className="section-title mb-0">
+                  <h2 className="text-anime-style-3" data-cursor="-opaque">
+                    Family Planning & Contraception
+                  </h2>
+                  <p className="mt-3">
+                    Providing confidential and comprehensive guidance on safe
+                    and effective birth control methods, including{" "}
+                    <strong>IUD insertion</strong>, oral contraceptives, and
+                    permanent sterilization.
                   </p>
                 </div>
               </div>
@@ -413,12 +771,10 @@ const Procedures = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/disc-replacement-surgery.jpg"
-                    alt="Disc Replacement Surgery Meerut"
+                    src="/images/procedures/gyneco/Family-Planning-&-Contraception.jpg"
+                    alt="Family Planning & Contraception Meerut"
                     loading="lazy"
                   />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
@@ -426,19 +782,20 @@ const Procedures = () => {
         </div>
       </div>
 
-      <div className="page-about-us bg-radius-section2 bg-light" id="Major">
+      <div
+        className="page-about-us bg-radius-section2 bg-light"
+        id="diagnostics"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/procedures/major-spine-surgeries.jpg"
-                    alt="Major Spine Surgeries Meerut"
+                    src="/images/procedures/gyneco/Gynecological-Ultrasound-&-Diagnostics.jpg"
+                    alt="Gynecological Ultrasound & Diagnostics Meerut"
                     loading="lazy"
                   />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
@@ -447,117 +804,13 @@ const Procedures = () => {
               <div className="page-about-content-left">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Major Spine Surgeries
+                    Gynecological Ultrasound & Diagnostics
                   </h2>
                   <p className="mt-3">
-                    Complex spine surgeries — whether due to deformity,
-                    instability, or nerve compression — require surgical
-                    leadership.
+                    Dr. Chaudhary's clinic is equipped with in-house ultrasound
+                    and diagnostic services for accurate monitoring of pregnancy
+                    progress and swift detection of gynecological conditions.
                   </p>
-
-                  <p className="mt-3">Dr. Shubhankar performs:</p>
-                  <div className="custom-list mt-3">
-                    <ul>
-                      <li>
-                        <strong>Decompression surgeries</strong> (laminectomy,
-                        discectomy)
-                      </li>
-                      <li>
-                        <strong>
-                          Spinal fusion for scoliosis, spondylolisthesis, and
-                          instability
-                        </strong>
-                      </li>
-                      <li>
-                        <strong>
-                          Neuro-monitored multi-level reconstructions
-                        </strong>
-                        , ensuring spinal cord safety throughout the procedure
-                      </li>
-                    </ul>
-                  </div>
-
-                  <p className="mt-3">
-                    His spine surgeries are guided by three core principles:
-                    stability, safety, and sustained recovery.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="page-about-us bg-radius-section2" id="DAA">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              <div className="page-about-content-left">
-                <div className="section-title mb-0">
-                  <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Direct Anterior Hip Replacement
-                  </h2>
-                  <p className="mt-3">
-                    Dr. Shubhankar Shekhar brings cutting-edge expertise to hip
-                    replacement surgery through the{" "}
-                    <strong>Direct Anterior Approach</strong> — a minimally
-                    invasive, muscle-sparing technique performed by a select few
-                    surgeons globally. This approach offers exceptional
-                    precision and quicker recovery by accessing the hip joint
-                    through natural intervals between muscles.
-                  </p>
-
-                  <p className="mt-3">
-                    Benefits of Direct Anterior Hip Replacement include:
-                  </p>
-                  <div className="custom-list mt-3">
-                    <ul>
-                      <li>
-                        <strong>No cutting of major muscles or tendons</strong>,
-                        preserving natural joint stability
-                      </li>
-                      <li>
-                        <strong>Improved implant positioning</strong> with
-                        intraoperative imaging and navigation
-                      </li>
-                      <li>
-                        <strong>Faster rehabilitation</strong>, with many
-                        patients walking within 24–48 hours
-                      </li>
-                      <li>
-                        <strong>Less postoperative pain</strong>, reduced risk
-                        of dislocation, and shorter hospital stays
-                      </li>
-                      <li>
-                        <strong>Ideal for younger and active patients</strong>{" "}
-                        seeking quicker return to mobility and lifestyle
-                      </li>
-                      <li>
-                        <strong>No precautions needed after surgery</strong>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <p className="mt-3">
-                    This advanced approach reflects Dr. Shekhar’s commitment to
-                    delivering{" "}
-                    <strong>personalized, high-performance outcomes</strong>{" "}
-                    using globally recognized orthopedic innovations.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-5">
-              <div className="how-work-image-box-2 rounded-4">
-                <div className="how-work-img-2">
-                  <img
-                    src="images/procedures/major-spine-surgeries.jpg"
-                    alt="Direct Anterior Hip Replacement Meerut"
-                    loading="lazy"
-                  />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
