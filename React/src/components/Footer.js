@@ -430,7 +430,7 @@ export default Footer;
 //                     <NavLink to="/">home</NavLink>
 //                   </li>
 //                   <li>
-//                     <NavLink to="about" title="About Mrityunjay Hospital ">
+//                     <NavLink to="about" title="About Sangeeta Hospital ">
 //                       about
 //                     </NavLink>
 //                   </li>

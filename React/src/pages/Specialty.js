@@ -328,7 +328,7 @@
 //                     <div className="row">
 //                       <div className="col-lg-8">
 //                         <p>
-//                           Patients at Mrityunjay Hospital, Meerut benefit from
+//                           Patients at Sangeeta Hospital, Meerut benefit from
 //                           cutting-edge surgical tools such as high-strength
 //                           suture anchors, bioabsorbable implants, and the latest
 //                           arthroscopic techniques that allow for smaller
@@ -405,7 +405,7 @@
 //                     </p>
 
 //                     <p>
-//                       At Mrityunjay Orthopedic Hospital, Meerut, patients with
+//                       At Sangeeta Orthopedic Hospital, Meerut, patients with
 //                       rotator cuff tears receive expert, personalized care under
 //                       the guidance of <strong>Dr. Shubhankar Shekhar</strong>,
 //                       Consultant Joint Replacement & Orthopedic Surgeon. A
@@ -430,7 +430,7 @@
 //                           an athlete, a laborer, or simply someone looking to
 //                           regain pain-free movement, you can trust{" "}
 //                           <strong>
-//                             Mrityunjay Orthopedic Hospital, Meerut
+//                             Sangeeta Orthopedic Hospital, Meerut
 //                           </strong>{" "}
 //                           to deliver comprehensive care with excellent outcomes.
 //                         </p>
@@ -504,7 +504,7 @@
 //                       often frustrating condition that gradually limits shoulder
 //                       movement, making even simple tasks like dressing or
 //                       reaching overhead difficult. At{" "}
-//                       <strong>Mrityunjay Orthopedic Hospital, Meerut</strong>,
+//                       <strong>Sangeeta Orthopedic Hospital, Meerut</strong>,
 //                       Dr. Shubhankar Shekhar offers expert care for patients
 //                       facing this condition, guiding them through every stage of
 //                       recovery. The condition typically develops after injury,
@@ -523,7 +523,7 @@
 //                           physiotherapy and medication strategies to advanced
 //                           arthroscopic capsular release procedures when needed,
 //                           the focus is always on restoring pain-free motion and
-//                           preventing long-term stiffness. At Mrityunjay
+//                           preventing long-term stiffness. At Sangeeta
 //                           Orthopedic Hospital, Meerut, patients find the
 //                           expertise and support they need to regain control over
 //                           their shoulder health.
@@ -609,7 +609,7 @@
 //                     </div>
 
 //                     <p>
-//                       The Shoulder Department at Mrityunjay Orthopedic Hospital
+//                       The Shoulder Department at Sangeeta Orthopedic Hospital
 //                       is where modern orthopedic science meets surgical
 //                       mastery—delivering outcomes that patients can trust and
 //                       feel.

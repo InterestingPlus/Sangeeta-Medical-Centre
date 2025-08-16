@@ -25,7 +25,7 @@ const HeroSection = () => {
                         </h1>
                         <p>
                           Serving Meerut with over 40 years of trusted medical
-                          care, Mrityunjay Hospital is a name synonymous with
+                          care, Sangeeta Hospital is a name synonymous with
                           integrity, compassion, and clinical expertise.
                         </p>
                       </div>

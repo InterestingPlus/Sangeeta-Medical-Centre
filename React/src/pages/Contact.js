@@ -31,7 +31,7 @@ const Contact = () => {
                 <p className="mt-2">
                   Reach out to us to book an appointment or for any
                   health-related queries.
-                  {/* At Mrityunjay Orthopedic Hospital, reaching the right care is
+                  {/* At Sangeeta Orthopedic Hospital, reaching the right care is
                   as important as receiving it. Our dedicated contact services
                   are designed to ensure that patients — local or international
                   — can get prompt support, appointments, and guidance directly

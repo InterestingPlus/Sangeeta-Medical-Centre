@@ -520,7 +520,7 @@ const InfraEquipment = () => {
                       <div class="row">
                         <div class="col-lg-8">
                           <p>
-                            At Mrityunjay Orthopedic Hospital, Meerut, under the
+                            At Sangeeta Orthopedic Hospital, Meerut, under the
                             leadership of Dr. Shubhankar Shekhar, we take pride
                             in our advanced infrastructure that supports
                             world-class orthopedic care. A key part of this is
@@ -912,7 +912,7 @@ const InfraEquipment = () => {
                         <div class="col-lg-8">
                           <p>
                             The DEXA (Dual-Energy X-ray Absorptiometry) system
-                            by GE at Mrityunjay Orthopedic Hospital, Meerut
+                            by GE at Sangeeta Orthopedic Hospital, Meerut
                             provides precise bone density measurements, crucial
                             for diagnosing osteoporosis and monitoring bone
                             health. Under Dr. Shubhankar Shekhar’s guidance,
@@ -1283,7 +1283,7 @@ const InfraEquipment = () => {
                       <div class="row">
                         <div class="col-lg-8">
                           <p>
-                            The Specialised Operating Room Table at Mrityunjay
+                            The Specialised Operating Room Table at Sangeeta
                             Orthopedic Hospital, Meerut is customized for
                             muscle-sparing joint replacements, allowing Dr.
                             Shubhankar Shekhar to perform precise, minimally
@@ -1342,7 +1342,7 @@ const InfraEquipment = () => {
                         <div class="col-lg-8">
                           <p>
                             The MAKO by Stryker Joint Replacement Robot at
-                            Mrityunjay Orthopedic Hospital, Meerut enhances
+                            Sangeeta Orthopedic Hospital, Meerut enhances
                             surgical precision by combining 3D planning with
                             robotic-assisted execution. Under Dr. Shubhankar
                             Shekhar’s guidance, this robot allows for highly
@@ -1380,7 +1380,7 @@ const InfraEquipment = () => {
           </div>
 
           <p>
-            At Mrityunjay Orthopedic Hospital, every piece of equipment is not
+            At Sangeeta Orthopedic Hospital, every piece of equipment is not
             just a machine — it’s a tool of trust in the hands of Dr. Shubhankar
             Shekhar, one of India’s finest orthopedic surgeons.
           </p>
@@ -1417,7 +1417,7 @@ export default InfraEquipment;
 //                         <div class="col-lg-8">
 //                           <p>
 //                             The Physiotherapy & Rehabilitation Unit at
-//                             Mrityunjay Orthopedic Hospital, Meerut plays a key
+//                             Sangeeta Orthopedic Hospital, Meerut plays a key
 //                             role in patients’ recovery journeys after orthopedic
 //                             surgeries or injuries. Led by Dr. Shubhankar
 //                             Shekhar, the unit offers personalized rehabilitation
@@ -1476,7 +1476,7 @@ export default InfraEquipment;
 //                     <div class="row">
 //                       <div class="col-lg-8">
 //                         <p>
-//                           At Mrityunjay Orthopedic Hospital, Meerut, advanced
+//                           At Sangeeta Orthopedic Hospital, Meerut, advanced
 //                           sterilization protocols using Cold Plasma and Steam
 //                           technology ensure the highest levels of infection
 //                           control. These systems allow for safe, thorough
@@ -1537,7 +1537,7 @@ export default InfraEquipment;
 //                       <div class="col-lg-8">
 //                         <p>
 //                           The DEXA (Dual-Energy X-ray Absorptiometry) system
-//                           by GE at Mrityunjay Orthopedic Hospital, Meerut
+//                           by GE at Sangeeta Orthopedic Hospital, Meerut
 //                           provides precise bone density measurements, crucial
 //                           for diagnosing osteoporosis and monitoring bone
 //                           health. Under Dr. Shubhankar Shekhar’s guidance,
@@ -1596,7 +1596,7 @@ export default InfraEquipment;
 //                   <div class="row">
 //                     <div class="col-lg-8">
 //                       <p>
-//                         The MAKO Stryker Orthopaedic Robot at Mrityunjay
+//                         The MAKO Stryker Orthopaedic Robot at Sangeeta
 //                         Orthopedic Hospital, Meerut represents the pinnacle
 //                         of robotic-assisted joint replacement. Under Dr.
 //                         Shubhankar Shekhar’s leadership, this system allows
@@ -1609,7 +1609,7 @@ export default InfraEquipment;
 //                         With MAKO, patients experience more accurate implant
 //                         placement, less bone and soft tissue trauma, and
 //                         faster recovery times. This world-class robotic
-//                         system positions Mrityunjay Orthopedic Hospital,
+//                         system positions Sangeeta Orthopedic Hospital,
 //                         Meerut as a regional leader in advanced orthopedic
 //                         care, delivering outstanding results for patients
 //                         seeking cutting-edge surgical solutions.

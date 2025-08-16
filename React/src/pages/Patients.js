@@ -24,7 +24,7 @@ const Patients = () => {
             <div class="col-lg-12">
               <div class="page-about-content p-0">
                 <p class="mb-0">
-                  At Mrityunjay Orthopedic Hospital, success isn’t just measured
+                  At Sangeeta Orthopedic Hospital, success isn’t just measured
                   by recovery — it’s measured by how patients live again. And at
                   the center of it all is one name patients trust —{" "}
                   <strong>Dr. Shubhankar Shekhar</strong>.

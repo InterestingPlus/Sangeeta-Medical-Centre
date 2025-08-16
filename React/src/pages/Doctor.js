@@ -65,7 +65,7 @@
 //                       <Link to="/">home</Link>
 //                     </li>
 //                     <li className="breadcrumb-item">
-//                       <Link to="about" title="About Mrityunjay Hospital Meerut">
+//                       <Link to="about" title="About Sangeeta Hospital Meerut">
 //                         About
 //                       </Link>
 //                     </li>
@@ -462,12 +462,12 @@
 //                       </p>
 
 //                       {/* <h2 className="text-anime-style-3" data-cursor="-opaque">
-//                         Founder of Mrityunjay Orthopedic Hospital
+//                         Founder of Sangeeta Orthopedic Hospital
 //                       </h2>
 //                       <p className="mt-2">
 //                         Established with the mission to provide affordable,
 //                         ethical, and advanced orthopedic care to the people of
-//                         Meerut and surrounding districts, Mrityunjay Orthopedic
+//                         Meerut and surrounding districts, Sangeeta Orthopedic
 //                         Hospital stands today as a trusted destination for:
 //                       </p>
 //                       <div className="custom-list mt-3">

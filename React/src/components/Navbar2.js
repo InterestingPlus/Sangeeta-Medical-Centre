@@ -329,7 +329,7 @@ const Navbar2 = () => {
             <Link className="navbar-brand" to="/">
               <img
                 src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
-                alt="Mrityunjay Orthopaedic Hospital Logo"
+                alt="Sangeeta Orthopaedic Hospital Logo"
                 style={{ width: "200px" }}
               />
             </Link>
@@ -432,7 +432,7 @@ const Navbar2 = () => {
                   <Link
                     class="nav-link"
                     to="/about"
-                    title="About Mrityunjay Hospital Meerut"
+                    title="About Sangeeta Hospital Meerut"
                     tabindex="-1"
                   >
                     About

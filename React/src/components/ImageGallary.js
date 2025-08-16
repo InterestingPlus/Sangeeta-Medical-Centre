@@ -27,6 +27,7 @@ const ImageGallery = ({ header = false }) => {
     "/images/gallary/waiting area.jpg",
   ];
 
+  const [imagesToShow, setImagesToShow] = useState(imageUrls.slice(0, 8));
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -62,7 +63,7 @@ const ImageGallery = ({ header = false }) => {
           </div>
         )}
         <div className="image-grid">
-          {imageUrls.map((url, index) => (
+          {imagesToShow.map((url, index) => (
             <div
               className="gallery-item"
               key={index}
@@ -72,6 +73,45 @@ const ImageGallery = ({ header = false }) => {
             </div>
           ))}
         </div>
+        {imageUrls.length > imagesToShow.length ? (
+          <div className="" style={{ display: "flex", justifyContent: "end" }}>
+            <button
+              style={{
+                alignSelf: "flex-end",
+                padding: "10px 0px",
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                backgroundColor: "transparent",
+                transition: "background-color 0.3s ease",
+                color: '#008080',
+                textDecoration: 'underline',
+              }}
+              onClick={() => setImagesToShow(imageUrls)}
+            >
+              View More
+            </button>
+          </div>
+        ) : (
+          <div className="" style={{ display: "flex", justifyContent: "end" }}>
+            <button
+              style={{
+                alignSelf: "flex-end",
+                padding: "10px 0px",
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                backgroundColor: "transparent",
+                transition: "background-color 0.3s ease",
+                color: '#008080',
+                textDecoration: 'underline',
+              }}
+              onClick={() => setImagesToShow(imageUrls.slice(0, 8))}
+            >
+              View Less
+            </button>
+          </div>
+        )}
       </div>
 
       {isModalOpen && (
