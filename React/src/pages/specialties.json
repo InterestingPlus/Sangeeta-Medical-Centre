@@ -15,203 +15,214 @@
 }
 ,
 {
-    "id": 2,
-    "name": "Knee Replacement Surgery (Total Knee Replacement – TKR)",
-    "slug": "knee-replacement-surgery",
-    "doctor": "Dr. Raman Jindal",
-    "description": [
-        "Advanced total knee replacement offered by Dr. Raman Jindal at Sangeeta Ortho and Gynae Center.",
-        "Uses latest surgical techniques and high-quality implants.",
-        "Minimally invasive approach with faster recovery.",
-        "Provides pre-operative counseling and post-operative rehabilitation.",
-        "Highly recommended for severe arthritis and joint deformities."
-    ],
-    "link": "/images/specialties/Knee Replacement Surgery.jpg"
-    
-},
+  "id": 2,
+  "name": "Knee Replacement Surgery (Total Knee Replacement – TKR)",
+  "slug": "knee-replacement-surgery",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Knee pain caused by arthritis, injury, or degenerative conditions can severely affect daily life. Dr. Raman Jindal, a highly skilled orthopedic doctor in Meerut, offers advanced total knee replacement surgery (TKR) to restore mobility and improve quality of life. Recognized as one of the best orthopedic doctors in Meerut, he uses the latest surgical techniques and high-quality implants to ensure excellent results.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal performs knee replacement procedures with precision, focusing on pain relief, improved joint function, and long-term durability. His minimally invasive approach helps patients recover faster, with reduced post-surgical discomfort and minimal scarring.",
+    "Patients searching for an orthopedic doctor near me often choose Dr. Raman Jindal for his expertise in treating severe knee arthritis, cartilage damage, and joint deformities. From pre-surgical counseling to post-operative rehabilitation, he ensures every patient receives comprehensive orthopedic care.",
+    "If you are looking for an orthopedic doctor Meerut to help you walk pain-free again, Dr. Raman Jindal is a trusted name in joint replacement surgery. With his advanced techniques and compassionate approach, patients can enjoy a pain-free and active lifestyle once more."
+  ],
+  "link": "/images/specialties/Knee Replacement Surgery.jpg"
+}
+,
 {
-    "id": 3,
-    "name": "Hip Replacement Surgery (Total Hip Replacement – THR)",
-    "slug": "hip-replacement-surgery",
-    "doctor": "Dr. Raman Jindal",
-    "description": [
-        "Specializes in total hip replacement surgery for arthritis and degenerative conditions.",
-        "Uses advanced prosthetics to mimic natural joint function.",
-        "Focuses on minimal tissue damage and quick recovery.",
-        "Provides personalized rehabilitation plans.",
-        "Recognized for excellent outcomes in hip surgery."
-    ],
-    "link": "/images/specialties/Hip Replacement Surgery.jpg"
-},
+  "id": 3,
+  "name": "Hip Replacement Surgery (Total Hip Replacement – THR)",
+  "slug": "hip-replacement-surgery",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Hip pain can make even simple movements difficult. Dr. Raman Jindal, a leading orthopedic doctor in Meerut, specializes in total hip replacement surgery (THR) to treat arthritis, fractures, and other degenerative hip conditions. Known as one of the best orthopedic doctors in Meerut, he uses advanced prosthetic implants that mimic the natural function of the hip joint, allowing patients to regain mobility and live pain-free.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal performs hip replacement surgeries with precision, focusing on minimal tissue damage and quicker recovery times. His orthopedic expertise ensures long-lasting results, reduced pain, and improved joint stability.",
+    "Many patients searching for an orthopedic doctor near me turn to Dr. Raman Jindal for his success in restoring joint function through hip replacement surgery. He also provides personalized rehabilitation plans to help patients return to normal activities sooner.",
+    "If you are experiencing severe hip pain and need the expertise of an orthopedic doctor Meerut, Dr. Raman Jindal is the right choice. His skill, technology-driven approach, and compassionate care make him a trusted name in orthopedic surgery."
+  ],
+  "link": "/images/specialties/Hip Replacement Surgery.jpg"
+}
+,
 {
-    "id": 4,
-    "name": "Arthroscopy & Sports Injury Treatment",
-    "slug": "arthroscopy-&-sports-injury-treatment",
-    "doctor": "Dr. Raman Jindal",
-    "description": [
-        "Offers arthroscopy and sports injury treatments including repair of ACL, PCL, meniscus, rotator cuff.",
-        "Uses minimally invasive methods for faster recovery and less scarring.",
-        "Tailors rehab programs for full restoration.",
-        "Treats sports injuries to help patients return to active lifestyles."
-    ],
-    "link": "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg"
-},
+  "id": 4,
+  "name": "Arthroscopy & Sports Injury Treatment",
+  "slug": "arthroscopy-&-sports-injury-treatment",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Sports injuries can happen to anyone — athletes, fitness enthusiasts, or even during daily activities. Dr. Raman Jindal, a trusted orthopedic doctor in Meerut, offers advanced arthroscopy and sports injury treatments to repair damaged joints, ligaments, and cartilage. Considered among the best orthopedic doctors in Meerut, he specializes in treating ACL/PCL tears, meniscus injuries, rotator cuff tears, and other sports-related conditions.",
+    "Using minimally invasive arthroscopic surgery, Dr. Raman Jindal ensures faster recovery, less scarring, and reduced post-operative pain. His comprehensive approach includes accurate diagnosis, targeted surgical repair, and tailored rehabilitation programs.",
+    "When patients search for an orthopedic doctor near me for sports injury care, they often choose Dr. Raman Jindal for his expertise and excellent patient outcomes. Whether it’s restoring an athlete’s performance or helping someone return to an active lifestyle, his orthopedic skills deliver reliable results.",
+    "If you need an orthopedic doctor Meerut for sports injury management, Dr. Raman Jindal is committed to getting you back on your feet with advanced, effective, and safe treatments."
+  ],
+  "link": "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg"
+}
+,
 {
-    "id": 5,
-    "name": "Spine & Back Pain Treatment",
-    "slug": "spine-&-back-pain-treatment",
-    "doctor": "Dr. Raman Jindal",
-    "description": [
-        "Expert in managing back pain and spine disorders such as slipped discs and sciatica.",
-        "Combines diagnostics, physiotherapy, and minimally invasive surgeries.",
-        "Focus on restoring mobility and quality of life.",
-        "Recognized as a leading spine specialist in Meerut."
-    ],
-    "link": "/images/specialties/Spine & Back Pain Treatment.jpg"
-    
-},
+  "id": 5,
+  "name": "Spine & Back Pain Treatment",
+  "slug": "spine-&-back-pain-treatment",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Back pain is one of the most common health issues, affecting people of all ages. Dr. Raman Jindal, a skilled orthopedic doctor in Meerut, provides specialized treatment for spine disorders and chronic back pain. Recognized as one of the best orthopedic doctors in Meerut, he offers both non-surgical and surgical solutions for conditions such as slipped discs, sciatica, spinal stenosis, and degenerative spine disease.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses modern diagnostic tools to pinpoint the cause of pain and develop a personalized treatment plan. His approach may include physiotherapy, pain management, and minimally invasive spine surgery to relieve symptoms and restore mobility.",
+    "Patients searching for an orthopedic doctor near me for spine problems rely on Dr. Raman Jindal for his accurate diagnosis and effective treatment methods.",
+    "If you’re suffering from persistent back pain and looking for an orthopedic doctor Meerut, Dr. Raman Jindal offers expert care that focuses on lasting relief and improved quality of life."
+  ],
+  "link": "/images/specialties/Spine & Back Pain Treatment.jpg"
+}
+,
+   {
+  "id": 6,
+  "name": "Joint Pain & Arthritis Management",
+  "slug": "joint-pain-&-arthritis-management",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Joint pain caused by arthritis can limit daily activities and affect overall quality of life. Dr. Raman Jindal, a renowned orthopedic doctor in Meerut, specializes in the diagnosis and treatment of osteoarthritis, rheumatoid arthritis, gout, and other degenerative joint conditions. Widely recognized as one of the best orthopedic doctors in Meerut, he offers personalized treatment plans to reduce pain, improve mobility, and prevent further joint damage.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses advanced orthopedic methods such as targeted medications, joint injections, physiotherapy, and surgical interventions when necessary. His approach focuses on preserving natural joint function for as long as possible, delaying or eliminating the need for surgery.",
+    "Patients searching for an orthopedic doctor near me trust Dr. Raman Jindal for his comprehensive arthritis care, which includes lifestyle advice, exercise plans, and long-term management strategies.",
+    "If you’re experiencing stiffness, swelling, or chronic joint pain and are looking for an orthopedic doctor Meerut, Dr. Raman Jindal provides expert care to help you regain mobility and live pain-free."
+  ],
+  "link": "/images/specialties/Joint Pain & Arthritis Management.jpg"
+}
+,
+   {
+  "id": 7,
+  "name": "Pediatric Orthopedics",
+  "slug": "pediatric-orthopedics",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Children’s orthopedic problems require a gentle yet skilled approach. Dr. Raman Jindal, a leading orthopedic doctor in Meerut, has extensive experience in pediatric orthopedics, treating conditions such as clubfoot (CTEV), limb deformities, growth plate injuries, and developmental bone disorders. As one of the best orthopedic doctors in Meerut, he is trusted by parents for his careful diagnosis and child-friendly treatment methods.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses advanced orthopedic techniques to correct deformities, promote healthy bone growth, and ensure children can lead active, pain-free lives. His expertise in clubfoot treatment, especially using the Ponseti method, has helped many young patients walk normally.",
+    "Parents searching online for an orthopedic doctor near me often choose Dr. Raman Jindal because of his ability to combine medical excellence with compassionate care.",
+    "If you need an orthopedic doctor Meerut for your child’s bone or joint issues, Dr. Raman Jindal provides safe, effective, and long-lasting solutions."
+  ],
+  "link": "/images/specialties/Pediatric Orthopedics.jpg"
+}
+,
     {
-      "id": 6,
-      "name": "Joint Pain & Arthritis Management",
-      "slug": "joint-pain-&-arthritis-management",
-      "doctor": "Dr. Raman Jindal",
-      "description": [
-          "Treats arthritis and related joint pain with comprehensive plans.",
-          "Includes medication, injections, physiotherapy, and surgery when needed.",
-          "Aims to preserve joint function and improve quality of life."
-        ],
-        "link": "/images/specialties/Joint Pain & Arthritis Managementjpg.jpg"
-    },
+  "id": 8,
+  "name": "Bone Deformity Correction",
+  "slug": "bone-deformity-correction",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Bone deformities can result from congenital conditions, injuries, or improper bone healing. Dr. Raman Jindal, a highly skilled orthopedic doctor in Meerut, offers advanced bone deformity correction to restore proper alignment, function, and appearance. Known as one of the best orthopedic doctors in Meerut, he uses precise surgical techniques and orthopedic devices to correct limb length discrepancies, angular deformities, and other bone abnormalities.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal performs both pediatric and adult deformity corrections, ensuring improved mobility and overall quality of life. His treatment plans often include minimally invasive surgeries, internal or external fixation, and guided rehabilitation.",
+    "Patients searching for an orthopedic doctor near me appreciate Dr. Raman Jindal’s attention to detail and his focus on delivering functional as well as cosmetic results.",
+    "If you are looking for an orthopedic doctor Meerut to correct a bone deformity and restore normal movement, Dr. Raman Jindal provides safe, effective, and long-term solutions."
+  ],
+  "link": "/images/specialties/Bone Deformity Correction.jpg"
+}
+,
+   {
+  "id": 9,
+  "name": "Orthopedic Emergencies & Trauma Care",
+  "slug": "orthopedic-emergencies-&-trauma-care",
+  "doctor": "Dr. Raman Jindal",
+  "description": [
+    "Accidents, falls, and sports injuries can cause severe orthopedic trauma that needs urgent medical attention. Dr. Raman Jindal, a trusted orthopedic doctor in Meerut, offers emergency orthopedic and trauma care for fractures, dislocations, ligament tears, and bone injuries. Recognized as one of the best orthopedic doctors in Meerut, he is known for his quick response, accurate diagnosis, and effective treatment in critical situations.",
+    "At Sangeeta Ortho and Gynae Center, Dr. Raman Jindal uses advanced orthopedic equipment and surgical methods to stabilize injuries, prevent complications, and promote healing. He is available for urgent care and ensures patients receive immediate attention during emergencies.",
+    "People searching for an orthopedic doctor near me in emergency situations rely on Dr. Raman Jindal for his experience and dedication.",
+    "If you need an orthopedic doctor Meerut for urgent orthopedic care, Dr. Raman Jindal delivers timely, skilled, and life-changing treatment.",
+    "Families searching for an orthopedic doctor near me to care for aging loved ones trust Dr. Raman Jindal for his compassionate approach and commitment to improving quality of life.",
+    "If you’re looking for an orthopedic doctor Meerut who understands the unique needs of older adults, Dr. Raman Jindal provides expert care that keeps bones strong and movement pain-free."
+  ],
+  "link": "/images/specialties/Orthopedic Emergencies & Trauma Care.jpg"
+}
+,
     {
-        "id": 7,
-        "name": "Pediatric Orthopedics",
-        "slug": "pediatric-orthopedics",
-        "doctor": "Dr. Raman Jindal",
+        "id": 10,
+        "name": "Normal & High-Risk Pregnancy",
+        "slug": "normal-&-high-risk-pregnancy-care",
+        "doctor": "Dr. Manisha Chaudhary",
         "description": [
-            "Provides care for children’s orthopedic issues including clubfoot and developmental disorders.",
-            "Uses advanced techniques with focus on child-friendly treatment.",
-            "Strives for normal mobility and pain-free childhood."
+            "Complete pregnancy care for normal and high-risk pregnancies.",
+            "Personalized monitoring and management.",
+            "Supports safe delivery at Sangeeta Medical Centre.",
+            "Location: Ganga Nagar, Meerut.",
+            "Contact: 011-69269888, +91 79705 86243."
         ],
-        "link": "/images/specialties/Pediatric Orthopedics.jpg"
+        "link": "/images/specialties/Normal & High-Risk Pregnancy.jpg"
         
     },
     {
-        "id": 8,
-        "name": "Bone Deformity Correction",
-        "slug": "bone-deformity-correction",
-        "doctor": "Dr. Raman Jindal",
+        "id": 11,
+        "name": "Laparoscopic Surgeries",
+        "slug": "laparoscopic-surgeries",
+        "doctor": "Dr. Manisha Chaudhary",
         "description": [
-            "Corrects bone deformities through surgical interventions.",
-            "Treats both pediatric and adult deformities.",
-            "Focuses on restoring function and appearance."
+            "Minimally invasive gynecological surgeries including hysterectomy and ovarian cyst removal.",
+            "Advantages include less pain, faster recovery, smaller scars.",
+            "Services offered at Sangeeta Medical Centre.",
+            "Contact: 011-69269888, +91 79705 86243."
         ],
-        "link": "/images/specialties/Bone Deformity Correction.jpg"
+        "link": "/images/specialties/Laparoscopic Surgeries.jpg"
+        
     },
     {
-        "id": 9,
-        "name": "Orthopedic Emergencies & Trauma Care",
-        "slug": "orthopedic-emergencies-&-trauma-care",
-        "doctor": "Dr. Raman Jindal",
+        "id": 12,
+        "name": "Infertility Treatments",
+        "slug": "infertility-treatments",
+        "doctor": "Dr. Manisha Chaudhary",
         "description": [
-            "Provides urgent orthopedic and trauma care for fractures and injuries.",
-            "24/7 availability with advanced treatment options.",
-            "Compassionate care for all ages."
+            "Personalized infertility treatments like IVF, IUI, hormonal therapy.",
+            "Comprehensive evaluations and care.",
+            "Focus on emotional support and medical expertise.",
+            "Location: Sangeeta Medical Centre.",
+            "Contact: 011-69269888, +91 79705 86243."
         ],
-        "link": "/images/specialties/Orthopedic Emergencies & Trauma Care.jpg"
-     
+        "link": "/images/specialties/Infertility Treatments.jpg"
     },
     {
-      "id": 10,
-      "name": "Normal & High-Risk Pregnancy",
-      "slug": "normal-&-high-risk-pregnancy-care",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Complete pregnancy care for normal and high-risk pregnancies.",
-        "Personalized monitoring and management.",
-        "Supports safe delivery at Sangeeta Medical Centre.",
-        "Location: Ganga Nagar, Meerut.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1S-bGlk/view?usp=sharing"
+        "id": 13,
+        "name": "Menstrual Disorders",
+        "slug": "menstrual-disorders-treatment",
+        "doctor": "Dr. Manisha Chaudhary",
+        "description": [
+            "Treatment for irregular cycles, bleeding, cramps.",
+            "Diagnostic and therapeutic approach for PCOS, endometriosis, and fibroids.",
+            "Personalized care plans.",
+            "Contact: 011-69269888, +91 79705 86243."
+        ],
+        "link": "/images/specialties/Menstrual Disorders.jpg"
+        
     },
     {
-      "id": 11,
-      "name": "Laparoscopic Surgeries",
-      "slug": "laparoscopic-surgeries",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Minimally invasive gynecological surgeries including hysterectomy and ovarian cyst removal.",
-        "Advantages include less pain, faster recovery, smaller scars.",
-        "Services offered at Sangeeta Medical Centre.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1GyYgg/view?usp=sharing"
+        "id": 14,
+        "name": "PCOS & PCOD Management",
+        "slug": "pcos-pcod-management",
+        "doctor": "Dr. Manisha Chaudhary",
+        "description": [
+            "Hormonal balance and fertility support in PCOS/PCOD.",
+            "Lifestyle and medical management.",
+            "Focus on preventive care and wellness.",
+            "Contact: 011-69269888, +91 79705 86243."
+        ],
+        "link": "/images/specialties/PCOS & PCOD Management.jpg"
     },
     {
-      "id": 12,
-      "name": "Infertility Treatments",
-      "slug": "infertility-treatments",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Personalized infertility treatments like IVF, IUI, hormonal therapy.",
-        "Comprehensive evaluations and care.",
-        "Focus on emotional support and medical expertise.",
-        "Location: Sangeeta Medical Centre.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1WiimQR/view?usp=sharing"
+        "id": 15,
+        "name": "Adolescent & Menopausal Care",
+        "slug": "adolescent-&-menopausal-health",
+        "doctor": "Dr. Manisha Chaudhary",
+        "description": [
+            "Care across life stages from adolescence to menopause.",
+            "Counseling, education, and symptom management.",
+            "Compassionate and personalized support.",
+            "Contact: 011-69269888, +91 79705 86243."
+        ],
+        "link": "/images/specialties/Adolescent & Menopausal Care.jpg"
     },
     {
-      "id": 13,
-      "name": "Menstrual Disorders",
-      "slug": "menstrual-disorders-treatment",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Treatment for irregular cycles, bleeding, cramps.",
-        "Diagnostic and therapeutic approach for PCOS, endometriosis, and fibroids.",
-        "Personalized care plans.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1IEnDvd/view?usp=sharing"
-    },
-    {
-      "id": 14,
-      "name": "PCOS & PCOD Management",
-      "slug": "pcos-pcod-management",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Hormonal balance and fertility support in PCOS/PCOD.",
-        "Lifestyle and medical management.",
-        "Focus on preventive care and wellness.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1sXDrq/view?usp=sharing"
-    },
-    {
-      "id": 15,
-      "name": "Adolescent & Menopausal Care",
-      "slug": "adolescent-&-menopausal-health",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Care across life stages from adolescence to menopause.",
-        "Counseling, education, and symptom management.",
-        "Compassionate and personalized support.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1W0viIT/view?usp=sharing"
-    },
-    {
-      "id": 16,
-      "name": "Painless Delivery",
-      "slug": "painless-delivery-options",
-      "doctor": "Dr. Manisha Chaudhary",
-      "description": [
-        "Painless childbirth with epidural anesthesia.",
-        "Customized birth plans.",
-        "Focus on maternal comfort and safety.",
-        "Contact: 011-69269888, +91 79705 86243."
-      ],
-      "link": "https://drive.google.com/file/d/1S-bGlk/view?usp=sharing"
+        "id": 16,
+        "name": "Painless Delivery",
+        "slug": "painless-delivery-options",
+        "doctor": "Dr. Manisha Chaudhary",
+        "description": [
+            "Painless childbirth with epidural anesthesia.",
+            "Customized birth plans.",
+            "Focus on maternal comfort and safety.",
+            "Contact: 011-69269888, +91 79705 86243."
+        ],
+        "link": "/images/specialties/Painless Delivery.jpg"
     },
     {
       "id": 17,

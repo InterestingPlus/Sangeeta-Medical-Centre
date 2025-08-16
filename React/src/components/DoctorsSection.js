@@ -218,6 +218,10 @@ const DoctorsSection = () => {
                 <h2 className="text-anime-style-3" data-cursor="-">
                   Meet Our Doctors
                 </h2>
+                <p class="text-muted fs-5">
+  Our team comprises highly experienced and specialized doctors, each committed to providing the highest standard of patient care.
+</p>
+
               </div>
             </div>
           </div>
@@ -247,7 +251,7 @@ const DoctorsSection = () => {
                   <div className="team-content">
                     <h3>{doctor.name}</h3>
                     <p className="mb-2">{doctor.position || doctor.designation}</p>
-                    <p>{doctor.description}</p>
+                    <p>{doctor.description.slice(0, 150)}...</p>
                   </div>
                 </div>
               </div>

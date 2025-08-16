@@ -29,7 +29,7 @@ const WhyChooseSection = () => {
       <div className="quality-treatment">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-8">
+            <div className="col-md-6">
               <div className="quality-treatment-content">
                 <div className="section-title">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">

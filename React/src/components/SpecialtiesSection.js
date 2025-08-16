@@ -225,7 +225,7 @@ const localSpecialties = [
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
     alt: "Arthoscopy",
     icon: "arthoscopy.png",
-    link: "arthroscopy",
+    link: "arthroscopy-sports-injury-treatment",
     title: "Arthroscopy Meerut",
   },
   {
@@ -241,7 +241,7 @@ const localSpecialties = [
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
     alt: "Knee Replacement",
     icon: "knee.png",
-    link: "knee-replacement",
+    link: "knee-replacement-surgery",
     title: "Advanced Knee Replacement Surgery",
   },
   {
@@ -249,15 +249,15 @@ const localSpecialties = [
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
     alt: "Hip Joint Replacement",
     icon: "hip.png",
-    link: "hip-replacement",
+    link: "hip-replacement-surgery",
     title: "Hip Joint Replacement Surgery",
   },
   {
-    name: "Complex Trauma Surgery",
+    name: "Spine & Back Pain Treatment",
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/cccccc.webp",
-    alt: "Complex Trauma Surgery",
+    alt: "Spine & Back Pain Treatment",
     icon: "spine.png",
-    link: "complex-trauma-surgery",
+    link: "spine-back-pain-treatment",
     title: "Complex Trauma & Emergency Care",
   },
   {
@@ -265,7 +265,7 @@ const localSpecialties = [
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sports.webp",
     alt: "Sports Injury Treatment",
     icon: "foot.png",
-    link: "sports-injury-treatment",
+    link: "arthroscopy-sports-injury-treatment",
     title: "Sports Injury Rehabilitation",
   },
   {
@@ -273,7 +273,7 @@ const localSpecialties = [
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-5-1.webp",
     alt: "Infertility Treatment",
     icon: "arthoscopy.png",
-    link: "infertility-treatment",
+    link: "infertility-treatments",
     title: "Comprehensive Infertility Care",
   },
   {
@@ -281,7 +281,7 @@ const localSpecialties = [
     image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
     alt: "High-Risk Pregnancy",
     icon: "rheumatology.png",
-    link: "high-risk-pregnancy",
+    link: "normal-high-risk-pregnancy-care",
     title: "High-Risk Pregnancy Management",
   },
 ];
@@ -303,7 +303,7 @@ const SpecialtiesSection = () => {
             </div>
             <div className="col-lg-5">
               <div className="section-btn wow fadeInUp">
-                <Link to="tel:011-69269888" className="btn btn-primary">
+                <Link to="tel:011-69269888" className="btn-default">
                   <span>Make Appointment</span>
                 </Link>
               </div>

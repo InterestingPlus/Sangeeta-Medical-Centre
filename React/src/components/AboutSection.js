@@ -211,6 +211,19 @@ const About = () => {
   ];
 
   return (
+    <>
+    <style>
+{`
+  .about-us-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 250px;
+    display: block;
+  }
+`}
+</style>
+
     <div class="about-us bg-radius-section">
       <div class="container">
         <div class="row align-items-center">
@@ -320,7 +333,7 @@ const About = () => {
               <div
                 class="about-content-footer wow fadeInUp"
                 data-wow-delay="1.25s"
-              >
+                >
                 <Link to="/about#Legacy" class="btn-default">
                   <span>view more about</span>
                 </Link>
@@ -333,7 +346,7 @@ const About = () => {
               <div class="about-image img-box-1">
                 <figure class="image-anime">
                   <img
-                    src="images/about/about-us-img-1.jpg"
+                    src="images/about/DSC_0106 (2).jpg"
                     alt="About Ortho 1"
                     loading="lazy"
                   />
@@ -342,7 +355,7 @@ const About = () => {
               <div class="about-image img-box-2">
                 <figure class="image-anime">
                   <img
-                    src="images/about/about-us-img-2.jpg"
+                   src="images/about/about-us-image-4.jpg"
                     alt="About Ortho 2"
                     loading="lazy"
                   />
@@ -351,7 +364,7 @@ const About = () => {
               <div class="about-image img-box-3">
                 <figure class="image-anime">
                   <img
-                    src="images/about/about-us-img-3.jpg"
+                    src="images/about/about-us-image-3.jpg"
                     alt="About Ortho 3"
                     loading="lazy"
                   />
@@ -360,7 +373,8 @@ const About = () => {
               <div class="about-image img-box-4">
                 <figure class="image-anime">
                   <img
-                    src="images/about/about-us-img-4.jpg"
+                    
+                    src="images/about/about-us-image-2.jpg"
                     alt="About Ortho 4"
                     loading="lazy"
                   />
@@ -378,6 +392,7 @@ const About = () => {
         </div>
       </div>
     </div>
+                    </>
   );
 };
 
