@@ -8,31 +8,63 @@ import "../pages/Rating.scss";
 
 const TestimonialSection = () => {
   const [testimonials, setTestimonials] = useState([
-    {
-      id: 1234,
-      rating: 5,
-      content:
-        "You don’t feel like a case here — you feel like a person. Dr. Shubhankar Shekhar’s calm guidance and surgical skills are unmatched. The hospital has everything — infrastructure, cleanliness, empathy.",
-      author: "Vikram Mehta",
-      designation: "Joint Replacement Patient",
-    },
-    {
-      id: 4452,
-      rating: 3,
-      content:
-        "Spine surgery is scary — but Dr. Shubhankar made it reassuring. Every step was explained. I never imagined I’d walk straight and pain-free again. Grateful beyond words.",
-      author: "Savitri Devi",
-      designation: "L4-L5 Decompression",
-    },
-    {
-      id: 5453,
-      rating: 5,
-      content:
-        "The ICU, nurses, and follow-up support after my mother’s hip fracture surgery was world-class. MOH has brought big-city care to Meerut.",
-      author: "Anjali R.",
-      designation: "Attendant",
-    },
-  ]);
+  {
+    "id": 12345,
+    "rating": 5,
+    "content": "I am incredibly grateful to Dr. RAMAN JINDAL for the exceptional care and expertise during my orthopedic treatment. From the very first consultation to the entire process was handled with professionalism, compassion, and attention to detail. He is an excellent doctor and also a good human being. Thanks Dr. RAMAN...",
+    "author": "Rahul SAINI",
+    "designation": "Orthopedic Patient"
+  },
+  {
+    "id": 23456,
+    "rating": 5,
+    "content": "The doctor and even the staffs here are wonderful and made me feel comfortable from day one. My shoulder surgery recovery went smooth in this hospital. Thank you Dr Raman for his expert care and follow ups, the results have been fantastic. Thank you team😊😊",
+    "author": "Rohit Kashyap",
+    "designation": "Shoulder Surgery Patient"
+  },
+  {
+    "id": 34567,
+    "rating": 5,
+    "content": "I went for an emergency procedure of my friend who got a shoulder dislocation and to my surprise sir was calm and attentive and reduced it without any pain. I would highly recommend sir and the hospital for any bone related injuries.",
+    "author": "ashish shivhare",
+    "designation": "Attendant"
+  },
+  {
+    "id": 45678,
+    "rating": 5,
+    "content": "i visited Dr Raman for joint pain that would not go away. consulted many doctors for this but got no relief. Dr Raman listened carefully and created a personalized plan for me that worked highly recommend this doc to anyone looking for an orthopaedic specialist who trulycares",
+    "author": "Mantsha Malika",
+    "designation": "Joint Pain Patient"
+  },
+  {
+    "id": 56789,
+    "rating": 5,
+    "content": "I came here for delivery and now I recommend Dr. Manisha to every woman looking for a smooth and safe delivery. She is transparent with her treatment, and we are glad we chose her hospital for this special moment.",
+    "author": "Amir Malik",
+    "designation": "Delivery Patient"
+  },
+  {
+    "id": 67890,
+    "rating": 5,
+    "content": "A life-changing experience with Dr. Manisha and her team at Sangeeta Hospital, Meerut. My wife’s maternity case was handled here with exceptional care. We are extremely satisfied with the services and highly recommend this hospital for excellent maternity care, especially normal deliveries.",
+    "author": "Amit Chauhan Rajput",
+    "designation": "Maternity Patient's Husband"
+  },
+  {
+    "id": 78901,
+    "rating": 5,
+    "content": "I underwent a laparoscopic operation by Dr. Manisha Chaudhary ma’am. She is an expert surgeon with a great team. My recovery was smooth—I was discharged in just two days and resumed work within a week. She explained everything clearly and answered all my doubts professionally.",
+    "author": "Sonam Pal",
+    "designation": "Laparoscopic Surgery Patient"
+  },
+  {
+    "id": 89012,
+    "rating": 5,
+    "content": "Best hospital for maternity delivery services. We consulted ma’am when one of my twins had a missed heartbeat. Other doctors advised abortion, but ma’am counselled us with compassion and convinced us to continue the pregnancy. Today, one twin is safe because of her treatment. We are grateful that such genuine doctors are in Meerut.",
+    "author": "Govinda Kumar",
+    "designation": "High-Risk Twin Pregnancy Patient's Husband"
+  }
+]);
 
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
 
@@ -97,11 +129,7 @@ const TestimonialSection = () => {
                   Our Clients Reviews
                 </h2>
                 <p class="wow fadeInUp mb-4" data-wow-delay="0.25s">
-                  At Mrityunjay Orthopedic Hospital, each success story reflects
-                  the clinical excellence and patient-first commitment of Dr.
-                  Shubhankar Shekhar. These are not just recoveries — they’re
-                  lives transformed by surgical precision, compassionate care,
-                  and futuristic technology.
+                  At Sangeeta Medical Center, every success story reflects the clinical excellence and patient-first dedication of Dr. Sangeeta Jindal, Dr. Raman Jindal, and Dr. Manisha. These are not just treatments — they are lives transformed with compassionate care, surgical precision, and advanced technology.
                 </p>
                 <Link
                   to="https://www.google.com/search?sca_esv=340802fe2459afeb&rlz=1C1CHBF_enIN1142IN1142&sxsrf=AE3TifNo7NeSBdubcQv1Hnl1rLnKLJ4j6g:1755329189224&kgmid=/g/11qpp4j3qs&q=Sangeeta+Medical+Center+-+Dr.+Sangeeta+Jindal,+Best+Gynecologist+in+Meerut,+Normal+Delivery+%26+Maternity+Hospital+Services.&shndl=30&shem=lcuae,lstuoe3,uaasie&source=sh/x/loc/uni/m1/1&kgs=e96cda2444b3be99&utm_source=lcuae,lstuoe3,uaasie,sh/x/loc/uni/m1/1"
