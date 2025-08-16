@@ -124,7 +124,7 @@ const About = () => {
                     <h3>Our Vision</h3>
                     <p>
                       To be the most trusted and patient-centric orthopedic and
-                      gynecological center in the region.
+                      gynecological center in the Meerut.
                     </p>
                   </div>
                 </div>
