@@ -18,13 +18,13 @@ const Patients = () => {
       <Testimonials />
 
   
-      <div class="page-about-us bg-radius-section2 bg-light ptb60 pb60">
+      {/* <div class="page-about-us bg-radius-section2 bg-light ptb60 pb60">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12">
               <div class="page-about-content p-0">
                 <p class="mb-0">
-                  At Mrityunjay Orthopedic Hospital, success isn’t just measured
+                  At Sangeeta Orthopedic Hospital, success isn’t just measured
                   by recovery — it’s measured by how patients live again. And at
                   the center of it all is one name patients trust —{" "}
                   <strong>Dr. Shubhankar Shekhar</strong>.
@@ -33,7 +33,7 @@ const Patients = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Section Start */}
     </>
   );

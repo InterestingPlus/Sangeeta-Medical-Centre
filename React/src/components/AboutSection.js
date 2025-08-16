@@ -18,10 +18,10 @@
 //                   Best Orthopedic Hospital in Meerut
 //                 </h1>
 //                 <h2 class="text-anime-style-3" data-cursor="-opaque">
-//                   About Mrityunjay Orthopedic Hospital (MOH)
+//                   About Sangeeta Orthopedic Hospital (MOH)
 //                 </h2>
 //                 <p class="wow fadeInUp" data-wow-delay="0.25s">
-//                   Mrityunjay Orthopedic Hospital (MOH) has been a pillar of
+//                   Sangeeta Orthopedic Hospital (MOH) has been a pillar of
 //                   trusted orthopedic care in Meerut for over three decades.
 //                   Established by the esteemed Dr. Shachindra Shekhar, MOH has
 //                   evolved from a small practice into a reputed center of
@@ -171,7 +171,7 @@
 //               <div class="about-circle-logo">
 //                 <img
 //                   src="images/about/about-logo.png"
-//                   alt="Mrityunjay Hospital Logo"
+//                   alt="Sangeeta Hospital Logo"
 //                   loading="lazy"
 //                 />
 //               </div>
@@ -383,7 +383,7 @@ const About = () => {
               <div class="about-circle-logo">
                 <img
                   src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
-                  alt="Mrityunjay Hospital Logo"
+                  alt="Sangeeta Hospital Logo"
                   loading="lazy"
                 />
               </div>

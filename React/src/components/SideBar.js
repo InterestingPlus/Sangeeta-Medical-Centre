@@ -582,9 +582,7 @@ const SideBar = () => {
 <div className="working-hours">
             <h3>opening hours</h3>
             <ul>
-              <li>Mon - Sat: 10.00 AM - 4.00 PM</li>
-              <li>Sun: 09.00 AM - 4.00 PM</li>
-              <li>Friday: Closed</li>
+              <li>Mon - Sun: 10.00 AM - 5.00 PM</li>
               <li>Emergency: 24 hours</li>
             </ul>
             <div className="working-hours-btn">
@@ -598,7 +596,7 @@ const SideBar = () => {
           <div className="sidebar-cta-box">
             <div className="sidebar-cta-image">
               <img
-                src="/images/contact-treatment.jpg"
+                src="/images/about/about-us-image-2.jpg"
                 alt="Contact Sangeeta Medical Centre"
                 loading="lazy"
               />

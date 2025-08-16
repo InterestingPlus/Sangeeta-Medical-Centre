@@ -27,7 +27,7 @@ const SMCInstitute = () => {
                   technology.
                 </h3>
                 <p class="mt-2 mb-3">
-                  The MOH Institute at Mrityunjay Orthopedic Hospital, Meerut,
+                  The MOH Institute at Sangeeta Orthopedic Hospital, Meerut,
                   led by Dr. Shubhankar Shekhar, is a dedicated center for
                   orthopedic training, research, and education. Here, young
                   doctors and orthopedic trainees gain hands-on experience

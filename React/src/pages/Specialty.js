@@ -328,7 +328,7 @@
 //                     <div className="row">
 //                       <div className="col-lg-8">
 //                         <p>
-//                           Patients at Mrityunjay Hospital, Meerut benefit from
+//                           Patients at Sangeeta Hospital, Meerut benefit from
 //                           cutting-edge surgical tools such as high-strength
 //                           suture anchors, bioabsorbable implants, and the latest
 //                           arthroscopic techniques that allow for smaller
@@ -405,7 +405,7 @@
 //                     </p>
 
 //                     <p>
-//                       At Mrityunjay Orthopedic Hospital, Meerut, patients with
+//                       At Sangeeta Orthopedic Hospital, Meerut, patients with
 //                       rotator cuff tears receive expert, personalized care under
 //                       the guidance of <strong>Dr. Shubhankar Shekhar</strong>,
 //                       Consultant Joint Replacement & Orthopedic Surgeon. A
@@ -430,7 +430,7 @@
 //                           an athlete, a laborer, or simply someone looking to
 //                           regain pain-free movement, you can trust{" "}
 //                           <strong>
-//                             Mrityunjay Orthopedic Hospital, Meerut
+//                             Sangeeta Orthopedic Hospital, Meerut
 //                           </strong>{" "}
 //                           to deliver comprehensive care with excellent outcomes.
 //                         </p>
@@ -504,7 +504,7 @@
 //                       often frustrating condition that gradually limits shoulder
 //                       movement, making even simple tasks like dressing or
 //                       reaching overhead difficult. At{" "}
-//                       <strong>Mrityunjay Orthopedic Hospital, Meerut</strong>,
+//                       <strong>Sangeeta Orthopedic Hospital, Meerut</strong>,
 //                       Dr. Shubhankar Shekhar offers expert care for patients
 //                       facing this condition, guiding them through every stage of
 //                       recovery. The condition typically develops after injury,
@@ -523,7 +523,7 @@
 //                           physiotherapy and medication strategies to advanced
 //                           arthroscopic capsular release procedures when needed,
 //                           the focus is always on restoring pain-free motion and
-//                           preventing long-term stiffness. At Mrityunjay
+//                           preventing long-term stiffness. At Sangeeta
 //                           Orthopedic Hospital, Meerut, patients find the
 //                           expertise and support they need to regain control over
 //                           their shoulder health.
@@ -609,7 +609,7 @@
 //                     </div>
 
 //                     <p>
-//                       The Shoulder Department at Mrityunjay Orthopedic Hospital
+//                       The Shoulder Department at Sangeeta Orthopedic Hospital
 //                       is where modern orthopedic science meets surgical
 //                       mastery—delivering outcomes that patients can trust and
 //                       feel.
@@ -876,8 +876,8 @@ const specialtyData = [
     link: "/images/procedures/gyneco/Normal-&-High-Risk-Delivery.jpg",
     description: [
       "Dr. Manisha Chaudhary, M.S. (OBG), is known as one of the best gynecologists in Meerut for complete pregnancy care. She provides expert management for normal and high-risk pregnancies, ensuring safe delivery and healthy outcomes for both mother and baby.",
-      "From the first trimester to postnatal recovery, Dr. Chaudhary offers personalized care, regular check-ups, and advanced monitoring. High-risk conditions such as gestational diabetes, high blood pressure, multiple pregnancies, and previous miscarriages are handled with extra attention and medical expertise.",
-      "At Sangeeta Medical Centre, expectant mothers receive nutritional guidance, lifestyle counseling, and emotional support for a healthy pregnancy journey. Dr. Chaudhary’s focus is on safe childbirth — whether through normal delivery or cesarean section — always prioritizing the well-being of the patient.",
+      "From the first trimester to postnatal recovery, Sangeeta Medical Center offers personalized care, regular check-ups, and advanced monitoring. High-risk conditions such as gestational diabetes, high blood pressure, multiple pregnancies, and previous miscarriages are handled with extra attention and medical expertise.",
+      "At Sangeeta Medical Centre, expectant mothers receive nutritional guidance, lifestyle counseling, and emotional support for a healthy pregnancy journey. Sangeeta Medical Center’s focus is on safe childbirth — whether through normal delivery or cesarean section — always prioritizing the well-being of the patient.",
       "📍 Location: Sangeeta Medical Centre, Ganga Nagar, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
       "Book your consultation today with a gynecologist near you for complete pregnancy care.",
@@ -895,7 +895,7 @@ const specialtyData = [
       "Patients benefit from shorter hospital stays, less post-operative discomfort, reduced infection risk, and better cosmetic results compared to traditional open surgery.",
       "📍 Location: Sangeeta Medical Centre, Meerut ",
       "📞 Contact: 011-69269888, +91 79705 86243 ",
-      "If you’re seeking laparoscopic surgery in Meerut, schedule an appointment with Dr. Chaudhary today.",
+      "If you’re seeking laparoscopic surgery in Meerut, schedule an appointment with Sangeeta Medical Center today.",
     ],
   },
   {
@@ -905,7 +905,7 @@ const specialtyData = [
     link: "/images/procedures/gyneco/Infertility-Procedures.jpg",
     description: [
       "Infertility can be emotionally challenging, but with the right guidance, solutions are possible. Dr. Manisha Chaudhary, one of the best gynecologists in Meerut, offers personalized infertility treatments including IUI, IVF guidance, ovulation induction, and hormonal therapy.",
-      "At Sangeeta Medical Centre, every couple receives a comprehensive fertility evaluation to identify the root cause of infertility. Dr. Chaudhary then designs a treatment plan that maximizes the chances of conception while keeping emotional well-being in focus.",
+      "At Sangeeta Medical Centre, every couple receives a comprehensive fertility evaluation to identify the root cause of infertility. Sangeeta Medical Center then designs a treatment plan that maximizes the chances of conception while keeping emotional well-being in focus.",
       "Her expertise covers male and female infertility, polycystic ovary syndrome (PCOS), irregular ovulation, blocked tubes, and other reproductive health concerns.",
       "📍 Location: Sangeeta Medical Centre, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
@@ -921,7 +921,7 @@ const specialtyData = [
     description: [
       "Menstrual problems like irregular cycles, heavy bleeding, and severe cramps can affect daily life. Dr. Manisha Chaudhary provides expert diagnosis and treatment for menstrual disorders to restore hormonal balance and improve quality of life.",
       "She treats conditions like PCOS, endometriosis, fibroids, thyroid-related cycle issues, and abnormal uterine bleeding. At Sangeeta Medical Centre, advanced diagnostics like ultrasound and hormonal testing help pinpoint the cause, enabling targeted treatment.",
-      "Whether the solution involves medication, lifestyle adjustments, or minimally invasive procedures, Dr. Chaudhary ensures a personalized approach for long-term relief.",
+      "Whether the solution involves medication, lifestyle adjustments, or minimally invasive procedures, Sangeeta Medical Center ensures a personalized approach for long-term relief.",
       "📍 Location: Sangeeta Medical Centre, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
       "Get help from a gynecologist near you to manage menstrual problems effectively.",

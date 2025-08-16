@@ -117,7 +117,7 @@ const About = () => {
                   <div className="icon-box">
                     <img
                       src="images/icons/vision.png"
-                      alt="Mrityunjay Hospital Vision"
+                      alt="Sangeeta Hospital Vision"
                     />
                   </div>
                   <div className="therapy-process-item-content">
@@ -140,7 +140,7 @@ const About = () => {
                   <div className="icon-box">
                     <img
                       src="images/icons/mission.png"
-                      alt="Mrityunjay Hospital Mission"
+                      alt="Sangeeta Hospital Mission"
                     />
                   </div>
                   <div className="therapy-process-item-content">
@@ -288,7 +288,7 @@ const About = () => {
                 <div className="how-work-img-2">
                   <img
                     src="images/about/work-with-us.jpg"
-                    alt="Work with Mrityunjay Hospital"
+                    alt="Work with Sangeeta Hospital"
                     loading="lazy"
                   />
                   {/* <figure className="image-anime reveal">

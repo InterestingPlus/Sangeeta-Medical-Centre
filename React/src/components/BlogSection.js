@@ -127,7 +127,7 @@ const BlogPage = () => {
             Our Latest Insights & News
           </h1>
           <p className="para">
-            Stay informed with the latest from Mrityunjay Orthopedic Hospital.
+            Stay informed with the latest from Sangeeta Orthopedic Hospital.
           </p>
         </div>
 

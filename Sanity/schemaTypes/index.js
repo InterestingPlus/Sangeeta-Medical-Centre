@@ -1,6 +1,7 @@
 import blockContent from './blockContent'
 import author from './author'
 import blog from './blog'
+
 // import category from './category'
 // import post from './post'
 // import comment from './comment'
@@ -12,10 +13,12 @@ import blog from './blog'
 // import trainerinfo from './trainerinfo'
 // import gallary from './gallary'
 
+
 export const schemaTypes = [
   author,
   blockContent,
   blog,
+
   // post,
   // category,
   // comment,
@@ -29,4 +32,5 @@ export const schemaTypes = [
   // doctor,
   // infra,
   //   procedure,
+
 ]
