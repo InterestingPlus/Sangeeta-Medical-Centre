@@ -139,17 +139,19 @@ const Testimonials = ({ category }) => {
 
   const stories = category === "ortho" ? orthoVideos : gynecVideos;
 
-
   return (
     <div
       id={category === "ortho" ? "orthopedic" : "gynecological"}
       className=" bg-radius-section2 bg-light"
-       style={{ padding: "150px 0 0 0" }}
+      style={{ padding: "150px 0 50px 0" }}
     >
-      <h2 className="section-title container capitalize" style={{marginBottom: "0"}}>
+      <h2
+        className="section-title container capitalize"
+        style={{ marginBottom: "0" }}
+      >
         {category === "ortho" ? "Orthopedic" : "Gynecological"}
       </h2>
-      <div className="container" >
+      <div className="container">
         <div className="row">
           {testimonials?.map((item) => (
             <div className="col-lg-4" key={item.id}>
@@ -189,7 +191,11 @@ const Testimonials = ({ category }) => {
           ))}
         </div>
       </div>
-      <div className=" bg-radius-section2" id="Stories" style={{margin: "30px 0 0 0"}}>
+      <div
+        className=" bg-radius-section2"
+        id="Stories"
+        style={{ margin: "30px 0 0 0" }}
+      >
         <div className="container">
           {/* Orthopedic Patient Stories */}
           <div className="row">
@@ -247,8 +253,6 @@ const Testimonials = ({ category }) => {
               </div>
             ))}
           </div>
-
-          
         </div>
       </div>
     </div>

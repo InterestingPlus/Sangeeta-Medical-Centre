@@ -93,7 +93,7 @@ const Gynecology = () => {
                   </h2>
                   <p className="mt-3">
                     Expert pregnancy care from the first trimester to postnatal
-                    recovery. Dr. Chaudhary specializes in safe childbirth,
+                    recovery. Sangeeta Medical Center specializes in safe childbirth,
                     including the management of high-risk pregnancies caused by
                     conditions like gestational diabetes, hypertension, and
                     multiple pregnancies.
@@ -116,7 +116,7 @@ const Gynecology = () => {
                   </h2>
                   <p className="mt-3">
                     Minimally invasive surgeries for faster recovery and minimal
-                    scarring. Dr. Chaudhary performs a range of laparoscopic
+                    scarring. Sangeeta Medical Center performs a range of laparoscopic
                     procedures including:
                   </p>
                   <div className="custom-list mt-3">
@@ -181,7 +181,7 @@ const Gynecology = () => {
                     Infertility Procedures
                   </h2>
                   <p className="mt-3">
-                    Dr. Chaudhary offers personalized fertility solutions,
+                    Sangeeta Medical Center offers personalized fertility solutions,
                     helping couples navigate their journey to parenthood.
                     Services include:
                   </p>
@@ -353,7 +353,7 @@ const Gynecology = () => {
                     Painless Delivery Options
                   </h2>
                   <p className="mt-3">
-                    Dr. Chaudhary offers advanced pain relief methods, including{" "}
+                    Sangeeta Medical Center offers advanced pain relief methods, including{" "}
                     <strong>epidural anesthesia</strong>, to ensure a
                     comfortable and positive birthing experience.
                   </p>
@@ -423,7 +423,7 @@ const Gynecology = () => {
                     Gynecological Ultrasound & Diagnostics
                   </h2>
                   <p className="mt-3">
-                    Dr. Chaudhary's clinic is equipped with in-house ultrasound
+                    Sangeeta Medical Center's clinic is equipped with in-house ultrasound
                     and diagnostic services for accurate monitoring of pregnancy
                     progress and swift detection of gynecological conditions.
                   </p>

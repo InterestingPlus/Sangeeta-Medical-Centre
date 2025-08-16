@@ -398,14 +398,14 @@ const Specialties = () => {
                         borderRadius: "8px",
                       }}
                     />
-                    <div className="icon my-3">
+                    {/* <div className="icon my-3">
                       <img
                         src={specialty.icon}
                         alt={`${specialty.name} icon`}
                         style={{ width: "40px", height: "40px" }}
                       />
-                    </div>
-                    <h4>{specialty.name}</h4>
+                    </div> */}
+                    <h4 style={{marginTop: '10px'}}>{specialty.name}</h4>
                     <p className="text-muted">{specialty.title}</p>
                     {/* <Link to={`/specialties/${specialty.link}`} className="btn btn-primary mt-2">
                       Learn More
@@ -430,14 +430,14 @@ const Specialties = () => {
               Discover All Specialties
             </Link>
           </div> */}
-          <div className="text-center mt-5 mb-4">
+          {/* <div className="text-center mt-5 mb-4">
             <Link
               to="/specialties"
               className="btn-default"
             >
               <span>Discover All Specialties</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

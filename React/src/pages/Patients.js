@@ -18,7 +18,7 @@ const Patients = () => {
       <Testimonials />
 
   
-      <div class="page-about-us bg-radius-section2 bg-light ptb60 pb60">
+      {/* <div class="page-about-us bg-radius-section2 bg-light ptb60 pb60">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12">
@@ -33,7 +33,7 @@ const Patients = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Section Start */}
     </>
   );
