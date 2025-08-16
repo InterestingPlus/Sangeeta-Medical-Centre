@@ -22,7 +22,7 @@ const Gallary = () => {
                   <p>
                     Established over 35 years ago, Sangeeta Ortho and Gynae
                     Medical Center has become a trusted name in orthopedic and
-                    gynecological care in Rajasthan.
+                    gynecological care in Meerut.
                   </p>
                   <p>
                     Founded with the vision of providing ethical, compassionate,
@@ -66,7 +66,7 @@ const Gallary = () => {
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
                   <img
-                    src="images/about/sangeeta-legacy.jpg"
+                    src="/images/about/DSC_0106.jpg"
                     alt="Sangeeta Medical Centre Legacy"
                     loading="lazy"
                   />
