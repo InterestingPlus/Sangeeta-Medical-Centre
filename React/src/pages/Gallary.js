@@ -6,11 +6,11 @@ const Gallary = () => {
     <>
       <BreadCrumb
         image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
-        title="Our Gallary"
-        page="Gallary"
+        title="Our Gallery"
+        page="Gallery"
       />
 
-      {/* Gallary Section Start */}
+      {/* Gallery Section Start */}
       <div className="page-about-us" id="Legacy">
         <div className="container">
           <div className="row align-items-center">
@@ -18,7 +18,7 @@ const Gallary = () => {
               <div className="page-about-content">
                 <div className="section-title mb-0">
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Our Gallary
+                    Our Gallery
                   </h2>
                   <p>
                     Established over 35 years ago, Sangeeta Ortho and Gynae
@@ -79,7 +79,7 @@ const Gallary = () => {
           </div>
         </div>
       </div>
-      {/* Gallary Section End */}
+      {/* Gallery Section End */}
 
       <ImageGallery/>
     </>

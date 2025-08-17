@@ -274,7 +274,7 @@ const About = () => {
 
               <div class="about-content-body">
                 <div class="row align-items-center">
-                  <div class="col-md-6">
+                  {/* <div class="col-md-6">
                     <div class="about-content-list">
                       {features.map((item, index) => (
                         <div
@@ -291,7 +291,7 @@ const About = () => {
                         </div>
                       ))}
                     </div>
-                  </div>
+                  </div> */}
 
                   <div class="col-md-6">
                     <div

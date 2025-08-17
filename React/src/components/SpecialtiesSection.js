@@ -297,17 +297,17 @@ const SpecialtiesSection = () => {
             <div className="col-lg-7">
               <div className="section-title">
                 <h2 className="text-anime-style-3" data-cursor="-opaque">
-                  Our Specialties
+                  For Our Specialties
                 </h2>
               </div>
             </div>
-            <div className="col-lg-5">
+            {/* <div className="col-lg-5">
               <div className="section-btn wow fadeInUp">
                 <Link to="tel:011-69269888" className="btn-default">
                   <span>Make Appointment</span>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="row">

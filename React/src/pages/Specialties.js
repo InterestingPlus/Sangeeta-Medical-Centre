@@ -278,20 +278,20 @@ const localSpecialties = [
   {
     name: "Hip Replacement Surgery",
     image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
+    "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
     alt: "Knee Replacement",
     icon: "/images/icons/knee.png",
     link: "hip-replacement-surgery",
-    title: "Advanced Knee Treatment",
+    title: "Hip Joint Replacement Surgery",
   },
   {
-    name: "Hip Joint Replacement",
+    name: "Knee Replacement",
     image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
+    "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
     alt: "Hip Joint Replacement",
     icon: "/images/icons/hip.png",
-    link: "hip-replacement-surgery",
-    title: "Hip Joint Replacement Surgery",
+    link: "knee-replacement-surgery",
+    title: "Advanced Knee Treatment",
   },
   {
     name: "Complex Trauma Surgery",
@@ -356,9 +356,9 @@ const Specialties = () => {
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
                     Specialties @SangeetaMedicalCentre
                   </h2>
-                  <p>
-                    At <strong>Sangeeta Medical Centre, Meerut</strong>, we
-                    provide comprehensive care...
+                  <p style={{ fontSize: '18px'}}>
+                    At <strong>Sangeeta Medical Centre, Meerut</strong>, We
+                    provide <strong>Normal Delivery</strong> with maximun normal delivery rate in 20km radius area.
                   </p>
                   {/* Your descriptive text here */}
                 </div>

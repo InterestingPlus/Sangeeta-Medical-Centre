@@ -42,7 +42,7 @@ const SliderSection = () => {
                     title="Best orthopedic treatments in Meerut"
                     class="btn-default"
                   >
-                    <span>make contact</span>
+                    <span>contact us</span>
                   </Link>
                   <Link
                     to="tel:011-69269888"

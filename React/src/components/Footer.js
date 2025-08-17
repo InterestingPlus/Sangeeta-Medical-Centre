@@ -225,7 +225,7 @@ const Footer = () => {
                   <NavLink to="patients">patients</NavLink>
                 </li>
                 <li>
-                  <NavLink to="gallary">Gallary</NavLink>
+                  <NavLink to="gallary">Gallery</NavLink>
                 </li>
               </ul>
             </div>

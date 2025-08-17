@@ -4940,7 +4940,7 @@ footer.main-footer {
     max-width: 26px;
   }
   .contact-info-content h3 {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 5px;
   }
   .google-map-iframe,
@@ -5104,7 +5104,7 @@ footer.main-footer {
   .contact-info-content p,
   .how-work-accordion .accordion-item .accordion-body p,
   .page-header-box ol li.breadcrumb-item {
-    font-size: 14px;
+    font-size: 16px;
   }
   footer.main-footer {
     padding: 50px 0;

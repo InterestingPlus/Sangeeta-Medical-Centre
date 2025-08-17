@@ -58,9 +58,10 @@ const Contact = () => {
                     <div className="contact-info-content">
                       <h3>Address</h3>
                       <p>
-                        A, 14, Mawana Rd, Radha Garden, Ganga Nagar, Meerut,
+                        A, 14, Mawana Rd, Radha Garden, Sri Ganga Nagar, Meerut,
                         Uttar Pradesh 250001
                       </p>
+                      <a style={{color: "black", textDecoration: "underline"}} href="https://www.google.com/maps?ll=29.005381,77.743397&z=13&t=h&hl=en&gl=IN&mapclient=embed&cid=4794699676094876193" target="_blank">View On Map</a>
                     </div>
                   </div>
                 </div>
