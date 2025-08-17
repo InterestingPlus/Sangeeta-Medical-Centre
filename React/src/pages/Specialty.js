@@ -828,7 +828,6 @@ const specialtyData = [
       "Using minimally invasive arthroscopic surgery, Dr. Raman Jindal ensures faster recovery, less scarring, and reduced post-operative pain. His comprehensive approach includes accurate diagnosis, targeted surgical repair, and tailored rehabilitation programs.",
       "When patients search for an orthopedic doctor near me for sports injury care, they often choose Dr. Raman Jindal for his expertise and excellent patient outcomes. Whether it’s restoring an athlete’s performance or helping someone return to an active lifestyle, his orthopedic skills deliver reliable results.",
       "If you need an orthopedic doctor Meerut for sports injury management, Dr. Raman Jindal is committed to getting you back on your feet with advanced, effective, and safe treatments.",
-      
     ],
   },
   {
@@ -870,18 +869,17 @@ const specialtyData = [
     ],
   },
   {
-    name: "Normal & High-Risk Pregnancy Care",
-    slug: "normal-high-risk-pregnancy-care",
+    name: "Normal Delivery Care",
+    slug: "normal-pregnancy-care",
     doctor: "Dr. Manisha Chaudhary",
     link: "/images/procedures/gyneco/Normal-&-High-Risk-Delivery.jpg",
     description: [
-      "Dr. Manisha Chaudhary, M.S. (OBG), is known as one of the best gynecologists in Meerut for complete pregnancy care. She provides expert management for normal and high-risk pregnancies, ensuring safe delivery and healthy outcomes for both mother and baby.",
+      "Dr. Manisha Chaudhary, M.S. (OBG), is known as one of the best gynecologists in Meerut for complete pregnancy care. She provides expert management for normal pregnancies, ensuring safe delivery and healthy outcomes for both mother and baby.",
       "From the first trimester to postnatal recovery, Sangeeta Medical Center offers personalized care, regular check-ups, and advanced monitoring. High-risk conditions such as gestational diabetes, high blood pressure, multiple pregnancies, and previous miscarriages are handled with extra attention and medical expertise.",
       "At Sangeeta Medical Centre, expectant mothers receive nutritional guidance, lifestyle counseling, and emotional support for a healthy pregnancy journey. Sangeeta Medical Center’s focus is on safe childbirth — whether through normal delivery or cesarean section — always prioritizing the well-being of the patient.",
       "📍 Location: Sangeeta Medical Centre, Ganga Nagar, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
       "Book your consultation today with a gynecologist near you for complete pregnancy care.",
-      
     ],
   },
   {
@@ -910,7 +908,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
       "Take the first step toward parenthood — consult a trusted gynecologist near you for fertility solutions.",
-      
     ],
   },
   {
@@ -925,7 +922,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
       "Get help from a gynecologist near you to manage menstrual problems effectively.",
-     
     ],
   },
   {
@@ -940,7 +936,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut ",
       "📞 Contact: 011-69269888, +91 79705 86243",
       " Consult the best gynecologist in Meerut for effective PCOS/PCOD management.",
-     
     ],
   },
   {
@@ -955,7 +950,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243",
       " Book a consultation with a gynecologist near you for age-specific women’s healthcare.",
- 
     ],
   },
   {
@@ -970,7 +964,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut ",
       "📞 Contact: 011-69269888, +91 79705 86243 ",
       "Choose painless delivery in Meerut with a trusted gynecologist by your side.",
-      
     ],
   },
   {
@@ -984,7 +977,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut",
       " 📞 Contact: 011-69269888, +91 79705 86243 ",
       "Schedule your cancer screening in Meerut with the best gynecologist near you.",
-      
     ],
   },
   {
@@ -998,7 +990,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut ",
       "📞 Contact: 011-69269888, +91 79705 86243 ",
       "Discuss family planning in Meerut with a caring and experienced gynecologist.",
-     
     ],
   },
   {
@@ -1012,7 +1003,6 @@ const specialtyData = [
       "📍 Location: Sangeeta Medical Centre, Meerut ",
       "📞 Contact: 011-69269888, +91 79705 86243 ",
       "Visit a gynecologist near you for expert diagnostic and imaging services.",
-      
     ],
   },
 ];
@@ -1063,6 +1053,12 @@ const Specialty = () => {
               <div className="service-single-content">
                 <div className="service-entry">
                   <h2 className="text-anime-style-3">{specialty.name}</h2>
+                  {specialty.slug === "normal-pregnancy-care" && (
+                    <p style={{ fontSize: "18px" }}>
+                      We provide <strong>Normal Delivery</strong> with maximun
+                      normal delivery rate in 20km radius area.
+                    </p>
+                  )}
                   <h4 className="text-lg font-semibold mb-3">
                     {specialty.doctor}
                   </h4>

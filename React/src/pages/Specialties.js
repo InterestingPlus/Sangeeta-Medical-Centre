@@ -321,13 +321,13 @@ const localSpecialties = [
     title: "Comprehensive Infertility Treatment",
   },
   {
-    name: "High-Risk Pregnancy",
+    name: "Normal Delivery",
     image:
       "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
-    alt: "High-Risk Pregnancy",
+    alt: "Normal Pregnancy",
     icon: "/images/icons/rheumatology.png",
-    link: "normal-high-risk-pregnancy-care",
-    title: "High-Risk Pregnancy Care",
+    link: "normal-pregnancy-care",
+    title: "Normal Delivery Care",
   },
 ];
 
