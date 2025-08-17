@@ -324,12 +324,12 @@ const SpecialtiesSection = () => {
                       />
                     </figure>
                   </div>
-                  <div className="icon-box">
+                  {/* <div className="icon-box">
                     <img
                       src={specialty.icon ? `/images/icons/${specialty.icon}` : "https://placehold.co/35x35?text=Icon"}
                       alt={`${specialty.name} icon`}
                     />
-                  </div>
+                  </div> */}
                   <div className="service-body d-flex justify-content-between align-items-center">
                     <div className="service-content">
                       <h4 style={{color: 'white'}}>{specialty.name}</h4>

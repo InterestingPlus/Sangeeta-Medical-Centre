@@ -172,7 +172,7 @@ const About = () => {
       {/* Vision Mission Section End */}
 
       {/* Award Section Start */}
-      <div className="page-about-us bg-radius-section2 bg-light" id="Award">
+      {/* <div className="page-about-us bg-radius-section2 bg-light" id="Award">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -183,8 +183,6 @@ const About = () => {
                     alt="Award"
                     loading="lazy"
                   />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
@@ -204,40 +202,16 @@ const About = () => {
                     Our doctors are regularly invited for expert talks and panel
                     discussions.
                   </p>
-
-                  {/* <div className="custom-list mt-4">
-                    <ul>
-                      <li>
-                        Invited globally for medical workshops and joint
-                        replacement training.
-                      </li>
-                      <li>
-                        Featured in reputed national medical forums for
-                        innovation in direct anterior approach (DAA) hip
-                        replacement.
-                      </li>
-                      <li>
-                        Rated highly on patient satisfaction surveys for
-                        post-surgical outcomes and communication.
-                      </li>
-                    </ul>
-                  </div> */}
-
-                  {/* <p>
-                    Our recognitions are a reflection of our genuine dedication
-                    to improving lives—not just awards, but responsibilities we
-                    carry with pride.
-                  </p> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Award Section End */}
 
       {/* Work Section Start */}
-      <div className="page-about-us bg-radius-section2" id="Work">
+      {/* <div className="page-about-us bg-radius-section2" id="Work">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
@@ -257,32 +231,9 @@ const About = () => {
                     supportive environment, Sangeeta Medical is a great place to
                     grow your career in healthcare.
                   </p>
-
-                  {/* <div className="custom-list mt-4">
-                    <ul>
-                      <li>
-                        Supportive work environment with learning opportunities
-                      </li>
-                      <li>
-                        Exposure to advanced techniques and mentorship under
-                        renowned surgeons
-                      </li>
-                      <li>
-                        Transparent HR policies and ethical code of conduct
-                      </li>
-                    </ul>
-                  </div> */}
-
-                  {/* <p>
-                    Interested candidates can email their resume to:{" "}
-                    <a href="mailto:mrityunjayhospital@gmail.com">
-                      mrityunjayhospital@gmail.com
-                    </a>
-                  </p> */}
                 </div>
               </div>
             </div>
-
             <div className="col-lg-5">
               <div className="how-work-image-box-2 rounded-4">
                 <div className="how-work-img-2">
@@ -291,18 +242,16 @@ const About = () => {
                     alt="Work with Sangeeta Hospital"
                     loading="lazy"
                   />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Work Section End */}
 
       {/* Brand Section Start */}
-      <div className="page-about-us bg-radius-section2 bg-light" id="Brand">
+      {/* <div className="page-about-us bg-radius-section2 bg-light" id="Brand">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -313,8 +262,6 @@ const About = () => {
                     alt="Brand"
                     loading="lazy"
                   />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
@@ -331,39 +278,16 @@ const About = () => {
                     reassurance, and our work reflects years of medical
                     expertise blended with compassion.
                   </p>
-
-                  {/* <div className="custom-list mt-4">
-                    <ul>
-                      <li>Trust across generations</li>
-                      <li>
-                        Pioneering leadership in minimally invasive and robotic
-                        surgeries
-                      </li>
-                      <li>
-                        Personalized care, with a human touch that tech can
-                        never replace
-                      </li>
-                      <li>
-                        A name that stands for safety, honesty, and innovation
-                      </li>
-                    </ul>
-                  </div> */}
-
-                  {/* <p>
-                    As we transition from tradition to transformation, the MOH
-                    brand continues to be rooted in values, driven by results,
-                    and respected by the community.
-                  </p> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Brand Section End */}
 
       {/* Privacy Policy Section Start */}
-      <div className="page-about-us bg-radius-section2" id="Privacy">
+      {/* <div className="page-about-us bg-radius-section2" id="Privacy">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
@@ -380,30 +304,6 @@ const About = () => {
                     Our systems are compliant with national medical privacy laws
                     to ensure your information is always secure.
                   </p>
-
-                  {/* <div className="custom-list mt-4">
-                    <ul>
-                      <li>
-                        Patient records are securely stored and accessible only
-                        to authorized medical professionals.
-                      </li>
-                      <li>
-                        No personal or medical information is ever shared with
-                        third parties without clear and informed patient
-                        consent.
-                      </li>
-                      <li>
-                        We comply with modern digital safety norms and ensure
-                        our systems are protected by secure technologies.
-                      </li>
-                    </ul>
-                  </div> */}
-
-                  {/* <p>
-                    Your trust is our strength. We’re committed to respecting
-                    your privacy at every stage of your healthcare journey with
-                    us.
-                  </p> */}
                 </div>
               </div>
             </div>
@@ -416,14 +316,12 @@ const About = () => {
                     alt="Sangeeta Medical Centre Privacy Policy"
                     loading="lazy"
                   />
-                  {/* <figure className="image-anime reveal">
-                  </figure> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Privacy Policy Section End */}
     </>
   );

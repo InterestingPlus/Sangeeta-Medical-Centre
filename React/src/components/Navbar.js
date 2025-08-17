@@ -398,7 +398,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {showMenu && (
-        <div className="responsive-menu">
+        <div className="responsive-menu" style={{ position: 'fixed', top: '65px', left: '0', zIndex: '9999', width: '100%', height: '100%',}}>
           <div className="slicknav_menu">
             <ul className="slicknav_nav" role="menu">
               {navigations.map((navigation, index) => (

@@ -760,15 +760,14 @@ header.main-header .header-sticky.active {
 }
 
 .footer-links.social-links ul li::before,
-.navbar-toggle,
-.responsive-menu {
+.navbar-toggle {
   display: none;
 }
 
-.responsive-menu {
+/* .responsive-menu {
   top: 0;
   position: relative;
-}
+} */
 
 .slicknav_btn {
   padding: 0;
@@ -4350,7 +4349,7 @@ footer.main-footer {
     display: none !important;
   }
   .navbar-toggle,
-  .responsive-menu,
+  /* .responsive-menu, */
   .slicknav_nav li,
   .slicknav_nav ul {
     display: block;
