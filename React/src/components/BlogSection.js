@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { client } from "../config/sanityClient";
 
 import "./BlogSection.scss";
+import BreadCrumb from "./BreadCrumb";
 
 // Helper function to format date
 const formatDate = (dateString) => {
@@ -25,7 +26,7 @@ const BlogPostCard = ({ post }) => {
           className="w-full h-48 object-cover"
         />
       </Link>
-      <div className="p-5">
+      <div className="p-3">
         <h3 className="text-xl font-semibold mb-2 text-gray-800 hover:text-blue-600 transition-colors">
           <Link to={`/blog/${post.slug.current}`}>{post.title}</Link>
         </h3>
@@ -87,8 +88,8 @@ const BlogPage = () => {
         setLoading(true);
         // Using the actual client.fetch assuming it's correctly configured
         const data = await client.fetch(blogQuery);
-        console.log("blogQuery: ",data);
-        
+        console.log("blogQuery: ", data);
+
         setBlogPosts(data);
         setError(null);
       } catch (err) {
@@ -104,7 +105,7 @@ const BlogPage = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
+      <div style={{ minHeight: "100vh", width: "100%" , display: 'flex', justifyContent: 'center', alignItems: 'center', gap:'10px', flexDirection: 'column' }}>
         <div className="spinner"></div> {/* Your existing spinner CSS */}
         <p className="ml-4 text-gray-700">Loading blog posts...</p>
       </div>
@@ -121,6 +122,11 @@ const BlogPage = () => {
 
   return (
     <>
+      <BreadCrumb
+        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
+        title="Blog"
+        page="Blog"
+      />
       <div className="blog-page-container">
         <div className="section-title rounded-lg">
           <h1 className="text-anime-style-3 heading" data-cursor="-opaque">
@@ -132,7 +138,7 @@ const BlogPage = () => {
         </div>
 
         <div className="blog-grid">
-          {blogPosts.map((post) => (
+          {blogPosts.length !== 0 && blogPosts.map((post) => (
             <BlogPostCard key={post._id} post={post} />
           ))}
           {blogPosts.length === 0 && !loading && !error && (

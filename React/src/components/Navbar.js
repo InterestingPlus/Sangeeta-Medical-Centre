@@ -287,6 +287,10 @@ const Navbar = () => {
       url: "gallary",
     },
     {
+      name: "Blog",
+      url: "blog",
+    },
+    {
       name: "Contact",
       url: "contact",
     },
