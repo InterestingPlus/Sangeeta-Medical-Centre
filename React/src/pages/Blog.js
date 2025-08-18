@@ -151,9 +151,9 @@ const BlogPostDetail = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
+      <div style={{ minHeight: "100vh", width: "100%" , display: 'flex', justifyContent: 'center', alignItems: 'center', gap:'10px', flexDirection: 'column' }}>
         <div className="spinner"></div> {/* Your existing spinner CSS */}
-        <p className="ml-4 text-gray-700">Loading blog post...</p>
+        <p className="ml-4 text-gray-700">Loading blog posts...</p>
       </div>
     );
   }

@@ -17,12 +17,13 @@ import InfraEquipment from "./pages/InfraEquipment";
 import Patients from "./pages/Patients";
 import ScrollToHashElement from "./components/ScrollToHashElement";
 import InPatients from "./components/InPatients";
-import BlogPage from "./components/BlogSection";
+import BlogSection from "./components/BlogSection";
 import Blog from "./pages/Blog";
 import Gallary from "./pages/Gallary";
 import OrthopaedicProcedures from "./pages/OrthopadicProcedures";
 import Gynecology from "./pages/GynecologicalProcesses";
 import Orthopaedic from "./pages/OrthopadicProcedures";
+import BlogPage from "./pages/BlogPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

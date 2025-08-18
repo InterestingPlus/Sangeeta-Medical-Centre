@@ -60,8 +60,8 @@ const BlogPostCard = ({ post }) => {
   );
 };
 
-// BlogPage Component
-const BlogPage = () => {
+// BlogSection Component
+const BlogSection = () => {
   const [blogPosts, setBlogPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -122,11 +122,7 @@ const BlogPage = () => {
 
   return (
     <>
-      <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
-        title="Blog"
-        page="Blog"
-      />
+      
       <div className="blog-page-container">
         <div className="section-title rounded-lg">
           <h1 className="text-anime-style-3 heading" data-cursor="-opaque">
@@ -152,4 +148,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default BlogSection;
