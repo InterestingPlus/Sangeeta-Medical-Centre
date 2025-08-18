@@ -43,8 +43,7 @@ const Procedures = () => {
   `}
       </style>
       <BreadCrumb
-        // image="images/breadcrumb.jpg"
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        image="/images/services.webp"
         title="Orthopaedic Procedures Meerut"
         page="Procedures"
       />

@@ -259,8 +259,7 @@ import BreadCrumb from "../components/BreadCrumb";
 const localSpecialties = [
   {
     name: "Arthoscopy",
-    image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
+   image: "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg",
     alt: "Arthoscopy",
     icon: "/images/icons/arthoscopy.png",
     link: "arthroscopy-&-sports-injury-treatment",
@@ -268,8 +267,7 @@ const localSpecialties = [
   },
   {
     name: "Fracture Management",
-    image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-4.webp",
+    image: "/images/specialties/Fracture Management.jpg",
     alt: "Fracture Management",
     icon: "/images/icons/knee.png",
     link: "fracture-management",
@@ -277,8 +275,7 @@ const localSpecialties = [
   },
   {
     name: "Hip Replacement Surgery",
-    image:
-    "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
+      image: "/images/specialties/Knee Replacement Surgery.jpg",
     alt: "Knee Replacement",
     icon: "/images/icons/knee.png",
     link: "hip-replacement-surgery",
@@ -286,8 +283,7 @@ const localSpecialties = [
   },
   {
     name: "Knee Replacement",
-    image:
-    "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
+  image:  "/images/specialties/Hip Replacement Surgery.jpg",
     alt: "Hip Joint Replacement",
     icon: "/images/icons/hip.png",
     link: "knee-replacement-surgery",
@@ -295,8 +291,7 @@ const localSpecialties = [
   },
   {
     name: "Complex Trauma Surgery",
-    image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/cccccc.webp",
+    image: "/images/specialties/Spine & Back Pain Treatment.jpg",
     alt: "Complex Trauma Surgery",
     icon: "/images/icons/spine.png",
     link: "orthopedic-emergencies-trauma-care",
@@ -304,8 +299,7 @@ const localSpecialties = [
   },
   {
     name: "Sports Injury Treatment",
-    image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sports.webp",
+     image: "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg",
     alt: "Sports Injury Treatment",
     icon: "/images/icons/foot.png",
     link: "arthroscopy-&-sports-injury-treatment",
@@ -313,8 +307,7 @@ const localSpecialties = [
   },
   {
     name: "Infertility Treatment",
-    image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-5-1.webp",
+    image: "/images/specialties/Infertility Treatments.jpg",
     alt: "Infertility Treatment",
     icon: "/images/icons/arthoscopy.png",
     link:"infertility-treatments",
@@ -322,8 +315,7 @@ const localSpecialties = [
   },
   {
     name: "Normal Delivery",
-    image:
-      "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
+     image: "/images/specialties/Normal & High-Risk Pregnancy.jpg",
     alt: "Normal Pregnancy",
     icon: "/images/icons/rheumatology.png",
     link: "normal-pregnancy-care",
@@ -343,7 +335,7 @@ const Specialties = () => {
     <>
       {/* Breadcrumb component can be used here */}
       <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        image="/images/services.webp"
         title="Best orthopedic treatments"
         page="Specialties"
       />
@@ -367,7 +359,8 @@ const Specialties = () => {
             <div className="col-lg-5 p-3">
               <div className="how-work-image-box rounded-4">
                 <img
-                  src="https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250319-WA0003.jpg"
+                  // src="https://sangeetamedicalcentre.com/wp-content/uploads/2025/06/IMG-20250319-WA0003.jpg"
+                  src="images/gallary/hospital front day.jpg"
                   alt="Medical Centre"
                   loading="lazy"
                   style={{

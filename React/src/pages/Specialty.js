@@ -1038,7 +1038,7 @@ const Specialty = () => {
   return (
     <>
       <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+       image="/images/services.webp"
         title={specialty.name}
         page={`Specialties / ${specialty.name}`}
       />

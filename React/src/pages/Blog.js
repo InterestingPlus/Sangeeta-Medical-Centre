@@ -289,8 +289,7 @@ const BlogPostDetail = () => {
       </style>
 
       <BreadCrumb
-        // image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        image="/images/about/about-us-1.webp"
         title="Our Blogs"
         page="Blog"
       />

@@ -44,7 +44,8 @@ const Gynecology = () => {
       </style>
 
       <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        // image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        image=""
         title="Gynecological Procedures Meerut"
         page="Procedures/ Gynecology"
       />
