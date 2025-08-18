@@ -222,7 +222,7 @@ import { Link } from "react-router-dom";
 const localSpecialties = [
   {
     name: "Arthoscopy",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-3-.webp",
+    image: "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg",
     alt: "Arthoscopy",
     icon: "arthoscopy.png",
     link: "arthroscopy-sports-injury-treatment",
@@ -230,7 +230,7 @@ const localSpecialties = [
   },
   {
     name: "Fracture Management",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-4.webp",
+    image: "/images/specialties/Fracture Management.jpg",
     alt: "Fracture Management",
     icon: "knee.png",
     link: "fracture-management",
@@ -238,7 +238,7 @@ const localSpecialties = [
   },
   {
     name: "Knee Replacement",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/Service-image-1.webp",
+    image: "/images/specialties/Knee Replacement Surgery.jpg",
     alt: "Knee Replacement",
     icon: "knee.png",
     link: "knee-replacement-surgery",
@@ -246,7 +246,7 @@ const localSpecialties = [
   },
   {
     name: "Hip Joint Replacement",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-2.webp",
+    image:  "/images/specialties/Hip Replacement Surgery.jpg",
     alt: "Hip Joint Replacement",
     icon: "hip.png",
     link: "hip-replacement-surgery",
@@ -254,7 +254,7 @@ const localSpecialties = [
   },
   {
     name: "Spine & Back Pain Treatment",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/cccccc.webp",
+    image: "/images/specialties/Spine & Back Pain Treatment.jpg",
     alt: "Spine & Back Pain Treatment",
     icon: "spine.png",
     link: "spine-back-pain-treatment",
@@ -262,7 +262,7 @@ const localSpecialties = [
   },
   {
     name: "Sports Injury Treatment",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/sports.webp",
+    image: "/images/specialties/Arthroscopy & Sports Injury Treatment.jpg",
     alt: "Sports Injury Treatment",
     icon: "foot.png",
     link: "arthroscopy-sports-injury-treatment",
@@ -270,7 +270,7 @@ const localSpecialties = [
   },
   {
     name: "Infertility Treatment",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-5-1.webp",
+    image: "/images/specialties/Infertility Treatments.jpg",
     alt: "Infertility Treatment",
     icon: "arthoscopy.png",
     link: "infertility-treatments",
@@ -278,7 +278,7 @@ const localSpecialties = [
   },
   {
     name: "High-Risk Pregnancy",
-    image: "https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/service-image-8-1-1.webp",
+    image: "/images/specialties/Normal & High-Risk Pregnancy.jpg",
     alt: "High-Risk Pregnancy",
     icon: "rheumatology.png",
     link: "normal-high-risk-pregnancy-care",

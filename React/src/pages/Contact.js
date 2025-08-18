@@ -7,7 +7,8 @@ const Contact = () => {
   return (
     <>
       <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/contact-us.webp"
+        // image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/contact-us.webp"
+        image="/images/contact-us.jpg"
         title="Contact"
         page="Contact"
       />

@@ -5,7 +5,7 @@ const Gallary = () => {
   return (
     <>
       <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        image="/images/services.webp"
         title="Our Gallery"
         page="Gallery"
       />

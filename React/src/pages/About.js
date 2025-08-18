@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <BreadCrumb
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/about-us-1.webp"
+        image="/images/about/about-us-1.webp"
         title="About Sangeeta Ortho and Gynae Medical Center"
         page="About"
       />

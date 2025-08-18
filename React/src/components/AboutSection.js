@@ -382,7 +382,8 @@ const About = () => {
               </div>
               <div class="about-circle-logo">
                 <img
-                  src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
+                  // src="https://sangeetamedicalcentre.com/wp-content/uploads/2023/08/Asset-4.png"
+                  src="images/Sangeeta-Hospital-color-Logo.png"
                   alt="Sangeeta Hospital Logo"
                   loading="lazy"
                 />
