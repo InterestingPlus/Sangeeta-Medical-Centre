@@ -33,7 +33,10 @@ const BookApointment = () => {
           selectedDoctor,
         }),
       });
-
+      setContact("")
+      setEmail("")
+      setName("")
+      setMessage("")
       alert("Email Sent Successfully!");
     } catch (err) {
       console.log("Error in sending email", err);

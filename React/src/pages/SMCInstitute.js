@@ -5,8 +5,8 @@ const SMCInstitute = () => {
   return (
     <>
       <BreadCrumb
-        // image="images/breadcrumb.jpg"
-        image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        // image="https://sangeetamedicalcentre.com/wp-content/uploads/2024/11/services.webp"
+        image="/images/services.webp"
         title="SMC Institute"
         page="SMC Institute"
       />

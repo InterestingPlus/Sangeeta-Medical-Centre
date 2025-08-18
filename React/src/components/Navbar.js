@@ -72,22 +72,22 @@ const Navbar = () => {
           name: "Vision & Mission",
           url: "/about#Vision",
         },
-        {
-          name: "Award & Recognition",
-          url: "/about#Award",
-        },
-        {
-          name: "Work with us",
-          url: "/about#Work",
-        },
-        {
-          name: "The Brand",
-          url: "/about#Brand",
-        },
-        {
-          name: "Privacy Policy",
-          url: "/about#Privacy",
-        },
+        // {
+        //   name: "Award & Recognition",
+        //   url: "/about#Award",
+        // },
+        // {
+        //   name: "Work with us",
+        //   url: "/about#Work",
+        // },
+        // {
+        //   name: "The Brand",
+        //   url: "/about#Brand",
+        // },
+        // {
+        //   name: "Privacy Policy",
+        //   url: "/about#Privacy",
+        // },
       ],
     },
     {
